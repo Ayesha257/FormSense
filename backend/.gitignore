@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets: never commit API keys
+.env
+
+# Real forms contain people's CNIC/phone numbers: keep them OFF GitHub
+# (share them through a private Google Drive folder instead)
+data/real/*
+!data/real/.gitkeep
+
+# Generated data can be rebuilt with the generator script
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Outputs
+outputs/
+*.log
+.DS_Store

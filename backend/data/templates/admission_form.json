@@ -1,0 +1,28 @@
+{
+  "name": "university_admission_form_v1",
+  "image_path": "data/templates/admission_form_blank.png",
+  "width": 0,
+  "height": 0,
+  "fields": [
+    {"name": "full_name",        "label": "Full Name",          "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "father_name",      "label": "Father's Name",      "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "cnic",             "label": "CNIC / B-Form No.",  "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "date_of_birth",    "label": "Date of Birth",      "type": "date",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "gender_male",      "label": "Male",               "type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "gender", "section": "personal"},
+    {"name": "gender_female",    "label": "Female",             "type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "gender", "section": "personal"},
+    {"name": "email",            "label": "Email",              "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "phone",            "label": "Mobile No.",         "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "address",          "label": "Address",            "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
+    {"name": "program_bscs",     "label": "BS Computer Science","type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
+    {"name": "program_bsse",     "label": "BS Software Engineering","type": "checkbox","bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
+    {"name": "program_bsai",     "label": "BS Artificial Intelligence","type": "checkbox","bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
+    {"name": "matric_year",      "label": "Matric Passing Year","type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
+    {"name": "inter_year",       "label": "Inter Passing Year", "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
+    {"name": "inter_obtained",   "label": "Inter Marks Obtained","type": "text",     "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
+    {"name": "inter_total",      "label": "Inter Total Marks",  "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
+    {"name": "inter_percentage", "label": "Percentage",         "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
+    {"name": "declaration_name", "label": "I, (name)",          "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"},
+    {"name": "declaration_date", "label": "Date",               "type": "date",      "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"},
+    {"name": "signature",        "label": "Applicant Signature","type": "signature", "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"}
+  ]
+}

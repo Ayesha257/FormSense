@@ -1,0 +1,30 @@
+# Python 3.11 recommended
+# --- documents & vision (Ayesha) ---
+pymupdf
+opencv-python
+numpy
+pillow
+paddlepaddle
+paddleocr
+# --- models ---
+torch
+transformers
+sentence-transformers
+# --- extraction & rules (Easha) ---
+dateparser
+rapidfuzz
+pyyaml
+pydantic>=2
+faker
+# --- LLM & RAG ---
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+faiss-cpu
+python-dotenv
+# --- report & UI ---
+reportlab
+streamlit
+# --- dev ---
+pytest
