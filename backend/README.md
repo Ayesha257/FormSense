@@ -1,56 +1,81 @@
 # FormSense: Multimodal Intelligent Form Auditor
 
-NLP course project (Multimodal Document Assistant). Upload a filled university
-admission form and FormSense checks whether it is complete, consistent and
-valid, then explains the problems in plain English.
+Upload a filled university admission form (scan or phone photo) and FormSense
+checks whether it is complete, consistent and valid, then explains any
+problems in plain English.
 
 **Pipeline:** PDF/image → clean → align to template → OCR per field →
 extract values → rules + cross-field checks → LLM explanation (+ RAG) → audit report
 
-## Team & ownership
-
-| Folder | Owner |
-|---|---|
-| `formsense/ingest`, `vision`, `baseline`, `rag`, `app/` | Ayesha |
-| `formsense/generator`, `nlp`, `rules`, `llm`, `report`, `eval/` | Easha |
-| `data/guidelines/`, real form collection, final slides | Dania |
-| `formsense/schema.py` | Everyone (frozen after Week 1) |
-
-## Setup (each person, once)
+## Setup
 
 ```bash
-git clone https://github.com/<owner>/formsense.git
-cd formsense
+git clone <repo-url>
+cd FormSense/backend
 python -m venv .venv
 # Windows:        .venv\Scripts\activate
 # Mac / Linux:    source .venv/bin/activate
 pip install -r requirements.txt
 copy .env.example .env          # Mac/Linux: cp .env.example .env
-# paste your own Groq key into .env
+# paste your Groq API key into .env (https://console.groq.com/keys)
 python scripts/check_setup.py
-streamlit run app/streamlit_app.py
 ```
 
-## Git rules
+Run every command from the `backend` folder.
 
-1. Never push straight to `main`. Work on your own branch:
-   `git checkout -b ayesha/vision` (or `easha/rules`, `dania/guidelines`)
-2. Commit small and often: `git add . && git commit -m "Add deskew"`
-3. Push your branch: `git push -u origin ayesha/vision`
-4. Open a Pull Request on GitHub; one teammate glances at it, then merge.
-5. Before starting work each day: `git checkout main && git pull`, then
-   `git checkout <your-branch> && git merge main`
-6. Changing `schema.py`? Tell the group first.
+## Usage
 
-## Data rules
+```bash
+# Try everything on a demo form (before the real form exists)
+python scripts/make_demo.py
+python scripts/run_vision.py data/templates/demo/samples/complete.jpg --demo
 
-- `data/real/` is git-ignored: real forms contain people's CNIC and phone
-  numbers. Share them through the team's private Google Drive folder.
-- `data/synthetic/` is git-ignored: regenerate it with the generator script.
-- `.env` is git-ignored: never commit API keys.
+# Mark field boxes on the real blank template (once, after the form is designed)
+python scripts/mark_fields.py
+
+# Run the vision step on one filled form
+python scripts/run_vision.py path/to/filled_form.jpg
+
+# Demo app
+streamlit run app/streamlit_app.py
+
+# Tests
+pytest
+```
+
+## Project structure
+
+```
+backend/
+  app/                  Streamlit demo
+  formsense/
+    schema.py           shared data models
+    ingest/             PDF/image loading, denoise, deskew
+    vision/             template alignment, field cropping, ink detection, OCR
+    baseline/           OCR + regex baseline
+    generator/          synthetic form generator
+    nlp/                field mapping, value extraction
+    rules/              validation rules
+    llm/                LLM explanations
+    rag/                guideline retrieval
+    report/             JSON / PDF audit report
+  data/
+    templates/          blank form image + field boxes (JSON)
+    synthetic/          generated forms (not committed)
+    real/               real filled forms (not committed: personal data)
+    guidelines/         form-filling guidelines for RAG
+  eval/                 evaluation scripts and results
+  scripts/              setup check and helper tools
+  tests/
+```
 
 ## Template
 
-`data/templates/admission_form.json` lists every field. After we design the
-form, put the blank form image at `data/templates/admission_form_blank.png`
-and fill in each field's `bbox` as `[x, y, width, height]` in pixels of that image.
+`data/templates/admission_form.json` lists every field. Put the blank form
+image at `data/templates/admission_form_blank.png`, then run
+`python scripts/mark_fields.py` to draw each field's box.
+
+## Notes
+
+- `data/real/`, `data/synthetic/` and `.env` are git-ignored. Never commit
+  real forms (they contain CNIC and phone numbers) or API keys.

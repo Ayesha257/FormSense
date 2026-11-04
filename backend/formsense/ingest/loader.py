@@ -1,6 +1,4 @@
 """Load a PDF or image into OpenCV page images and clean them up.
-
-Owner: Ayesha
 """
 from __future__ import annotations
 
