@@ -1,5 +1,5 @@
 # Python 3.11 recommended
-# --- documents & vision (Ayesha) ---
+# --- documents & vision ---
 pymupdf
 opencv-python
 numpy
@@ -10,7 +10,7 @@ paddleocr
 torch
 transformers
 sentence-transformers
-# --- extraction & rules (Easha) ---
+# --- extraction & rules ---
 dateparser
 rapidfuzz
 pyyaml

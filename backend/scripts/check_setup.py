@@ -42,7 +42,8 @@ from paddleocr import PaddleOCR
 print("\nRunning PaddleOCR (first run downloads models)...")
 try:  # PaddleOCR 3.x
     ocr = PaddleOCR(lang="en", use_doc_orientation_classify=False,
-                    use_doc_unwarping=False, use_textline_orientation=False)
+                    use_doc_unwarping=False, use_textline_orientation=False,
+                    enable_mkldnn=False)
     res = ocr.predict(img)[0]
     pairs = list(zip(res["rec_texts"], res["rec_scores"]))
 except TypeError:  # PaddleOCR 2.x

@@ -1,10 +1,8 @@
 """Shared data contract for FormSense.
 
-Every module reads and writes these objects. Vision (Ayesha) produces
-FieldResult objects; language/rules (Easha) consume them and produce Issues;
+Every module reads and writes these objects. The vision step produces
+FieldResult objects; the rules step consumes them and produces Issues;
 the report bundles everything into an AuditReport.
-
-FROZEN after Week 1: do not change this file without telling the whole team.
 """
 from __future__ import annotations
 

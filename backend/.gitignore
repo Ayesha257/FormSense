@@ -22,3 +22,6 @@ data/synthetic/*
 outputs/
 *.log
 .DS_Store
+
+# Demo form: rebuild with python scripts/make_demo.py
+data/templates/demo/
