@@ -1,28 +1,696 @@
 {
-  "name": "university_admission_form_v1",
-  "image_path": "data/templates/admission_form_blank.png",
-  "width": 0,
-  "height": 0,
-  "fields": [
-    {"name": "full_name",        "label": "Full Name",          "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "father_name",      "label": "Father's Name",      "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "cnic",             "label": "CNIC / B-Form No.",  "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "date_of_birth",    "label": "Date of Birth",      "type": "date",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "gender_male",      "label": "Male",               "type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "gender", "section": "personal"},
-    {"name": "gender_female",    "label": "Female",             "type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "gender", "section": "personal"},
-    {"name": "email",            "label": "Email",              "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "phone",            "label": "Mobile No.",         "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "address",          "label": "Address",            "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "personal"},
-    {"name": "program_bscs",     "label": "BS Computer Science","type": "checkbox",  "bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
-    {"name": "program_bsse",     "label": "BS Software Engineering","type": "checkbox","bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
-    {"name": "program_bsai",     "label": "BS Artificial Intelligence","type": "checkbox","bbox": [0, 0, 0, 0], "required": false, "group": "program", "section": "program"},
-    {"name": "matric_year",      "label": "Matric Passing Year","type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
-    {"name": "inter_year",       "label": "Inter Passing Year", "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
-    {"name": "inter_obtained",   "label": "Inter Marks Obtained","type": "text",     "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
-    {"name": "inter_total",      "label": "Inter Total Marks",  "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
-    {"name": "inter_percentage", "label": "Percentage",         "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "academic"},
-    {"name": "declaration_name", "label": "I, (name)",          "type": "text",      "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"},
-    {"name": "declaration_date", "label": "Date",               "type": "date",      "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"},
-    {"name": "signature",        "label": "Applicant Signature","type": "signature", "bbox": [0, 0, 0, 0], "required": true, "section": "declaration"}
-  ]
+ "name": "university_admission_form_v1",
+ "image_path": "data/templates/admission_form_blank.png",
+ "width": 1240,
+ "height": 1754,
+ "dpi": 150,
+ "groups": {
+  "gender": {
+   "label": "Gender",
+   "required": true,
+   "exactly_one": true
+  },
+  "program": {
+   "label": "Program",
+   "required": true,
+   "exactly_one": true
+  }
+ },
+ "fields": [
+  {
+   "name": "full_name",
+   "label": "Full Name",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    290,
+    780,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "Name of Applicant",
+    "Applicant's Name",
+    "Student Name"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "father_name",
+   "label": "Father's Name",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    360,
+    780,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "Father Name",
+    "Name of Father",
+    "Guardian's Name"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "cnic",
+   "label": "CNIC No.",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    430,
+    380,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "CNIC Number",
+    "National ID No.",
+    "B-Form / CNIC"
+   ],
+   "hint": "#####-#######-#",
+   "draw_label": true
+  },
+  {
+   "name": "date_of_birth",
+   "label": "Date of Birth",
+   "type": "date",
+   "kind": "date",
+   "bbox": [
+    380,
+    500,
+    300,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "D.O.B",
+    "DOB",
+    "Birth Date"
+   ],
+   "hint": "DD/MM/YYYY",
+   "draw_label": true
+  },
+  {
+   "name": "gender_male",
+   "label": "Male",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "bbox": [
+    380,
+    576,
+    44,
+    44
+   ],
+   "required": true,
+   "group": "gender",
+   "section": "personal",
+   "variants": [],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "gender_female",
+   "label": "Female",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "bbox": [
+    600,
+    576,
+    44,
+    44
+   ],
+   "required": true,
+   "group": "gender",
+   "section": "personal",
+   "variants": [],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "email",
+   "label": "Email Address",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    640,
+    780,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "E-mail",
+    "Email ID",
+    "Email"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "phone",
+   "label": "Mobile No.",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    710,
+    380,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "Phone Number",
+    "Cell No.",
+    "Contact No."
+   ],
+   "hint": "03XX-XXXXXXX",
+   "draw_label": true
+  },
+  {
+   "name": "address",
+   "label": "Postal Address",
+   "type": "text",
+   "kind": "multiline",
+   "bbox": [
+    380,
+    780,
+    780,
+    110
+   ],
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "variants": [
+    "Home Address",
+    "Address",
+    "Mailing Address"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "program_bscs",
+   "label": "BS Computer Science",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "bbox": [
+    80,
+    965,
+    44,
+    44
+   ],
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "variants": [],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "program_bsse",
+   "label": "BS Software Engineering",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "bbox": [
+    640,
+    965,
+    44,
+    44
+   ],
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "variants": [],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "program_bsai",
+   "label": "BS Artificial Intelligence",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "bbox": [
+    80,
+    1025,
+    44,
+    44
+   ],
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "variants": [],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "matric_year",
+   "label": "Matric Year",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    380,
+    1205,
+    140,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "matric_total",
+   "label": "Matric Total Marks",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    540,
+    1205,
+    170,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "matric_obtained",
+   "label": "Matric Obtained Marks",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    730,
+    1205,
+    170,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "matric_percentage",
+   "label": "Matric Percentage",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    920,
+    1205,
+    180,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "inter_year",
+   "label": "Intermediate Year",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    380,
+    1275,
+    140,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "inter_total",
+   "label": "Intermediate Total Marks",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    540,
+    1275,
+    170,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "inter_obtained",
+   "label": "Intermediate Obtained Marks",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    730,
+    1275,
+    170,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "inter_percentage",
+   "label": "Intermediate Percentage",
+   "type": "text",
+   "kind": "number",
+   "bbox": [
+    920,
+    1275,
+    180,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  },
+  {
+   "name": "declaration_name",
+   "label": "Declarant Name",
+   "type": "text",
+   "kind": "text",
+   "bbox": [
+    380,
+    1495,
+    780,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "variants": [
+    "Name of Declarant",
+    "I, (full name)",
+    "Applicant Name"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "declaration_date",
+   "label": "Date",
+   "type": "date",
+   "kind": "date",
+   "bbox": [
+    380,
+    1575,
+    270,
+    56
+   ],
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "variants": [
+    "Declaration Date",
+    "Dated",
+    "Date Signed"
+   ],
+   "hint": null,
+   "draw_label": true
+  },
+  {
+   "name": "signature",
+   "label": "Signature of Applicant",
+   "type": "signature",
+   "kind": "signature",
+   "bbox": [
+    700,
+    1555,
+    460,
+    110
+   ],
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "variants": [],
+   "hint": null,
+   "draw_label": false
+  }
+ ],
+ "static": [
+  {
+   "k": "border",
+   "box": [
+    30,
+    30,
+    1180,
+    1694
+   ]
+  },
+  {
+   "k": "logo",
+   "c": [
+    135,
+    130
+   ],
+   "r": 58
+  },
+  {
+   "k": "mark",
+   "c": [
+    60,
+    60
+   ]
+  },
+  {
+   "k": "mark",
+   "c": [
+    1180,
+    60
+   ]
+  },
+  {
+   "k": "mark",
+   "c": [
+    60,
+    1694
+   ]
+  },
+  {
+   "k": "mark",
+   "c": [
+    1180,
+    1694
+   ]
+  },
+  {
+   "k": "photo",
+   "box": [
+    1000,
+    60,
+    160,
+    140
+   ]
+  },
+  {
+   "k": "text",
+   "t": "National Institute of Computing",
+   "x": 220,
+   "y": 62,
+   "size": 38,
+   "bold": true,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "Lahore Campus",
+   "x": 220,
+   "y": 112,
+   "size": 24,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "APPLICATION FOR ADMISSION: BS PROGRAMS 2027",
+   "x": 220,
+   "y": 152,
+   "size": 28,
+   "bold": true,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "Form No. FS-ADM-2027-V1   Use blue or black ink, BLOCK or clear handwriting",
+   "x": 220,
+   "y": 192,
+   "size": 16,
+   "bold": false,
+   "color": 90
+  },
+  {
+   "k": "bar",
+   "t": "A.  PERSONAL INFORMATION",
+   "y": 232
+  },
+  {
+   "k": "text",
+   "t": "Gender *",
+   "x": 80,
+   "y": 584,
+   "size": 22,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "bar",
+   "t": "B.  PROGRAM APPLIED FOR  (tick ONE box only)",
+   "y": 915
+  },
+  {
+   "k": "bar",
+   "t": "C.  ACADEMIC RECORD",
+   "y": 1105
+  },
+  {
+   "k": "cell",
+   "box": [
+    80,
+    1155,
+    280,
+    40
+   ],
+   "t": "Examination"
+  },
+  {
+   "k": "cell",
+   "box": [
+    380,
+    1155,
+    140,
+    40
+   ],
+   "t": "Year"
+  },
+  {
+   "k": "cell",
+   "box": [
+    540,
+    1155,
+    170,
+    40
+   ],
+   "t": "Total Marks"
+  },
+  {
+   "k": "cell",
+   "box": [
+    730,
+    1155,
+    170,
+    40
+   ],
+   "t": "Obtained Marks"
+  },
+  {
+   "k": "cell",
+   "box": [
+    920,
+    1155,
+    180,
+    40
+   ],
+   "t": "Percentage (%)"
+  },
+  {
+   "k": "text",
+   "t": "Matric / O Level",
+   "x": 80,
+   "y": 1219,
+   "size": 20,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "Intermediate / A Level",
+   "x": 80,
+   "y": 1289,
+   "size": 20,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "bar",
+   "t": "D.  DECLARATION",
+   "y": 1365
+  },
+  {
+   "k": "text",
+   "t": "I hereby declare that all information given above is true and complete to the best of my",
+   "x": 80,
+   "y": 1417,
+   "size": 20,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "knowledge. I understand that false information can lead to cancellation of my admission.",
+   "x": 80,
+   "y": 1447,
+   "size": 20,
+   "bold": false,
+   "color": 40
+  },
+  {
+   "k": "text",
+   "t": "Signature of Applicant",
+   "x": 810,
+   "y": 1672,
+   "size": 18,
+   "bold": false,
+   "color": 70
+  },
+  {
+   "k": "text",
+   "t": "For office use only.   Application No: ____________   Received by: ____________",
+   "x": 80,
+   "y": 1698,
+   "size": 16,
+   "bold": false,
+   "color": 110
+  }
+ ]
 }
