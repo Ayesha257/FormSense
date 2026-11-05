@@ -36,10 +36,14 @@ python scripts/mark_fields.py
 # Run the vision step on one filled form
 python scripts/run_vision.py path/to/filled_form.jpg
 
+# Score FormSense against the OCR + regex baseline (needs .truth.json files)
+python scripts/compare_vision_baseline.py
+
 # Demo app
 streamlit run app/streamlit_app.py
 
-# Tests
+# Tests (fast ones only / everything incl. real OCR)
+pytest -m "not slow"
 pytest
 ```
 
@@ -52,13 +56,14 @@ backend/
     schema.py           shared data models
     ingest/             PDF/image loading, denoise, deskew
     vision/             template alignment, field cropping, ink detection, OCR
-    baseline/           OCR + regex baseline
+    baseline/           OCR + regex baseline (plain OCR, no layout)
     generator/          synthetic form generator
     nlp/                field mapping, value extraction
     rules/              validation rules
     llm/                LLM explanations
     rag/                guideline retrieval
     report/             JSON / PDF audit report
+    scoring.py          compare predicted fields with ground truth
   data/
     templates/          blank form image + field boxes (JSON)
     synthetic/          generated forms (not committed)

@@ -20,6 +20,29 @@ class OCRResult:
     engine: str           # "paddle", "trocr" or "none"
 
 
+@dataclass
+class OCRBox:
+    text: str
+    score: float
+    x0: float
+    y0: float
+    x1: float
+    y1: float
+
+    @classmethod
+    def from_poly(cls, text: str, score: float, poly) -> "OCRBox":
+        p = np.asarray(poly, dtype=float).reshape(-1, 2)
+        return cls(text, float(score), p[:, 0].min(), p[:, 1].min(), p[:, 0].max(), p[:, 1].max())
+
+    @property
+    def cy(self) -> float:
+        return (self.y0 + self.y1) / 2
+
+    @property
+    def height(self) -> float:
+        return self.y1 - self.y0
+
+
 def _to_bgr(img: np.ndarray) -> np.ndarray:
     return cv2.cvtColor(img, cv2.COLOR_GRAY2BGR) if img.ndim == 2 else img
 
@@ -37,25 +60,29 @@ class PaddleReader:
             self._ocr = PaddleOCR(lang=lang, use_angle_cls=False, show_log=False)
             self._v3 = False
 
-    def lines(self, img: np.ndarray) -> list[tuple[str, float, tuple[float, float]]]:
-        """[(text, score, (x, y) of line's top-left)] for every detected line."""
+    def boxes(self, img: np.ndarray) -> list[OCRBox]:
+        """Every detected text line with its score and bounding box."""
         img = _to_bgr(img)
-        out = []
+        out: list[OCRBox] = []
         if self._v3:
             for res in self._ocr.predict(img):
-                polys = res.get("rec_polys") or res.get("dt_polys") or []
+                polys = res.get("rec_polys")
+                if polys is None or len(polys) == 0:
+                    polys = res.get("dt_polys")
+                polys = [] if polys is None else list(polys)
                 for i, (t, s) in enumerate(zip(res["rec_texts"], res["rec_scores"])):
                     if i < len(polys):
-                        p = np.asarray(polys[i])
-                        xy = (float(p[:, 0].min()), float(p[:, 1].min()))
+                        out.append(OCRBox.from_poly(t, s, polys[i]))
                     else:
-                        xy = (0.0, float(i))
-                    out.append((t, float(s), xy))
+                        out.append(OCRBox(t, float(s), 0.0, float(i), 1.0, float(i) + 1))
         else:
             for box, (t, s) in (self._ocr.ocr(img)[0] or []):
-                p = np.asarray(box)
-                out.append((t, float(s), (float(p[:, 0].min()), float(p[:, 1].min()))))
+                out.append(OCRBox.from_poly(t, s, box))
         return out
+
+    def lines(self, img: np.ndarray) -> list[tuple[str, float, tuple[float, float]]]:
+        """[(text, score, (x, y) of line's top-left)] for every detected line."""
+        return [(b.text, b.score, (b.x0, b.y0)) for b in self.boxes(img)]
 
     def read(self, img: np.ndarray) -> OCRResult:
         lines = [l for l in self.lines(img) if l[0].strip()]
