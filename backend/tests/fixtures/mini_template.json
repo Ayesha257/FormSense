@@ -1,0 +1,361 @@
+{
+ "name": "admission_form",
+ "image_path": "data/templates/admission_form.png",
+ "width": 1240,
+ "height": 1754,
+ "fields": [
+  {
+   "name": "full_name",
+   "label": "Full Name",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    100,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "father_name",
+   "label": "Father's Name",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    140,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "cnic",
+   "label": "CNIC",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    180,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "date_of_birth",
+   "label": "Date of Birth",
+   "type": "date",
+   "kind": "date",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    220,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "gender_male",
+   "label": "Male",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "required": true,
+   "group": "gender",
+   "section": "personal",
+   "bbox": [
+    200,
+    260,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "gender_female",
+   "label": "Female",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "required": true,
+   "group": "gender",
+   "section": "personal",
+   "bbox": [
+    200,
+    300,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "email",
+   "label": "Email",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    340,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "phone",
+   "label": "Phone",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    380,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "address",
+   "label": "Address",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "personal",
+   "bbox": [
+    200,
+    420,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "program_cs",
+   "label": "BS Computer Science",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "bbox": [
+    200,
+    460,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "program_ee",
+   "label": "BS Electrical Engineering",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "bbox": [
+    200,
+    500,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "program_bba",
+   "label": "BBA",
+   "type": "checkbox",
+   "kind": "checkbox",
+   "required": true,
+   "group": "program",
+   "section": "program",
+   "bbox": [
+    200,
+    540,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "matric_year",
+   "label": "Matric Year",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    580,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "matric_total",
+   "label": "Matric Total Marks",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    620,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "matric_obtained",
+   "label": "Matric Obtained Marks",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    660,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "matric_percentage",
+   "label": "Matric Percentage",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    700,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "inter_year",
+   "label": "Inter Year",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    740,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "inter_total",
+   "label": "Inter Total Marks",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    780,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "inter_obtained",
+   "label": "Inter Obtained Marks",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    820,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "inter_percentage",
+   "label": "Inter Percentage",
+   "type": "text",
+   "kind": "number",
+   "required": true,
+   "group": null,
+   "section": "academic",
+   "bbox": [
+    200,
+    860,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "signature",
+   "label": "Signature",
+   "type": "signature",
+   "kind": "signature",
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "bbox": [
+    200,
+    900,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "declaration_name",
+   "label": "Declaration Name",
+   "type": "text",
+   "kind": "text",
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "bbox": [
+    200,
+    940,
+    300,
+    30
+   ]
+  },
+  {
+   "name": "declaration_date",
+   "label": "Declaration Date",
+   "type": "date",
+   "kind": "date",
+   "required": true,
+   "group": null,
+   "section": "declaration",
+   "bbox": [
+    200,
+    980,
+    300,
+    30
+   ]
+  }
+ ],
+ "groups": {
+  "gender": {
+   "label": "Gender"
+  },
+  "program": {
+   "label": "Program"
+  }
+ }
+}

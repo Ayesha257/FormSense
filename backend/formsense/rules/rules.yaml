@@ -1,0 +1,226 @@
+# FormSense validation rules.
+#
+# Every rule is data. To change a threshold, a message or a field name, edit this file;
+# no Python needs to change. The engine (engine.py) reads it at start up and refuses to
+# run if a rule is malformed.
+#
+# Keys
+#   id           rule id; must match formsense/rules/codes.py (it becomes Issue.id)
+#   check        which check function to run (see CHECKS in engine.py)
+#   type         coarse IssueType: missing | unreadable | format | inconsistency | selection
+#   severity     info | warning | error
+#   message      shown to the user and the LLM. Placeholders: {labels} {fields} and any
+#                scalar parameter (for example {min_age}). Never put field VALUES here:
+#                CNIC, phone and email must not leak into messages or logs.
+#   description  one line for the rule catalogue in the docs
+#   enabled      optional, default true
+#   blocking     optional (field level rules only, default true). A blocking hit stops the
+#                other field level rules for that field AND hides the field from the cross
+#                field checks, so one bad box does not cause a cascade of messages.
+#   params       check specific settings
+#
+# Field level rules run first, in the order below, per field in template order.
+# Selection (group) rules run second. Cross field rules run last, in the order below.
+
+version: 1
+
+settings:
+  date_formats:
+    - "%d/%m/%Y"
+    - "%d-%m-%Y"
+    - "%d %b %Y"
+    - "%d.%m.%Y"
+    - "%d %B %Y"
+    - "%Y-%m-%d"        # ISO, which is what the extractor stores in FieldResult.value
+
+rules:
+  # ------------------------------------------------------------------ field level
+  - id: missing_required
+    check: required_missing
+    type: missing
+    severity: error
+    message: "{labels} is required but has been left empty."
+    description: A required text, date or signature field has no ink or no text.
+
+  - id: unreadable_field
+    check: unreadable
+    type: unreadable
+    severity: warning
+    message: "{labels} has writing on the page but it could not be read reliably."
+    description: Ink is present but OCR confidence is too low to trust the text.
+
+  - id: placeholder_value
+    check: placeholder
+    type: format
+    severity: error
+    message: "{labels} contains a placeholder (such as N/A or a dash) instead of a real answer."
+    description: The field holds N/A, nil, none, dashes or a run of x characters.
+    params:
+      pattern: '^(n/?a|nil|none|null|x+|[-._\s]+)$'
+
+  - id: invalid_cnic
+    check: pattern
+    type: format
+    severity: error
+    message: "{labels} is not in the format 12345-1234567-1."
+    description: CNIC must be 5 digits, dash, 7 digits, dash, 1 digit.
+    params:
+      field: cnic
+      pattern: '^\d{5}-\d{7}-\d$'
+
+  - id: invalid_email
+    check: pattern
+    type: format
+    severity: error
+    message: "{labels} is not a valid email address."
+    description: Email must look like name@domain.tld.
+    params:
+      field: email
+      pattern: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}$'
+
+  - id: invalid_phone
+    check: pattern
+    type: format
+    severity: error
+    message: "{labels} is not in the format 03XX-XXXXXXX."
+    description: Pakistani mobile number in the form 03XX-XXXXXXX.
+    params:
+      field: phone
+      pattern: '^03\d{2}-\d{7}$'
+
+  - id: invalid_date
+    check: date_parse
+    type: format
+    severity: error
+    message: "{labels} is not a valid calendar date."
+    description: A date field that cannot be parsed, or names a day that does not exist.
+    params:
+      types: [date]
+
+  - id: invalid_number
+    check: numeric
+    type: format
+    severity: error
+    message: "{labels} should be a number but is not."
+    description: Marks and percentages must be numeric; year fields must be four digits.
+    params:
+      kinds: [number]
+      year_suffix: "_year"
+      year_pattern: '^\d{4}$'
+
+  - id: correction_mark
+    check: external_flag
+    type: format
+    severity: warning
+    blocking: false
+    message: "{labels} has a struck out correction. Please check the final value is what was intended."
+    description: >
+      A value was crossed out and rewritten. Needs a vision signal (flag "struck_through");
+      dormant until the vision module supplies it.
+    params:
+      flag: struck_through
+
+  # ------------------------------------------------------------------ selection groups
+  - id: no_selection
+    check: group_selection
+    type: selection
+    severity: error
+    message: "No option is ticked for {labels}."
+    description: A checkbox group (gender, program) has nothing ticked.
+    params:
+      mode: none
+
+  - id: multiple_selections
+    check: group_selection
+    type: selection
+    severity: error
+    message: "More than one option is ticked for {labels}."
+    description: A checkbox group that must have exactly one answer has several ticked.
+    params:
+      mode: multiple
+
+  # ------------------------------------------------------------------ cross field
+  - id: underage
+    check: min_age
+    type: inconsistency
+    severity: error
+    message: "The date of birth makes the applicant younger than {min_age}."
+    description: Applicant must be at least the minimum age on the day of the audit.
+    params:
+      dob: date_of_birth
+      min_age: 16
+
+  - id: declaration_date_future
+    check: not_in_future
+    type: inconsistency
+    severity: error
+    message: "{labels} is in the future."
+    description: A declaration cannot be dated after today.
+    params:
+      field: declaration_date
+
+  - id: declaration_before_dob
+    check: date_order
+    type: inconsistency
+    severity: error
+    message: "The declaration date is earlier than the date of birth."
+    description: The declaration must come after the applicant was born.
+    params:
+      earlier: date_of_birth
+      later: declaration_date
+
+  - id: cnic_gender_parity
+    check: cnic_gender
+    type: inconsistency
+    severity: error
+    message: "The last digit of the CNIC does not match the ticked gender (odd is male, even is female)."
+    description: On Pakistani CNICs an odd last digit means male and an even one means female.
+    params:
+      cnic: cnic
+      group: gender
+      male_field: gender_male
+      pattern: '^\d{5}-\d{7}-\d$'
+
+  - id: year_order
+    check: year_order
+    type: inconsistency
+    severity: error
+    message: "The matric year must be earlier than the intermediate year."
+    description: Matric is completed before intermediate.
+    params:
+      earlier: matric_year
+      later: inter_year
+
+  - id: marks_exceed_total
+    check: marks_exceed_total
+    type: inconsistency
+    severity: error
+    message: "Obtained marks are higher than total marks ({labels})."
+    description: Obtained marks can never be larger than the total.
+    params:
+      sets:
+        - {total: matric_total, obtained: matric_obtained}
+        - {total: inter_total, obtained: inter_obtained}
+
+  - id: percentage_mismatch
+    check: percentage_mismatch
+    type: inconsistency
+    severity: error
+    message: "The stated percentage does not match obtained marks divided by total marks ({labels})."
+    description: Stated percentage must equal obtained / total, within the tolerance.
+    params:
+      tolerance: 1.0          # percentage points
+      sets:
+        - {total: matric_total, obtained: matric_obtained, percentage: matric_percentage}
+        - {total: inter_total, obtained: inter_obtained, percentage: inter_percentage}
+
+  - id: name_mismatch
+    check: name_match
+    type: inconsistency
+    severity: error
+    message: "The name in the declaration does not match the applicant's name at the top of the form."
+    description: Declaration name must fuzzy match the applicant name (token sort ratio).
+    params:
+      a: full_name
+      b: declaration_name
+      threshold: 80
