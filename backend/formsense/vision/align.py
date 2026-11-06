@@ -32,7 +32,7 @@ def _scaled(gray: np.ndarray) -> tuple[np.ndarray, float]:
 
 def align_to_template(page: np.ndarray, blank: np.ndarray,
                       n_features: int = 5000, ratio: float = 0.75,
-                      min_inliers: int = 25) -> AlignResult:
+                      min_inliers: int = 25, refine: bool = True) -> AlignResult:
     """Warp `page` (gray or BGR) onto `blank` (gray)."""
     if page.ndim == 3:
         page = cv2.cvtColor(page, cv2.COLOR_BGR2GRAY)
@@ -66,6 +66,47 @@ def align_to_template(page: np.ndarray, blank: np.ndarray,
         fallback.matches, fallback.inliers = len(good), inliers
         return fallback
 
+    if refine:
+        H = refine_ecc(page, blank, H)
     warped = cv2.warpPerspective(page, H, (w, h), flags=cv2.INTER_LINEAR,
                                  borderMode=cv2.BORDER_CONSTANT, borderValue=255)
     return AlignResult(warped, True, len(good), inliers, H)
+
+
+def _ecc_image(gray: np.ndarray, scale: float) -> np.ndarray:
+    """Lighting-independent, slightly blurred 'darkness' image for ECC."""
+    from formsense.vision.fields import darkness
+    small = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
+    return cv2.GaussianBlur(darkness(small), (0, 0), 1.5).astype(np.float32)
+
+
+def _corr(a: np.ndarray, b: np.ndarray) -> float:
+    a, b = a - a.mean(), b - b.mean()
+    return float((a * b).sum() / (np.sqrt((a * a).sum() * (b * b).sum()) + 1e-9))
+
+
+def refine_ecc(page: np.ndarray, blank: np.ndarray, H: np.ndarray, scale: float = 0.5,
+               iterations: int = 100) -> np.ndarray:
+    """Second alignment stage: ECC (enhanced correlation coefficient) refinement.
+
+    ORB keypoints get the page roughly right; on blurry or bent photos the fit can
+    still be 10-20 px off in places. ECC fine-tunes the homography by maximising
+    the pixel-level correlation with the blank template. The result is kept only
+    if it really matches the template better."""
+    h, w = blank.shape[:2]
+    S = np.diag([scale, scale, 1.0])
+    rough = cv2.warpPerspective(page, H, (w, h), borderMode=cv2.BORDER_CONSTANT, borderValue=255)
+    tmpl, moving = _ecc_image(blank, scale), _ecc_image(rough, scale)
+    before = _corr(tmpl, moving)
+    W = np.eye(3, dtype=np.float32)
+    try:
+        crit = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, iterations, 1e-5)
+        _, W = cv2.findTransformECC(tmpl, moving, W, cv2.MOTION_HOMOGRAPHY, crit, None, 5)
+    except cv2.error:
+        return H
+    # W maps template pixels to rough-aligned pixels (at `scale`); fold it into H
+    W_full = np.linalg.inv(S) @ W.astype(np.float64) @ S
+    H_new = np.linalg.inv(W_full) @ H
+    refined = cv2.warpPerspective(moving, W, (moving.shape[1], moving.shape[0]),
+                                  flags=cv2.INTER_LINEAR + cv2.WARP_INVERSE_MAP)
+    return H_new if _corr(tmpl, refined) > before + 1e-3 else H

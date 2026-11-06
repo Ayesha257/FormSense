@@ -26,25 +26,45 @@ Run every command from the `backend` folder.
 ## Usage
 
 ```bash
-# Try everything on a demo form (before the real form exists)
+# Synthetic forms with ground truth (see formsense/generator/generate.py)
+python -m formsense.generator.generate --count 80 --split dev  --seed 1      --out data/synthetic/dev
+python -m formsense.generator.generate --count 40 --split test --seed 100000 --out data/synthetic/test
+
+# Demo app: vision -> rules -> guideline for every issue
+python -m streamlit run app/streamlit_app.py
+
+# Vision step on one filled form
+python scripts/run_vision.py path/to/filled_form.jpg
+
+# Detector accuracy and best thresholds (tune on dev, report on test)
+python scripts/eval_detectors.py --dir data/synthetic/dev
+
+# FormSense vs. the OCR + regex baseline, fields and issues end to end
+python scripts/compare_vision_baseline.py --dir data/synthetic/test --limit 20
+
+# Guidelines retrieval (RAG)
+python scripts/rag.py build
+python scripts/rag.py ask "Can my mother sign the form for me?"
+python scripts/rag.py eval
+
+# Rules on a JSON list of field readings (or a generator label file)
+python -m formsense.rules.audit path/to/fields.json
+
+# Small demo form (independent of the admission form)
 python scripts/make_demo.py
 python scripts/run_vision.py data/templates/demo/samples/complete.jpg --demo
 
-# Mark field boxes on the real blank template (once, after the form is designed)
-python scripts/mark_fields.py
-
-# Run the vision step on one filled form
-python scripts/run_vision.py path/to/filled_form.jpg
-
-# Score FormSense against the OCR + regex baseline (needs .truth.json files)
-python scripts/compare_vision_baseline.py
-
-# Demo app
-streamlit run app/streamlit_app.py
-
 # Tests (fast ones only / everything incl. real OCR)
-pytest -m "not slow"
-pytest
+python -m pytest -m "not slow"
+python -m pytest
+```
+
+In code, the whole chain is one call:
+
+```python
+from formsense.pipeline import FormSense
+result = FormSense().run(page_image)      # result.issues, result.fields, result.citations
+report = result.report()                  # AuditReport for the LLM explainer / report
 ```
 
 ## Project structure
@@ -61,9 +81,10 @@ backend/
     nlp/                field mapping, value extraction
     rules/              validation rules
     llm/                LLM explanations
-    rag/                guideline retrieval
+    rag/                guideline retrieval (LangChain + FAISS, hybrid search)
     report/             JSON / PDF audit report
-    scoring.py          compare predicted fields with ground truth
+    scoring.py          compare predicted fields and issues with ground truth
+    pipeline.py         vision -> rules -> guidelines in one call
   data/
     templates/          blank form image + field boxes (JSON)
     synthetic/          generated forms (not committed)
@@ -76,9 +97,17 @@ backend/
 
 ## Template
 
-`data/templates/admission_form.json` lists every field. Put the blank form
-image at `data/templates/admission_form_blank.png`, then run
-`python scripts/mark_fields.py` to draw each field's box.
+`data/templates/admission_form.json` lists every field and its box, and
+`data/templates/admission_form_blank.png` is the blank form used for alignment
+(both made by `python -m formsense.generator.layout`). For a different paper
+form, `python scripts/mark_fields.py` lets you draw the boxes by hand.
+
+## Guidelines (RAG)
+
+Put the form-filling guidelines as `.md` or `.txt` in `data/guidelines/`. The
+search index rebuilds itself when a file changes. When the guidelines change,
+update the questions in `data/guidelines/eval_queries.json` and the section names
+in `scripts/rag.py` (FIELD_SECTION, RULE_SECTION).
 
 ## Notes
 
