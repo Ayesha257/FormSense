@@ -21,6 +21,8 @@ langchain
 langchain-groq
 langchain-community
 langchain-huggingface
+langchain-text-splitters
+scikit-learn
 faiss-cpu
 python-dotenv
 # --- report & UI ---

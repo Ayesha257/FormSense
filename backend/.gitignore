@@ -25,3 +25,6 @@ outputs/
 
 # Demo form: rebuild with python scripts/make_demo.py
 data/templates/demo/
+
+# Guidelines search index: rebuilt automatically
+data/guidelines/.index/

@@ -1,0 +1,873 @@
+{
+ "questions": [
+  {
+   "query": "Can my mother sign the form for me?",
+   "sections": [
+    "Signature of Applicant"
+   ]
+  },
+  {
+   "query": "I forgot to sign, is that a problem?",
+   "sections": [
+    "Signature of Applicant"
+   ]
+  },
+  {
+   "query": "Is a printed or stamped signature acceptable?",
+   "sections": [
+    "Signature of Applicant"
+   ]
+  },
+  {
+   "query": "What if I select two degree programs?",
+   "sections": [
+    "Program Applied For"
+   ]
+  },
+  {
+   "query": "I want to apply for both CS and AI",
+   "sections": [
+    "Program Applied For"
+   ]
+  },
+  {
+   "query": "How should I write my ID card number?",
+   "sections": [
+    "CNIC Number"
+   ]
+  },
+  {
+   "query": "I am 17 and don't have a national identity card yet",
+   "sections": [
+    "CNIC Number"
+   ]
+  },
+  {
+   "query": "The last digit of my national ID does not match my gender",
+   "sections": [
+    "CNIC Number"
+   ]
+  },
+  {
+   "query": "How do I calculate my percentage?",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "query": "My obtained marks are more than the total",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "query": "Can I write my marks in words?",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "query": "Which year should I write for SSC and HSSC?",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "query": "In which format should my birthday be written?",
+   "sections": [
+    "Date of Birth"
+   ]
+  },
+  {
+   "query": "Is there a minimum age to apply?",
+   "sections": [
+    "Date of Birth"
+   ]
+  },
+  {
+   "query": "Can I write a landline phone number?",
+   "sections": [
+    "Mobile Number"
+   ]
+  },
+  {
+   "query": "Where will the merit list be sent?",
+   "sections": [
+    "Email Address"
+   ]
+  },
+  {
+   "query": "Can I use a nickname on the form?",
+   "sections": [
+    "Full Name"
+   ]
+  },
+  {
+   "query": "My father passed away, whose name do I write?",
+   "sections": [
+    "Father's Name"
+   ]
+  },
+  {
+   "query": "The name in the declaration is different from the name at the top",
+   "sections": [
+    "Declarant Name"
+   ]
+  },
+  {
+   "query": "Can I put tomorrow's date next to my signature?",
+   "sections": [
+    "Declaration Date"
+   ]
+  },
+  {
+   "query": "Can I fill the form with a pencil?",
+   "sections": [
+    "Writing the Form"
+   ]
+  },
+  {
+   "query": "I made a mistake while writing, what should I do?",
+   "sections": [
+    "Corrections"
+   ]
+  },
+  {
+   "query": "Can I write N/A if something does not apply to me?",
+   "sections": [
+    "Values That Are Not Accepted"
+   ]
+  },
+  {
+   "query": "What documents must be attached when submitting?",
+   "sections": [
+    "Submission"
+   ]
+  },
+  {
+   "query": "Do I need to give my full home address?",
+   "sections": [
+    "Postal Address"
+   ]
+  },
+  {
+   "query": "Do I have to tick male or female?",
+   "sections": [
+    "Gender"
+   ]
+  }
+ ],
+ "issues": [
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "matric_year"
+   ],
+   "message": "Required field 'matric_year' is empty.",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "signature"
+   ],
+   "message": "The signature box is empty.",
+   "sections": [
+    "Signature of Applicant"
+   ]
+  },
+  {
+   "id": "no_selection",
+   "type": "selection",
+   "fields": [
+    "program_bscs",
+    "program_bsse",
+    "program_bsai"
+   ],
+   "message": "No box is ticked for program.",
+   "sections": [
+    "Program Applied For"
+   ]
+  },
+  {
+   "id": "percentage_mismatch",
+   "type": "inconsistency",
+   "fields": [
+    "inter_total",
+    "inter_obtained",
+    "inter_percentage"
+   ],
+   "message": "Stated percentage differs from obtained / total.",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "id": "invalid_date",
+   "type": "format",
+   "fields": [
+    "declaration_date"
+   ],
+   "message": "'29/02/1998' in declaration_date is not a real calendar date.",
+   "sections": [
+    "Declaration Date"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "inter_year"
+   ],
+   "message": "The handwriting in 'inter_year' cannot be read.",
+   "sections": [
+    "Examination Years",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "invalid_cnic",
+   "type": "format",
+   "fields": [
+    "cnic"
+   ],
+   "message": "CNIC '21743-83813388-2' does not match #####-#######-# (extra).",
+   "sections": [
+    "CNIC Number"
+   ]
+  },
+  {
+   "id": "placeholder_value",
+   "type": "format",
+   "fields": [
+    "father_name"
+   ],
+   "message": "'father_name' contains a placeholder instead of a real value.",
+   "sections": [
+    "Father's Name",
+    "Values That Are Not Accepted"
+   ]
+  },
+  {
+   "id": "placeholder_value",
+   "type": "format",
+   "fields": [
+    "address"
+   ],
+   "message": "'address' contains a placeholder instead of a real value.",
+   "sections": [
+    "Postal Address",
+    "Values That Are Not Accepted"
+   ]
+  },
+  {
+   "id": "invalid_email",
+   "type": "format",
+   "fields": [
+    "email"
+   ],
+   "message": "Email 'amna.niazi2004@gmail..com' is not a valid address.",
+   "sections": [
+    "Email Address"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "date_of_birth"
+   ],
+   "message": "'date_of_birth' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Date of Birth",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "multiple_selections",
+   "type": "selection",
+   "fields": [
+    "program_bscs",
+    "program_bsse",
+    "program_bsai"
+   ],
+   "message": "More than one box is ticked for program.",
+   "sections": [
+    "Program Applied For"
+   ]
+  },
+  {
+   "id": "declaration_before_dob",
+   "type": "inconsistency",
+   "fields": [
+    "date_of_birth",
+    "declaration_date"
+   ],
+   "message": "Declaration date is before the date of birth.",
+   "sections": [
+    "Declaration Date",
+    "Date of Birth"
+   ]
+  },
+  {
+   "id": "invalid_phone",
+   "type": "format",
+   "fields": [
+    "phone"
+   ],
+   "message": "Phone '0411-5780557' does not match 03XX-XXXXXXX.",
+   "sections": [
+    "Mobile Number"
+   ]
+  },
+  {
+   "id": "invalid_date",
+   "type": "format",
+   "fields": [
+    "date_of_birth"
+   ],
+   "message": "'31/04/2001' in date_of_birth is not a real calendar date.",
+   "sections": [
+    "Date of Birth"
+   ]
+  },
+  {
+   "id": "declaration_date_future",
+   "type": "inconsistency",
+   "fields": [
+    "declaration_date"
+   ],
+   "message": "Declaration date is in the future.",
+   "sections": [
+    "Declaration Date"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "matric_year"
+   ],
+   "message": "'7OO' in matric_year is not a valid number.",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "id": "multiple_selections",
+   "type": "selection",
+   "fields": [
+    "gender_male",
+    "gender_female"
+   ],
+   "message": "More than one box is ticked for gender.",
+   "sections": [
+    "Gender"
+   ]
+  },
+  {
+   "id": "underage",
+   "type": "inconsistency",
+   "fields": [
+    "date_of_birth"
+   ],
+   "message": "Applicant is younger than 16.",
+   "sections": [
+    "Date of Birth"
+   ]
+  },
+  {
+   "id": "marks_exceed_total",
+   "type": "inconsistency",
+   "fields": [
+    "inter_total",
+    "inter_obtained"
+   ],
+   "message": "Obtained marks exceed total marks.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "cnic_gender_parity",
+   "type": "inconsistency",
+   "fields": [
+    "cnic",
+    "gender_male",
+    "gender_female"
+   ],
+   "message": "Last CNIC digit does not match the ticked gender.",
+   "sections": [
+    "CNIC Number",
+    "Gender"
+   ]
+  },
+  {
+   "id": "year_order",
+   "type": "inconsistency",
+   "fields": [
+    "matric_year",
+    "inter_year"
+   ],
+   "message": "Matric year must be earlier than intermediate year.",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "id": "marks_exceed_total",
+   "type": "inconsistency",
+   "fields": [
+    "matric_total",
+    "matric_obtained"
+   ],
+   "message": "Obtained marks exceed total marks.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "email"
+   ],
+   "message": "'email' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Email Address",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "name_mismatch",
+   "type": "inconsistency",
+   "fields": [
+    "full_name",
+    "declaration_name"
+   ],
+   "message": "Declaration name does not match the applicant name.",
+   "sections": [
+    "Declarant Name"
+   ]
+  },
+  {
+   "id": "no_selection",
+   "type": "selection",
+   "fields": [
+    "gender_male",
+    "gender_female"
+   ],
+   "message": "No box is ticked for gender.",
+   "sections": [
+    "Gender"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "father_name"
+   ],
+   "message": "Required field 'father_name' is empty.",
+   "sections": [
+    "Father's Name"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "inter_total"
+   ],
+   "message": "The handwriting in 'inter_total' cannot be read.",
+   "sections": [
+    "Total and Obtained Marks",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "phone"
+   ],
+   "message": "'phone' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Mobile Number",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "address"
+   ],
+   "message": "Required field 'address' is empty.",
+   "sections": [
+    "Postal Address"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "address"
+   ],
+   "message": "'address' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Postal Address",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "address"
+   ],
+   "message": "The handwriting in 'address' cannot be read.",
+   "sections": [
+    "Postal Address",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "inter_total"
+   ],
+   "message": "'abc' in inter_total is not a valid number.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "cnic"
+   ],
+   "message": "Required field 'cnic' is empty.",
+   "sections": [
+    "CNIC Number"
+   ]
+  },
+  {
+   "id": "percentage_mismatch",
+   "type": "inconsistency",
+   "fields": [
+    "matric_total",
+    "matric_obtained",
+    "matric_percentage"
+   ],
+   "message": "Stated percentage differs from obtained / total.",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "date_of_birth"
+   ],
+   "message": "Required field 'date_of_birth' is empty.",
+   "sections": [
+    "Date of Birth"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "inter_obtained"
+   ],
+   "message": "The handwriting in 'inter_obtained' cannot be read.",
+   "sections": [
+    "Total and Obtained Marks",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "cnic"
+   ],
+   "message": "'cnic' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "CNIC Number",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "matric_total"
+   ],
+   "message": "'N/A?' in matric_total is not a valid number.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "matric_percentage"
+   ],
+   "message": "The handwriting in 'matric_percentage' cannot be read.",
+   "sections": [
+    "Percentage",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "inter_year"
+   ],
+   "message": "Required field 'inter_year' is empty.",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "inter_obtained"
+   ],
+   "message": "'9x0' in inter_obtained is not a valid number.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "declaration_name"
+   ],
+   "message": "'declaration_name' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Declarant Name",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "matric_percentage"
+   ],
+   "message": "Required field 'matric_percentage' is empty.",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "phone"
+   ],
+   "message": "The handwriting in 'phone' cannot be read.",
+   "sections": [
+    "Mobile Number",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "matric_total"
+   ],
+   "message": "Required field 'matric_total' is empty.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "inter_percentage"
+   ],
+   "message": "'seven hundred' in inter_percentage is not a valid number.",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "id": "correction_mark",
+   "type": "format",
+   "fields": [
+    "father_name"
+   ],
+   "message": "'father_name' has a struck out value that was rewritten; please confirm the final value.",
+   "sections": [
+    "Father's Name",
+    "Corrections"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "matric_percentage"
+   ],
+   "message": "'seven hundred' in matric_percentage is not a valid number.",
+   "sections": [
+    "Percentage"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "cnic"
+   ],
+   "message": "The handwriting in 'cnic' cannot be read.",
+   "sections": [
+    "CNIC Number",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "full_name"
+   ],
+   "message": "The handwriting in 'full_name' cannot be read.",
+   "sections": [
+    "Full Name",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "inter_obtained"
+   ],
+   "message": "Required field 'inter_obtained' is empty.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "declaration_name"
+   ],
+   "message": "Required field 'declaration_name' is empty.",
+   "sections": [
+    "Declarant Name"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "phone"
+   ],
+   "message": "Required field 'phone' is empty.",
+   "sections": [
+    "Mobile Number"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "date_of_birth"
+   ],
+   "message": "The handwriting in 'date_of_birth' cannot be read.",
+   "sections": [
+    "Date of Birth",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "inter_year"
+   ],
+   "message": "'seven hundred' in inter_year is not a valid number.",
+   "sections": [
+    "Examination Years"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "inter_percentage"
+   ],
+   "message": "The handwriting in 'inter_percentage' cannot be read.",
+   "sections": [
+    "Percentage",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "invalid_number",
+   "type": "format",
+   "fields": [
+    "matric_obtained"
+   ],
+   "message": "'9x0' in matric_obtained is not a valid number.",
+   "sections": [
+    "Total and Obtained Marks"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "matric_year"
+   ],
+   "message": "The handwriting in 'matric_year' cannot be read.",
+   "sections": [
+    "Examination Years",
+    "Writing the Form"
+   ]
+  },
+  {
+   "id": "missing_required",
+   "type": "missing",
+   "fields": [
+    "declaration_date"
+   ],
+   "message": "Required field 'declaration_date' is empty.",
+   "sections": [
+    "Declaration Date"
+   ]
+  },
+  {
+   "id": "unreadable_field",
+   "type": "unreadable",
+   "fields": [
+    "matric_obtained"
+   ],
+   "message": "The handwriting in 'matric_obtained' cannot be read.",
+   "sections": [
+    "Total and Obtained Marks",
+    "Writing the Form"
+   ]
+  }
+ ]
+}
