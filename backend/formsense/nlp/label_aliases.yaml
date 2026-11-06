@@ -1,0 +1,113 @@
+# Synonyms for printed form labels, keyed by canonical field name.
+#
+# The mapper already knows each field's own template label and its name written as words
+# (date_of_birth -> "date of birth"). List here only the OTHER ways a label may be printed
+# or misread. Entries for fields that are not in the current template are ignored.
+#
+# Keep this in sync with the label variants the generator can print (--label-variants).
+
+full_name:
+  - name
+  - applicant name
+  - name of applicant
+  - student name
+  - candidate name
+  - full name of applicant
+father_name:
+  - fathers name
+  - father name
+  - guardian name
+  - name of father
+  - s/o
+  - son of
+cnic:
+  - c.n.i.c
+  - cnic no
+  - cnic number
+  - national id
+  - national id number
+  - id card number
+  - nic
+date_of_birth:
+  - d.o.b
+  - dob
+  - birth date
+  - birthdate
+  - date of birth
+  - born on
+gender_male:
+  - male
+  - m
+gender_female:
+  - female
+  - f
+email:
+  - e-mail
+  - email address
+  - email id
+  - e mail
+phone:
+  - mobile
+  - mobile no
+  - mobile number
+  - phone number
+  - contact number
+  - contact no
+  - cell
+address:
+  - postal address
+  - mailing address
+  - residential address
+  - home address
+  - permanent address
+signature:
+  - signature of applicant
+  - applicant signature
+  - sign
+  - signed
+declaration_name:
+  - name in declaration
+  - declarant name
+  - i the undersigned
+  - name of declarant
+declaration_date:
+  - date
+  - declaration date
+  - date of declaration
+  - signed on
+matric_year:
+  - matric passing year
+  - matriculation year
+  - ssc year
+  - year of matric
+inter_year:
+  - intermediate year
+  - fsc year
+  - hssc year
+  - year of intermediate
+matric_total:
+  - matric total marks
+  - total marks matric
+  - ssc total marks
+matric_obtained:
+  - matric obtained marks
+  - marks obtained matric
+  - ssc obtained marks
+matric_percentage:
+  - matric percentage
+  - matric percent
+  - matric %
+  - ssc percentage
+inter_total:
+  - intermediate total marks
+  - total marks intermediate
+  - fsc total marks
+inter_obtained:
+  - intermediate obtained marks
+  - marks obtained intermediate
+  - fsc obtained marks
+inter_percentage:
+  - intermediate percentage
+  - intermediate percent
+  - inter %
+  - fsc percentage
