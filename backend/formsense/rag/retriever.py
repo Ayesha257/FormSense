@@ -125,6 +125,13 @@ class GuidelineRetriever:
                 model_name=EMBED_MODEL, encode_kwargs={"normalize_embeddings": True})
         return self._embeddings
 
+    def embedding_id(self) -> str:
+        """Which embedding model built (or would build) the index, without loading the model."""
+        if self._embeddings is None:
+            return f"hf:{EMBED_MODEL}"
+        e = self._embeddings
+        return f"{type(e).__module__}.{type(e).__name__}:{getattr(e, 'size', '')}"
+
     # --- index ---
     def build(self) -> int:
         from langchain_community.vectorstores import FAISS
@@ -137,12 +144,22 @@ class GuidelineRetriever:
         self._store.save_local(str(self.index_dir))
         (self.index_dir / "manifest.json").write_text(json.dumps(
             {"fingerprint": fingerprint(self.folder), "chunks": len(docs),
-             "model": EMBED_MODEL, "files": [p.name for p in guideline_files(self.folder)]}, indent=2))
+             "model": EMBED_MODEL, "embedding": self.embedding_id(), "dim": int(self._store.index.d),
+             "files": [p.name for p in guideline_files(self.folder)]}, indent=2))
         return len(docs)
 
     def is_fresh(self) -> bool:
         m = self.index_dir / "manifest.json"
-        return m.exists() and json.loads(m.read_text()).get("fingerprint") == fingerprint(self.folder)
+        if not m.exists():
+            return False
+        try:
+            info = json.loads(m.read_text())
+        except ValueError:      # half-written or damaged manifest: rebuild
+            return False
+        # an index made by another embedding model (or by an older version that did not record
+        # it) cannot be searched with this one: its vectors have a different size
+        return (info.get("fingerprint") == fingerprint(self.folder)
+                and info.get("embedding") == self.embedding_id())
 
     def ensure(self):
         """Load the saved index, rebuilding it first if the guidelines changed."""
@@ -176,11 +193,15 @@ class GuidelineRetriever:
         mode = mode or self.mode
         if self.expand if expand is None else expand:
             query = expand_query(query)
+        q = None
+        if mode != "tfidf":
+            q = np.asarray(self.embeddings.embed_query(query), dtype="float32")[None, :]
+            if q.shape[1] != self._store.index.d:
+                self.build()    # index came from a different embedding model: rebuild, never crash
         n = self._store.index.ntotal
         vec, mat = self._keyword_index()
         dense = np.zeros(n)
-        if mode != "tfidf":
-            q = np.asarray(self.embeddings.embed_query(query), dtype="float32")[None, :]
+        if q is not None:
             dist, idx = self._store.index.search(q, n)
             # squared L2 between unit vectors -> cosine similarity: cos = 1 - d / 2
             dense[idx[0]] = np.clip(1.0 - dist[0] / 2.0, 0.0, 1.0)

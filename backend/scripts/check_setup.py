@@ -12,7 +12,7 @@ LIBS = [
     ("pydantic", "pydantic"), ("yaml", "pyyaml"), ("dateparser", "dateparser"),
     ("rapidfuzz", "rapidfuzz"), ("faker", "faker"), ("transformers", "transformers"),
     ("torch", "torch"), ("sentence_transformers", "sentence-transformers"),
-    ("langchain", "langchain"), ("langchain_groq", "langchain-groq"),
+    ("langchain", "langchain"), ("langchain_groq", "langchain-groq"), ("groq", "groq"),
     ("faiss", "faiss-cpu"), ("reportlab", "reportlab"), ("streamlit", "streamlit"),
     ("paddleocr", "paddleocr"), ("dotenv", "python-dotenv"),
 ]
