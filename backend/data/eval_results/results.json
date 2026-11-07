@@ -1,0 +1,615 @@
+{
+  "baseline": {
+    "n_forms": 5,
+    "field_extraction": {
+      "n": 112,
+      "exact_match_accuracy": 0.39285714285714285,
+      "mean_cer": 0.4297103648318293,
+      "per_field": {
+        "full_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 0.14794685990338163
+        },
+        "father_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 0.2055844155844156
+        },
+        "cnic": {
+          "n": 5,
+          "exact_match_accuracy": 0.4,
+          "mean_cer": 0.6
+        },
+        "date_of_birth": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_male": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_female": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "email": {
+          "n": 5,
+          "exact_match_accuracy": 0.4,
+          "mean_cer": 0.04261471861471862
+        },
+        "phone": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.2
+        },
+        "address": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 0.09714395590823789
+        },
+        "program_bscs": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsse": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsai": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_total": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "matric_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "matric_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "inter_year": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "inter_total": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "inter_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "inter_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        },
+        "declaration_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 0.17222222222222222
+        },
+        "declaration_date": {
+          "n": 5,
+          "exact_match_accuracy": 0.6,
+          "mean_cer": 0.36
+        },
+        "signature": {
+          "n": 3,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_year": {
+          "n": 4,
+          "exact_match_accuracy": 0.0,
+          "mean_cer": 1.0
+        }
+      }
+    },
+    "missing_field_detection": {
+      "tp": 3,
+      "fp": 42,
+      "fn": 0,
+      "precision": 0.06666666666666667,
+      "recall": 1.0,
+      "f1": 0.125
+    },
+    "issue_detection": {
+      "tp": 6,
+      "fp": 56,
+      "fn": 2,
+      "precision": 0.0967741935483871,
+      "recall": 0.75,
+      "f1": 0.1714285714285714
+    },
+    "issue_detection_by_type": {
+      "missing": {
+        "tp": 3,
+        "fp": 42,
+        "fn": 0,
+        "precision": 0.06666666666666667,
+        "recall": 1.0,
+        "f1": 0.125
+      },
+      "unreadable": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": NaN
+      },
+      "format": {
+        "tp": 2,
+        "fp": 4,
+        "fn": 1,
+        "precision": 0.3333333333333333,
+        "recall": 0.6666666666666666,
+        "f1": 0.4444444444444444
+      },
+      "inconsistency": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN
+      },
+      "selection": {
+        "tp": 1,
+        "fp": 9,
+        "fn": 0,
+        "precision": 0.1,
+        "recall": 1.0,
+        "f1": 0.18181818181818182
+      }
+    },
+    "missing_vs_unreadable": {
+      "labels": [
+        "missing",
+        "unreadable",
+        "other"
+      ],
+      "rows": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "full (images)": {
+    "n_forms": 5,
+    "field_extraction": {
+      "n": 112,
+      "exact_match_accuracy": 0.8571428571428571,
+      "mean_cer": 0.03452652402970286,
+      "per_field": {
+        "full_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.016666666666666666
+        },
+        "father_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.01818181818181818
+        },
+        "cnic": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "date_of_birth": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_male": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_female": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "email": {
+          "n": 5,
+          "exact_match_accuracy": 0.6,
+          "mean_cer": 0.01709090909090909
+        },
+        "phone": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.016666666666666666
+        },
+        "address": {
+          "n": 5,
+          "exact_match_accuracy": 0.6,
+          "mean_cer": 0.008121410992616897
+        },
+        "program_bscs": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsse": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsai": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_total": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.04
+        },
+        "inter_year": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_total": {
+          "n": 5,
+          "exact_match_accuracy": 0.4,
+          "mean_cer": 0.15
+        },
+        "inter_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.04
+        },
+        "declaration_name": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.016666666666666666
+        },
+        "declaration_date": {
+          "n": 5,
+          "exact_match_accuracy": 0.6,
+          "mean_cer": 0.4
+        },
+        "signature": {
+          "n": 3,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_year": {
+          "n": 4,
+          "exact_match_accuracy": 0.75,
+          "mean_cer": 0.0625
+        }
+      }
+    },
+    "missing_field_detection": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "issue_detection": {
+      "tp": 8,
+      "fp": 6,
+      "fn": 0,
+      "precision": 0.5714285714285714,
+      "recall": 1.0,
+      "f1": 0.7272727272727273
+    },
+    "issue_detection_by_type": {
+      "missing": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "unreadable": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "format": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
+      },
+      "inconsistency": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": NaN,
+        "f1": NaN
+      },
+      "selection": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missing_vs_unreadable": {
+      "labels": [
+        "missing",
+        "unreadable"
+      ],
+      "rows": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  },
+  "full (GT text)": {
+    "n_forms": 5,
+    "field_extraction": {
+      "n": 112,
+      "exact_match_accuracy": 0.9910714285714286,
+      "mean_cer": 0.008928571428571428,
+      "per_field": {
+        "full_name": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "father_name": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "cnic": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "date_of_birth": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_male": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "gender_female": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "email": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "phone": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "address": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bscs": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsse": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "program_bsai": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_total": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_year": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_total": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_obtained": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "inter_percentage": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "declaration_name": {
+          "n": 5,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "declaration_date": {
+          "n": 5,
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.2
+        },
+        "signature": {
+          "n": 3,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        },
+        "matric_year": {
+          "n": 4,
+          "exact_match_accuracy": 1.0,
+          "mean_cer": 0.0
+        }
+      }
+    },
+    "missing_field_detection": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "issue_detection": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.9333333333333333
+    },
+    "issue_detection_by_type": {
+      "missing": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "unreadable": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": NaN,
+        "recall": 0.0,
+        "f1": NaN
+      },
+      "format": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "inconsistency": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "precision": NaN,
+        "recall": NaN,
+        "f1": NaN
+      },
+      "selection": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "missing_vs_unreadable": {
+      "labels": [
+        "missing",
+        "unreadable",
+        "other"
+      ],
+      "rows": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}
