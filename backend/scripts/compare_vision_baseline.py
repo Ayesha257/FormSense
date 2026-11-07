@@ -27,9 +27,9 @@ BACKEND = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BACKEND))
 
 from formsense.baseline import BaselineAuditor  # noqa: E402
+from formsense.evaluation import find_forms, fmt  # noqa: E402
 from formsense.ingest.loader import load_pages  # noqa: E402
-from formsense.scoring import (score_field, score_issues, summarise, summarise_issues,  # noqa: E402
-                               truth_from_label)
+from formsense.scoring import score_field, score_issues, summarise, summarise_issues  # noqa: E402
 from formsense.vision import analyze_page, load_template  # noqa: E402
 from formsense.vision.ocr import FieldOCR  # noqa: E402
 
@@ -39,25 +39,6 @@ REAL_TPL = BACKEND / "data" / "templates" / "admission_form.json"
 OUT = BACKEND / "outputs" / "comparison"
 SYSTEMS = ("baseline", "formsense")
 NAMES = {"baseline": "Baseline (OCR + regex)", "formsense": "FormSense"}
-
-
-def find_forms(folder: Path):
-    """[(image path, truth {field: row}, label dict or None)]"""
-    if (folder / "labels").is_dir():
-        out = []
-        for lab in sorted((folder / "labels").glob("*.json")):
-            label = json.loads(lab.read_text(encoding="utf-8"))
-            img = folder / "images" / label["image"]
-            if img.exists():
-                out.append((img, truth_from_label(label), label))
-        return out
-    return [(p, {t["name"]: t for t in json.loads(p.with_suffix(".truth.json").read_text())}, None)
-            for p in sorted(folder.iterdir())
-            if p.suffix.lower() in (".jpg", ".jpeg", ".png") and p.with_suffix(".truth.json").exists()]
-
-
-def fmt(x):
-    return "n/a" if x is None else f"{x}"
 
 
 def main():

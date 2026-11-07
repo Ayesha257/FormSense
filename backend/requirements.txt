@@ -19,6 +19,7 @@ faker
 # --- LLM & RAG ---
 langchain
 langchain-groq
+groq
 langchain-community
 langchain-huggingface
 langchain-text-splitters
@@ -28,5 +29,6 @@ python-dotenv
 # --- report & UI ---
 reportlab
 streamlit
+pandas
 # --- dev ---
 pytest
