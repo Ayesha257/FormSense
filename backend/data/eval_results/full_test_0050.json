@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0009,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1094,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.002,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0023,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0038,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1694,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "0",
+    "value": null,
+    "ocr_confidence": 0.694,
+    "ink_ratio": 0.0256,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "en",
+    "value": null,
+    "ocr_confidence": 0.673,
+    "ink_ratio": 0.0058,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "vi",
+    "value": null,
+    "ocr_confidence": 0.448,
+    "ink_ratio": 0.0083,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "RS",
+    "value": null,
+    "ocr_confidence": 0.724,
+    "ink_ratio": 0.009,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "20",
+    "value": null,
+    "ocr_confidence": 0.912,
+    "ink_ratio": 0.0222,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0032,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0021,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "de",
+    "value": null,
+    "ocr_confidence": 0.445,
+    "ink_ratio": 0.015,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.003,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "002:26",
+    "value": null,
+    "ocr_confidence": 0.772,
+    "ink_ratio": 0.0265,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0802,
+    "checked": null,
+    "status": "ok"
+  }
+]

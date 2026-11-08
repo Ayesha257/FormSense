@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Komal Amna Chaudhry",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0468,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Salman Chaudhry",
+    "value": null,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0395,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "3052848546232",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.071,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "13/05/2005",
+    "value": null,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0634,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.2037,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "komal.chaudhry@gmail.com",
+    "value": null,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0597,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "0325-7400484",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0569,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 439, Lane 3, Faisal Town, Lahore",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0484,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.2019,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "2021",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0559,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1200",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0416,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "785",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0379,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "65.42",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0562,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "2023",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0601,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0371,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "677",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.035,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "61.55",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0557,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Junaid Omar Malik",
+    "value": null,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0366,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "14/10/2026",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0653,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0722,
+    "checked": null,
+    "status": "ok"
+  }
+]

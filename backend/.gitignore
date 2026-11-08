@@ -8,7 +8,9 @@ venv/
 
 # Secrets: never commit API keys
 .env
-
+# Rating data can contain real-form details, and rating_key.json would unblind the raters
+eval/rating/*
+!eval/rating/results.md
 # Real forms contain people's CNIC/phone numbers: keep them OFF GitHub
 # (share them through a private Google Drive folder instead)
 data/real/*
@@ -26,5 +28,10 @@ outputs/
 # Demo form: rebuild with python scripts/make_demo.py
 data/templates/demo/
 
+<<<<<<< HEAD
 data/fonts/*.ttf
 data/synthetic/*
+=======
+# Guidelines search index: rebuilt automatically
+data/guidelines/.index/
+>>>>>>> 89b2a7ad48c254702672e550b00d8ce4c1d64203

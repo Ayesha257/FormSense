@@ -1,184 +1,184 @@
 {
   "baseline": {
-    "n_forms": 5,
+    "n_forms": 60,
     "field_extraction": {
-      "n": 112,
-      "exact_match_accuracy": 0.39285714285714285,
-      "mean_cer": 0.4297103648318293,
+      "n": 1368,
+      "exact_match_accuracy": 0.40497076023391815,
+      "mean_cer": 0.44748923532626034,
       "per_field": {
         "full_name": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.14794685990338163
+          "mean_cer": 0.3103304880322311
         },
         "father_name": {
-          "n": 5,
+          "n": 59,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.2055844155844156
+          "mean_cer": 0.31171652979846814
         },
         "cnic": {
-          "n": 5,
-          "exact_match_accuracy": 0.4,
-          "mean_cer": 0.6
+          "n": 60,
+          "exact_match_accuracy": 0.7,
+          "mean_cer": 0.2311111111111111
         },
         "date_of_birth": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.7833333333333333,
+          "mean_cer": 0.16166666666666665
         },
         "gender_male": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "gender_female": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "email": {
-          "n": 5,
-          "exact_match_accuracy": 0.4,
-          "mean_cer": 0.04261471861471862
+          "n": 60,
+          "exact_match_accuracy": 0.4666666666666667,
+          "mean_cer": 0.1830111711959538
         },
         "phone": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.2
+          "n": 60,
+          "exact_match_accuracy": 0.6666666666666666,
+          "mean_cer": 0.2888888888888889
         },
         "address": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.09714395590823789
+          "mean_cer": 0.26150586656976643
         },
         "program_bscs": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsse": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsai": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_total": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "matric_obtained": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "matric_percentage": {
-          "n": 5,
+          "n": 59,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "inter_year": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "inter_total": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "inter_obtained": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "inter_percentage": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         },
         "declaration_name": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.17222222222222222
+          "mean_cer": 0.30138578533895866
         },
         "declaration_date": {
-          "n": 5,
-          "exact_match_accuracy": 0.6,
-          "mean_cer": 0.36
+          "n": 60,
+          "exact_match_accuracy": 0.7666666666666667,
+          "mean_cer": 0.19166666666666668
         },
         "signature": {
-          "n": 3,
+          "n": 51,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_year": {
-          "n": 4,
+          "n": 59,
           "exact_match_accuracy": 0.0,
           "mean_cer": 1.0
         }
       }
     },
     "missing_field_detection": {
-      "tp": 3,
-      "fp": 42,
-      "fn": 0,
-      "precision": 0.06666666666666667,
-      "recall": 1.0,
-      "f1": 0.125
+      "tp": 11,
+      "fp": 588,
+      "fn": 1,
+      "precision": 0.018363939899833055,
+      "recall": 0.9166666666666666,
+      "f1": 0.03600654664484452
     },
     "issue_detection": {
-      "tp": 6,
-      "fp": 56,
-      "fn": 2,
-      "precision": 0.0967741935483871,
-      "recall": 0.75,
-      "f1": 0.1714285714285714
+      "tp": 36,
+      "fp": 750,
+      "fn": 39,
+      "precision": 0.04580152671755725,
+      "recall": 0.48,
+      "f1": 0.08362369337979095
     },
     "issue_detection_by_type": {
       "missing": {
-        "tp": 3,
-        "fp": 42,
-        "fn": 0,
-        "precision": 0.06666666666666667,
-        "recall": 1.0,
-        "f1": 0.125
+        "tp": 11,
+        "fp": 588,
+        "fn": 1,
+        "precision": 0.018363939899833055,
+        "recall": 0.9166666666666666,
+        "f1": 0.03600654664484452
       },
       "unreadable": {
         "tp": 0,
-        "fp": 1,
-        "fn": 1,
+        "fp": 17,
+        "fn": 7,
         "precision": 0.0,
         "recall": 0.0,
         "f1": NaN
       },
       "format": {
-        "tp": 2,
-        "fp": 4,
-        "fn": 1,
-        "precision": 0.3333333333333333,
-        "recall": 0.6666666666666666,
-        "f1": 0.4444444444444444
+        "tp": 13,
+        "fp": 25,
+        "fn": 11,
+        "precision": 0.34210526315789475,
+        "recall": 0.5416666666666666,
+        "f1": 0.4193548387096774
       },
       "inconsistency": {
-        "tp": 0,
-        "fp": 0,
-        "fn": 0,
-        "precision": NaN,
-        "recall": NaN,
-        "f1": NaN
+        "tp": 10,
+        "fp": 2,
+        "fn": 17,
+        "precision": 0.8333333333333334,
+        "recall": 0.37037037037037035,
+        "f1": 0.5128205128205128
       },
       "selection": {
-        "tp": 1,
-        "fp": 9,
-        "fn": 0,
-        "precision": 0.1,
-        "recall": 1.0,
-        "f1": 0.18181818181818182
+        "tp": 2,
+        "fp": 118,
+        "fn": 3,
+        "precision": 0.016666666666666666,
+        "recall": 0.4,
+        "f1": 0.032
       }
     },
     "missing_vs_unreadable": {
@@ -189,14 +189,14 @@
       ],
       "rows": [
         [
-          3,
-          0,
-          0
-        ],
-        [
-          0,
+          11,
           0,
           1
+        ],
+        [
+          4,
+          0,
+          3
         ],
         [
           0,
@@ -207,185 +207,185 @@
     }
   },
   "full (images)": {
-    "n_forms": 5,
+    "n_forms": 60,
     "field_extraction": {
-      "n": 112,
-      "exact_match_accuracy": 0.8571428571428571,
-      "mean_cer": 0.03452652402970286,
+      "n": 1368,
+      "exact_match_accuracy": 0.814327485380117,
+      "mean_cer": 0.10108537644119157,
       "per_field": {
         "full_name": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.016666666666666666
+          "n": 60,
+          "exact_match_accuracy": 0.75,
+          "mean_cer": 0.1244020794020794
         },
         "father_name": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.01818181818181818
+          "n": 59,
+          "exact_match_accuracy": 0.6610169491525424,
+          "mean_cer": 0.1512017687786434
         },
         "cnic": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.7833333333333333,
+          "mean_cer": 0.09222222222222222
         },
         "date_of_birth": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.8166666666666667,
+          "mean_cer": 0.125
         },
         "gender_male": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "gender_female": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "email": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 0.6,
-          "mean_cer": 0.01709090909090909
+          "mean_cer": 0.1412426878006588
         },
         "phone": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.016666666666666666
+          "n": 60,
+          "exact_match_accuracy": 0.7333333333333333,
+          "mean_cer": 0.1625
         },
         "address": {
-          "n": 5,
-          "exact_match_accuracy": 0.6,
-          "mean_cer": 0.008121410992616897
+          "n": 60,
+          "exact_match_accuracy": 0.5833333333333334,
+          "mean_cer": 0.11271793444476196
         },
         "program_bscs": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsse": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsai": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_total": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.8666666666666667,
+          "mean_cer": 0.10277777777777779
         },
         "matric_obtained": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.7833333333333333,
+          "mean_cer": 0.15833333333333333
         },
         "matric_percentage": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.04
+          "n": 59,
+          "exact_match_accuracy": 0.7627118644067796,
+          "mean_cer": 0.13898305084745763
         },
         "inter_year": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.85,
+          "mean_cer": 0.1
         },
         "inter_total": {
-          "n": 5,
-          "exact_match_accuracy": 0.4,
-          "mean_cer": 0.15
+          "n": 60,
+          "exact_match_accuracy": 0.75,
+          "mean_cer": 0.12916666666666668
         },
         "inter_obtained": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.75,
+          "mean_cer": 0.20416666666666664
         },
         "inter_percentage": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.04
+          "n": 60,
+          "exact_match_accuracy": 0.7166666666666667,
+          "mean_cer": 0.16666666666666666
         },
         "declaration_name": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.016666666666666666
+          "n": 60,
+          "exact_match_accuracy": 0.7333333333333333,
+          "mean_cer": 0.13103547524600154
         },
         "declaration_date": {
-          "n": 5,
-          "exact_match_accuracy": 0.6,
-          "mean_cer": 0.4
+          "n": 60,
+          "exact_match_accuracy": 0.7666666666666667,
+          "mean_cer": 0.165
         },
         "signature": {
-          "n": 3,
+          "n": 51,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_year": {
-          "n": 4,
-          "exact_match_accuracy": 0.75,
-          "mean_cer": 0.0625
+          "n": 59,
+          "exact_match_accuracy": 0.847457627118644,
+          "mean_cer": 0.1059322033898305
         }
       }
     },
     "missing_field_detection": {
-      "tp": 3,
-      "fp": 0,
+      "tp": 12,
+      "fp": 64,
       "fn": 0,
-      "precision": 1.0,
+      "precision": 0.15789473684210525,
       "recall": 1.0,
-      "f1": 1.0
+      "f1": 0.2727272727272727
     },
     "issue_detection": {
-      "tp": 8,
-      "fp": 6,
-      "fn": 0,
-      "precision": 0.5714285714285714,
-      "recall": 1.0,
-      "f1": 0.7272727272727273
+      "tp": 64,
+      "fp": 170,
+      "fn": 11,
+      "precision": 0.27350427350427353,
+      "recall": 0.8533333333333334,
+      "f1": 0.4142394822006473
     },
     "issue_detection_by_type": {
       "missing": {
-        "tp": 3,
-        "fp": 0,
+        "tp": 12,
+        "fp": 64,
         "fn": 0,
-        "precision": 1.0,
+        "precision": 0.15789473684210525,
         "recall": 1.0,
-        "f1": 1.0
+        "f1": 0.2727272727272727
       },
       "unreadable": {
-        "tp": 1,
-        "fp": 0,
+        "tp": 7,
+        "fp": 68,
         "fn": 0,
-        "precision": 1.0,
+        "precision": 0.09333333333333334,
         "recall": 1.0,
-        "f1": 1.0
+        "f1": 0.17073170731707318
       },
       "format": {
-        "tp": 3,
-        "fp": 1,
-        "fn": 0,
-        "precision": 0.75,
-        "recall": 1.0,
-        "f1": 0.8571428571428571
+        "tp": 16,
+        "fp": 19,
+        "fn": 8,
+        "precision": 0.45714285714285713,
+        "recall": 0.6666666666666666,
+        "f1": 0.5423728813559322
       },
       "inconsistency": {
-        "tp": 0,
-        "fp": 5,
-        "fn": 0,
-        "precision": 0.0,
-        "recall": NaN,
-        "f1": NaN
+        "tp": 24,
+        "fp": 14,
+        "fn": 3,
+        "precision": 0.631578947368421,
+        "recall": 0.8888888888888888,
+        "f1": 0.7384615384615385
       },
       "selection": {
-        "tp": 1,
-        "fp": 0,
+        "tp": 5,
+        "fp": 5,
         "fn": 0,
-        "precision": 1.0,
+        "precision": 0.5,
         "recall": 1.0,
-        "f1": 1.0
+        "f1": 0.6666666666666666
       }
     },
     "missing_vs_unreadable": {
@@ -395,142 +395,142 @@
       ],
       "rows": [
         [
-          3,
+          12,
           0
         ],
         [
           0,
-          1
+          7
         ]
       ]
     }
   },
   "full (GT text)": {
-    "n_forms": 5,
+    "n_forms": 60,
     "field_extraction": {
-      "n": 112,
-      "exact_match_accuracy": 0.9910714285714286,
-      "mean_cer": 0.008928571428571428,
+      "n": 1368,
+      "exact_match_accuracy": 0.9978070175438597,
+      "mean_cer": 0.0013645224171539962,
       "per_field": {
         "full_name": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "father_name": {
-          "n": 5,
+          "n": 59,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "cnic": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "date_of_birth": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "gender_male": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "gender_female": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "email": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "phone": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "address": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bscs": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsse": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "program_bsai": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_total": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_obtained": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_percentage": {
-          "n": 5,
+          "n": 59,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "inter_year": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "inter_total": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "inter_obtained": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "inter_percentage": {
-          "n": 5,
+          "n": 60,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "declaration_name": {
-          "n": 5,
-          "exact_match_accuracy": 1.0,
-          "mean_cer": 0.0
+          "n": 60,
+          "exact_match_accuracy": 0.9833333333333333,
+          "mean_cer": 0.0011111111111111111
         },
         "declaration_date": {
-          "n": 5,
-          "exact_match_accuracy": 0.8,
-          "mean_cer": 0.2
+          "n": 60,
+          "exact_match_accuracy": 0.9666666666666667,
+          "mean_cer": 0.030000000000000002
         },
         "signature": {
-          "n": 3,
+          "n": 51,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         },
         "matric_year": {
-          "n": 4,
+          "n": 59,
           "exact_match_accuracy": 1.0,
           "mean_cer": 0.0
         }
       }
     },
     "missing_field_detection": {
-      "tp": 3,
+      "tp": 12,
       "fp": 0,
       "fn": 0,
       "precision": 1.0,
@@ -538,16 +538,16 @@
       "f1": 1.0
     },
     "issue_detection": {
-      "tp": 7,
+      "tp": 66,
       "fp": 0,
-      "fn": 1,
+      "fn": 9,
       "precision": 1.0,
-      "recall": 0.875,
-      "f1": 0.9333333333333333
+      "recall": 0.88,
+      "f1": 0.9361702127659575
     },
     "issue_detection_by_type": {
       "missing": {
-        "tp": 3,
+        "tp": 12,
         "fp": 0,
         "fn": 0,
         "precision": 1.0,
@@ -557,29 +557,29 @@
       "unreadable": {
         "tp": 0,
         "fp": 0,
-        "fn": 1,
+        "fn": 7,
         "precision": NaN,
         "recall": 0.0,
         "f1": NaN
       },
       "format": {
-        "tp": 3,
+        "tp": 22,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9166666666666666,
+        "f1": 0.9565217391304348
+      },
+      "inconsistency": {
+        "tp": 27,
         "fp": 0,
         "fn": 0,
         "precision": 1.0,
         "recall": 1.0,
         "f1": 1.0
       },
-      "inconsistency": {
-        "tp": 0,
-        "fp": 0,
-        "fn": 0,
-        "precision": NaN,
-        "recall": NaN,
-        "f1": NaN
-      },
       "selection": {
-        "tp": 1,
+        "tp": 5,
         "fp": 0,
         "fn": 0,
         "precision": 1.0,
@@ -595,14 +595,14 @@
       ],
       "rows": [
         [
-          3,
+          12,
           0,
           0
         ],
         [
           0,
           0,
-          1
+          7
         ],
         [
           0,

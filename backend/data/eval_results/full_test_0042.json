@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Fatima Niazi",
+    "value": null,
+    "ocr_confidence": 0.939,
+    "ink_ratio": 0.0242,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Omar Niazi",
+    "value": null,
+    "ocr_confidence": 0.967,
+    "ink_ratio": 0.0199,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "25383-5508409-0",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0676,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "06/11/2010",
+    "value": null,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.0516,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1512,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "fatima.niazi2@gmail.com",
+    "value": null,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0487,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "0325-3338401",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0531,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 1o1, Garden Avenue, Johar Town, Faisalabad",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0587,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1569,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "2022",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0563,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "700",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0364,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0341,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "91.67",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0391,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "2024",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0539,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0345,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "972",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0316,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "95.69",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0465,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Fatima Niazi",
+    "value": null,
+    "ocr_confidence": 0.944,
+    "ink_ratio": 0.024,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "22/10/2026",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0632,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0713,
+    "checked": null,
+    "status": "ok"
+  }
+]
