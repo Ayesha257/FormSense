@@ -28,10 +28,3 @@ outputs/
 # Demo form: rebuild with python scripts/make_demo.py
 data/templates/demo/
 
-<<<<<<< HEAD
-data/fonts/*.ttf
-data/synthetic/*
-=======
-# Guidelines search index: rebuilt automatically
-data/guidelines/.index/
->>>>>>> 89b2a7ad48c254702672e550b00d8ce4c1d64203
