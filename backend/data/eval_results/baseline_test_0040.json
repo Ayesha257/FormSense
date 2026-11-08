@@ -18,13 +18,13 @@
     "name": "father_name",
     "bbox": [
       75,
-      357,
+      359,
       490,
-      44
+      41
     ],
     "raw_text": "* Asad Niazi",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.98,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -54,7 +54,7 @@
     ],
     "raw_text": "13/02/2004",
     "value": null,
-    "ocr_confidence": 1.0,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -109,12 +109,12 @@
     "bbox": [
       75,
       725,
-      806,
+      804,
       30
     ],
-    "raw_text": "* 0302-00972135 03XX-XXxxXxx",
+    "raw_text": "* 0302-00972135 03XX-XXxXxXX",
     "value": null,
-    "ocr_confidence": 0.898,
+    "ocr_confidence": 0.9,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -124,12 +124,12 @@
     "bbox": [
       76,
       784,
-      934,
+      932,
       52
     ],
     "raw_text": "* House 152, Street 12, Model Town",
     "value": null,
-    "ocr_confidence": 0.996,
+    "ocr_confidence": 0.995,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Hafsa Sana Niazi",
     "value": null,
-    "ocr_confidence": 0.993,
+    "ocr_confidence": 0.992,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -318,13 +318,13 @@
     "name": "declaration_date",
     "bbox": [
       386,
-      1588,
-      163,
-      35
+      1586,
+      164,
+      39
     ],
     "raw_text": "08/10/2026",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

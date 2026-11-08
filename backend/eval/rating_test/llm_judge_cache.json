@@ -1,0 +1,50 @@
+{
+ "openai/gpt-oss-120b|item_001": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "Accurately addresses the missing signature and gives clear, actionable steps."
+ },
+ "openai/gpt-oss-120b|item_002": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "Accurately lists each issue and gives clear, actionable steps to fix them."
+ },
+ "openai/gpt-oss-120b|item_003": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "Accurately lists all issues and gives clear, actionable steps to fix them."
+ },
+ "openai/gpt-oss-120b|item_004": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "The explanation accurately reflects the missing signature issue, is clearly written, and gives precise action to sign and resubmit."
+ },
+ "openai/gpt-oss-20b|item_001": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "The explanation accurately reflects the missing signature issue and gives clear, actionable steps."
+ },
+ "openai/gpt-oss-20b|item_002": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "All issues are accurately identified and clearly explained with actionable steps."
+ },
+ "openai/gpt-oss-20b|item_003": {
+  "faithfulness": 5,
+  "clarity": 5,
+  "usefulness": 5,
+  "reason": "All issues are accurately identified and actionable steps are clearly provided."
+ },
+ "openai/gpt-oss-20b|item_004": {
+  "faithfulness": 5,
+  "clarity": 4,
+  "usefulness": 5,
+  "reason": "The explanation accurately reflects the issue, is clear, and gives precise action steps."
+ }
+}

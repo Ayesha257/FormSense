@@ -17,9 +17,9 @@
   {
     "name": "father_name",
     "bbox": [
-      72,
+      73,
       377,
-      504,
+      503,
       30
     ],
     "raw_text": "* Haris Hamza Niazi",
@@ -54,7 +54,7 @@
     ],
     "raw_text": "* 06 Jun 2007 DD/MM/YYYY",
     "value": null,
-    "ocr_confidence": 0.994,
+    "ocr_confidence": 0.996,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -304,7 +304,7 @@
     "bbox": [
       78,
       1510,
-      440,
+      441,
       36
     ],
     "raw_text": "* Komal Niazi",

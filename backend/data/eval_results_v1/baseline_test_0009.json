@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      74,
+      288,
+      477,
+      42
+    ],
+    "raw_text": "* Danish Niazi",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      75,
+      367,
+      492,
+      43
+    ],
+    "raw_text": "* Nauman Niazi",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      389,
+      439,
+      236,
+      35
+    ],
+    "raw_text": "30623-2330126-9",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      386,
+      504,
+      162,
+      40
+    ],
+    "raw_text": "30/11/2004",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      427,
+      573,
+      71,
+      41
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      647,
+      572,
+      95,
+      40
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      74,
+      648,
+      667,
+      39
+    ],
+    "raw_text": "* danish.niazi2004,outlook.com",
+    "value": null,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      390,
+      719,
+      192,
+      36
+    ],
+    "raw_text": "0300-8878955",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      74,
+      788,
+      1054,
+      37
+    ],
+    "raw_text": "* House 94, Main Boulevard, Wapda Town, Faisalabad",
+    "value": null,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      132,
+      971,
+      245,
+      29
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      692,
+      966,
+      281,
+      32
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      132,
+      1031,
+      266,
+      29
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      77,
+      1497,
+      477,
+      41
+    ],
+    "raw_text": "* Danish Niazi",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      389,
+      1579,
+      163,
+      44
+    ],
+    "raw_text": "15/10/2026",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  }
+]

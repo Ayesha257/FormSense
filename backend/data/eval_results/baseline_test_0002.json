@@ -47,7 +47,7 @@
   {
     "name": "date_of_birth",
     "bbox": [
-      388,
+      389,
       505,
       163,
       41
@@ -99,7 +99,7 @@
     ],
     "raw_text": "* imrantariq200shotmail.com",
     "value": null,
-    "ocr_confidence": 0.979,
+    "ocr_confidence": 0.98,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -107,8 +107,8 @@
   {
     "name": "phone",
     "bbox": [
-      391,
-      721,
+      390,
+      720,
       194,
       33
     ],
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 389, Model Town Link Rd, DHA Phase S",
     "value": null,
-    "ocr_confidence": 0.984,
+    "ocr_confidence": 0.99,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Imran Junaid Tariq",
     "value": null,
-    "ocr_confidence": 0.996,
+    "ocr_confidence": 0.994,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "01/11/2026",
     "value": null,
-    "ocr_confidence": 1.0,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

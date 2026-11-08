@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      76,
+      293,
+      555,
+      39
+    ],
+    "raw_text": "* Kinza Saba Awan",
+    "value": null,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      77,
+      370,
+      477,
+      38
+    ],
+    "raw_text": "* Junaid Awan",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      386,
+      446,
+      215,
+      31
+    ],
+    "raw_text": "24914-2764992-8",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      386,
+      511,
+      137,
+      33
+    ],
+    "raw_text": "22/11/2006",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      429,
+      578,
+      67,
+      37
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      651,
+      579,
+      90,
+      35
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      385,
+      652,
+      339,
+      33
+    ],
+    "raw_text": "kinza.awan33@hotmail.com",
+    "value": null,
+    "ocr_confidence": 0.938,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      388,
+      727,
+      174,
+      26
+    ],
+    "raw_text": "0322-7829040",
+    "value": null,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      76,
+      784,
+      953,
+      50
+    ],
+    "raw_text": "* House 103, Main Boulevard, Bahria Town",
+    "value": null,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      134,
+      974,
+      241,
+      26
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      692,
+      970,
+      279,
+      32
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      133,
+      1032,
+      265,
+      29
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      78,
+      1506,
+      553,
+      39
+    ],
+    "raw_text": "* Kinza Saba Awan",
+    "value": null,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      386,
+      1588,
+      138,
+      33
+    ],
+    "raw_text": "23/10/2026",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  }
+]

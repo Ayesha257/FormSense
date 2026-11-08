@@ -7,9 +7,9 @@
       461,
       48
     ],
-    "raw_text": "* atgds taat",
+    "raw_text": "* atgds tat",
     "value": null,
-    "ocr_confidence": 0.679,
+    "ocr_confidence": 0.67,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -39,7 +39,7 @@
     ],
     "raw_text": "33960-4014613-3",
     "value": null,
-    "ocr_confidence": 0.86,
+    "ocr_confidence": 0.875,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -54,7 +54,7 @@
     ],
     "raw_text": "01-04-2003",
     "value": null,
-    "ocr_confidence": 0.864,
+    "ocr_confidence": 0.858,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -97,9 +97,9 @@
       345,
       52
     ],
-    "raw_text": "Buatgabigbatt@oubook.com",
+    "raw_text": "Buatgabigbat@oubook.com",
     "value": null,
-    "ocr_confidence": 0.607,
+    "ocr_confidence": 0.62,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Sut ab rqual",
     "value": null,
-    "ocr_confidence": 0.665,
+    "ocr_confidence": 0.66,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "20-10-2026",
     "value": null,
-    "ocr_confidence": 0.977,
+    "ocr_confidence": 0.982,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

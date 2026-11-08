@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Hussain Kayani",
     "value": null,
-    "ocr_confidence": 0.982,
+    "ocr_confidence": 0.981,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -37,9 +37,9 @@
       838,
       36
     ],
-    "raw_text": "* 1968-448760-7 ##\uff03\uff03\uff03-###\uff03###-#",
+    "raw_text": "* 1968-448760-7 ##\uff03\uff03\uff03-##\uff03\uff03###-#",
     "value": null,
-    "ocr_confidence": 0.884,
+    "ocr_confidence": 0.882,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -99,7 +99,7 @@
     ],
     "raw_text": "* bilal.kayani38,outlook.com",
     "value": null,
-    "ocr_confidence": 0.99,
+    "ocr_confidence": 0.991,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

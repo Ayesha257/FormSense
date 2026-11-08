@@ -54,7 +54,7 @@
     ],
     "raw_text": "05-03-2011",
     "value": null,
-    "ocr_confidence": 0.993,
+    "ocr_confidence": 0.994,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 211, Canal Road, Gulberg III, Rawalpindi",
     "value": null,
-    "ocr_confidence": 0.996,
+    "ocr_confidence": 0.997,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -318,13 +318,13 @@
     "name": "declaration_date",
     "bbox": [
       391,
-      1587,
+      1586,
       147,
-      35
+      37
     ],
     "raw_text": "11-10-2026",
     "value": null,
-    "ocr_confidence": 0.993,
+    "ocr_confidence": 0.978,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

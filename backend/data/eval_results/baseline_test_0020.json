@@ -39,7 +39,7 @@
     ],
     "raw_text": "33093-0064178-9",
     "value": null,
-    "ocr_confidence": 0.989,
+    "ocr_confidence": 1.0,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -110,7 +110,7 @@
       383,
       718,
       169,
-      40
+      41
     ],
     "raw_text": "0346-7874452",
     "value": null,

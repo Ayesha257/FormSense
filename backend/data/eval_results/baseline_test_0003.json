@@ -114,7 +114,7 @@
     ],
     "raw_text": "* 0303-6S33460 03XX-XXXXXXX",
     "value": null,
-    "ocr_confidence": 0.969,
+    "ocr_confidence": 0.972,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Imran Faroog",
     "value": null,
-    "ocr_confidence": 0.996,
+    "ocr_confidence": 0.995,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "* ooloo/000o",
     "value": null,
-    "ocr_confidence": 0.742,
+    "ocr_confidence": 0.743,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

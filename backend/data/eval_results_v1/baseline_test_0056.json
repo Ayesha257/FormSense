@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      75,
+      300,
+      479,
+      37
+    ],
+    "raw_text": "* Adnan Sheikh",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      74,
+      367,
+      559,
+      36
+    ],
+    "raw_text": "* Omar Junaid Sheikh",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      388,
+      441,
+      217,
+      33
+    ],
+    "raw_text": "30101-8405289-5",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      385,
+      507,
+      155,
+      38
+    ],
+    "raw_text": "03/12/2005",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      428,
+      576,
+      67,
+      38
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      648,
+      578,
+      93,
+      35
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      386,
+      653,
+      356,
+      35
+    ],
+    "raw_text": "adnansheikh2005@qmail.com",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      386,
+      721,
+      172,
+      33
+    ],
+    "raw_text": "0313-9175156",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      75,
+      782,
+      991,
+      54
+    ],
+    "raw_text": "* House 364, Garden Avenue, Bahria Town, Multan",
+    "value": null,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      134,
+      974,
+      242,
+      26
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      692,
+      971,
+      279,
+      30
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      133,
+      1032,
+      265,
+      29
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      80,
+      1511,
+      475,
+      35
+    ],
+    "raw_text": "* Sheikh Adnan",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      385,
+      1582,
+      157,
+      40
+    ],
+    "raw_text": "07/10/2026",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  }
+]

@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Rehan Faroog",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -99,7 +99,7 @@
     ],
     "raw_text": "* ayeshafaroog8o,nic.edu.pk",
     "value": null,
-    "ocr_confidence": 0.94,
+    "ocr_confidence": 0.942,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -107,8 +107,8 @@
   {
     "name": "phone",
     "bbox": [
-      388,
-      718,
+      389,
+      719,
       165,
       38
     ],
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Ayesha Faroog",
     "value": null,
-    "ocr_confidence": 0.977,
+    "ocr_confidence": 0.984,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

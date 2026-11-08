@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Kimra Mebdigh Checma",
+    "value": null,
+    "ocr_confidence": 0.747,
+    "ink_ratio": 0.0297,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Junaid Cheema",
+    "value": null,
+    "ocr_confidence": 0.892,
+    "ink_ratio": 0.0191,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "36900-4602516-0",
+    "value": null,
+    "ocr_confidence": 0.718,
+    "ink_ratio": 0.0444,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "01-06-1006",
+    "value": null,
+    "ocr_confidence": 0.861,
+    "ink_ratio": 0.0275,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1338,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "aimraeema.com",
+    "value": null,
+    "ocr_confidence": 0.614,
+    "ink_ratio": 0.0335,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "OS10-1Z86S8O",
+    "value": null,
+    "ocr_confidence": 0.537,
+    "ink_ratio": 0.0412,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 128, gtreet 12, Iabal Todn, Labore",
+    "value": null,
+    "ocr_confidence": 0.9,
+    "ink_ratio": 0.0377,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1781,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "1011",
+    "value": null,
+    "ocr_confidence": 0.827,
+    "ink_ratio": 0.053,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1200",
+    "value": null,
+    "ocr_confidence": 0.952,
+    "ink_ratio": 0.0276,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "10",
+    "value": null,
+    "ocr_confidence": 0.929,
+    "ink_ratio": 0.03,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "17.1\u20ac",
+    "value": null,
+    "ocr_confidence": 0.755,
+    "ink_ratio": 0.0353,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "101\u20ac",
+    "value": null,
+    "ocr_confidence": 0.888,
+    "ink_ratio": 0.0498,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0228,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "001",
+    "value": null,
+    "ocr_confidence": 0.677,
+    "ink_ratio": 0.0352,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "96.4\u20ac",
+    "value": null,
+    "ocr_confidence": 0.643,
+    "ink_ratio": 0.0386,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Nimra Mebaish Checma",
+    "value": null,
+    "ocr_confidence": 0.854,
+    "ink_ratio": 0.0419,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "12-10-2016",
+    "value": null,
+    "ocr_confidence": 0.879,
+    "ink_ratio": 0.0505,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0579,
+    "checked": null,
+    "status": "ok"
+  }
+]

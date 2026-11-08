@@ -54,7 +54,7 @@
     ],
     "raw_text": "01/10/2005",
     "value": null,
-    "ocr_confidence": 0.925,
+    "ocr_confidence": 0.934,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "1/0/2026",
     "value": null,
-    "ocr_confidence": 0.89,
+    "ocr_confidence": 0.901,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

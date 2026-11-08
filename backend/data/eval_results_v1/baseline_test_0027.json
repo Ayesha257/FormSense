@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      130,
+      390,
+      562,
+      45
+    ],
+    "raw_text": "* Haris Salman Raza",
+    "value": null,
+    "ocr_confidence": 0.981,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      132,
+      456,
+      611,
+      46
+    ],
+    "raw_text": "* Shahzaib Fahad Ra3a",
+    "value": null,
+    "ocr_confidence": 0.972,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      451,
+      527,
+      237,
+      39
+    ],
+    "raw_text": "38027-2862351-3",
+    "value": null,
+    "ocr_confidence": 0.973,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      453,
+      600,
+      157,
+      35
+    ],
+    "raw_text": "09/10/2007",
+    "value": null,
+    "ocr_confidence": 0.986,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      500,
+      663,
+      69,
+      37
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      724,
+      655,
+      95,
+      39
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      459,
+      732,
+      331,
+      47
+    ],
+    "raw_text": "haris.raza@outook.com",
+    "value": null,
+    "ocr_confidence": 0.98,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      462,
+      806,
+      189,
+      39
+    ],
+    "raw_text": "0334-4144723",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      146,
+      855,
+      972,
+      69
+    ],
+    "raw_text": "* House 161, Main Boulevard, Wapda Town",
+    "value": null,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      211,
+      1058,
+      252,
+      39
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      784,
+      1037,
+      284,
+      37
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      213,
+      1119,
+      274,
+      36
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      169,
+      1593,
+      569,
+      46
+    ],
+    "raw_text": "* Haris Salman Raza",
+    "value": null,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      492,
+      1677,
+      148,
+      39
+    ],
+    "raw_text": "11/10/2026",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  }
+]

@@ -39,7 +39,7 @@
     ],
     "raw_text": "*",
     "value": null,
-    "ocr_confidence": 0.991,
+    "ocr_confidence": 0.992,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -54,7 +54,7 @@
     ],
     "raw_text": "05-04-2007",
     "value": null,
-    "ocr_confidence": 0.999,
+    "ocr_confidence": 0.953,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Taimoor Taimoor Siddiqui",
     "value": null,
-    "ocr_confidence": 0.984,
+    "ocr_confidence": 0.995,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

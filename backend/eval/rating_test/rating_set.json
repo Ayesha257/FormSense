@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "created": "2026-11-08T10:35:00+00:00",
+  "items": [
+    {
+      "id": "item_001",
+      "form_id": "test_0001",
+      "explanation": "Your admission form is mostly complete and your details look clear. However, there is one important item missing that prevents us from accepting the form right now. Please add your signature to finalize the submission.\n- The signature box at the bottom of the form is currently empty. You need to sign the form yourself with a pen; a typed name or a mark is not valid.\nPlease sign the form in the designated box and resubmit it so we can process your application.",
+      "issues": [
+        {
+          "id": "missing_required",
+          "type": "missing",
+          "severity": "error",
+          "fields": [
+            "signature"
+          ],
+          "message": "Signature of Applicant is required but has been left empty."
+        }
+      ],
+      "facts": [
+        "Full Name: Mahnoor Zainab Siddiqui",
+        "Father's Name: Taimoor Siddiqui",
+        "CNIC No.: 33383-0833495-2",
+        "Date of Birth: 19/12/2004",
+        "Gender: ticked",
+        "Email Address: mahnoor.siddiqui@gmail.com",
+        "Mobile No.: 0324-2671955",
+        "Postal Address: House 111, Street 5, Iqbal Town, Gujranwala",
+        "Program: ticked",
+        "Matric Year: 2020",
+        "Matric Total Marks: 1200",
+        "Matric Obtained Marks: 1008",
+        "Matric Percentage: 84.00",
+        "Intermediate Year: 2022",
+        "Intermediate Total Marks: 1100",
+        "Intermediate Obtained Marks: 660",
+        "Intermediate Percentage: 60.00",
+        "Declarant Name: Mahnoor Siddiqui",
+        "Date: 18/10/2026",
+        "Signature of Applicant: empty"
+      ],
+      "image": "images/test_0001.png"
+    },
+    {
+      "id": "item_002",
+      "form_id": "test_0000",
+      "explanation": "Your admission form is mostly complete, but there are three specific errors that need to be corrected before it can be processed. The most important thing to fix is the format of your CNIC number, as it is currently unreadable by the system. You also need to provide your Matric year and correct the calculation for your Intermediate percentage.\n- The CNIC number you entered does not follow the required format of five digits, a dash, seven digits, a dash, and one digit. Please double-check your ID card and enter the number exactly as it appears, using only digits and dashes.\n- You have left the Matric Year field empty, but this information is required to verify your academic timeline. Please enter the four-digit year in which you passed your Matric or O Level exam.\n- The percentage you entered for your Intermediate results does not match the calculation of your obtained marks divided by the total marks. Please recalculate the percentage based on the marks you provided and update the field with the correct figure.\nPlease correct the CNIC format, add your Matric year, and fix the Intermediate percentage calculation, then resubmit the form.",
+      "issues": [
+        {
+          "id": "invalid_cnic",
+          "type": "format",
+          "severity": "error",
+          "fields": [
+            "cnic"
+          ],
+          "message": "CNIC No. is not in the format 12345-1234567-1."
+        },
+        {
+          "id": "missing_required",
+          "type": "missing",
+          "severity": "error",
+          "fields": [
+            "matric_year"
+          ],
+          "message": "Matric Year is required but has been left empty."
+        },
+        {
+          "id": "percentage_mismatch",
+          "type": "inconsistency",
+          "severity": "error",
+          "fields": [
+            "inter_total",
+            "inter_obtained",
+            "inter_percentage"
+          ],
+          "message": "The stated percentage does not match obtained marks divided by total marks (Intermediate Total Marks, Intermediate Obtained Marks, Intermediate Percentage)."
+        }
+      ],
+      "facts": [
+        "Full Name: Asad Umair Malik",
+        "Father's Name: Adnan Omar Malik",
+        "CNIC No.: 3750-433812- (invalid)",
+        "Date of Birth: 28/09/2004",
+        "Gender: ticked",
+        "Email Address: asad.malik7@hotmail.com",
+        "Mobile No.: 0301-3228719",
+        "Postal Address: House 53, Block C, Bahria Town, Lahore",
+        "Program: ticked",
+        "Matric Year: empty",
+        "Matric Total Marks: 1200",
+        "Matric Obtained Marks: 1136",
+        "Matric Percentage: 94.67",
+        "Intermediate Year: 2022",
+        "Intermediate Total Marks: 1700",
+        "Intermediate Obtained Marks: 769",
+        "Intermediate Percentage: 69.97",
+        "Declarant Name: Asad Umair Malik",
+        "Date: 23/10/2026",
+        "Signature of Applicant: present"
+      ],
+      "image": "images/test_0000.png"
+    },
+    {
+      "id": "item_003",
+      "form_id": "test_0000",
+      "explanation": "Your form is mostly complete, but there are three specific errors that need to be corrected before it can be processed. The most important thing to fix is the format of your CNIC number, as it is currently invalid. You also need to provide your Matric year and correct the calculation for your Intermediate percentage.\n- The CNIC number you entered does not follow the standard format. Please check that it includes the correct number of digits and hyphens in the right places.\n- You left the Matric Year field empty. Please fill in the year you completed your Matriculation.\n- The percentage you entered for your Intermediate results does not match the marks you provided. Please recalculate the percentage based on your obtained and total marks and update the field.\nPlease correct the CNIC format, add your Matric year, and fix the Intermediate percentage calculation, then resubmit the form.",
+      "issues": [
+        {
+          "id": "invalid_cnic",
+          "type": "format",
+          "severity": "error",
+          "fields": [
+            "cnic"
+          ],
+          "message": "CNIC No. is not in the format 12345-1234567-1."
+        },
+        {
+          "id": "missing_required",
+          "type": "missing",
+          "severity": "error",
+          "fields": [
+            "matric_year"
+          ],
+          "message": "Matric Year is required but has been left empty."
+        },
+        {
+          "id": "percentage_mismatch",
+          "type": "inconsistency",
+          "severity": "error",
+          "fields": [
+            "inter_total",
+            "inter_obtained",
+            "inter_percentage"
+          ],
+          "message": "The stated percentage does not match obtained marks divided by total marks (Intermediate Total Marks, Intermediate Obtained Marks, Intermediate Percentage)."
+        }
+      ],
+      "facts": [
+        "Full Name: Asad Umair Malik",
+        "Father's Name: Adnan Omar Malik",
+        "CNIC No.: 3750-433812- (invalid)",
+        "Date of Birth: 28/09/2004",
+        "Gender: ticked",
+        "Email Address: asad.malik7@hotmail.com",
+        "Mobile No.: 0301-3228719",
+        "Postal Address: House 53, Block C, Bahria Town, Lahore",
+        "Program: ticked",
+        "Matric Year: empty",
+        "Matric Total Marks: 1200",
+        "Matric Obtained Marks: 1136",
+        "Matric Percentage: 94.67",
+        "Intermediate Year: 2022",
+        "Intermediate Total Marks: 1700",
+        "Intermediate Obtained Marks: 769",
+        "Intermediate Percentage: 69.97",
+        "Declarant Name: Asad Umair Malik",
+        "Date: 23/10/2026",
+        "Signature of Applicant: present"
+      ],
+      "image": "images/test_0000.png"
+    },
+    {
+      "id": "item_004",
+      "form_id": "test_0001",
+      "explanation": "Your admission form is mostly complete and looks well-filled out. The only thing missing is your signature, which is required to submit the application. Once you add that, everything else appears to be in order.\n- You haven't signed the form yet. Please add your signature in the designated space so we can process your application.\nPlease sign the form and resubmit it so we can move forward with your admission.",
+      "issues": [
+        {
+          "id": "missing_required",
+          "type": "missing",
+          "severity": "error",
+          "fields": [
+            "signature"
+          ],
+          "message": "Signature of Applicant is required but has been left empty."
+        }
+      ],
+      "facts": [
+        "Full Name: Mahnoor Zainab Siddiqui",
+        "Father's Name: Taimoor Siddiqui",
+        "CNIC No.: 33383-0833495-2",
+        "Date of Birth: 19/12/2004",
+        "Gender: ticked",
+        "Email Address: mahnoor.siddiqui@gmail.com",
+        "Mobile No.: 0324-2671955",
+        "Postal Address: House 111, Street 5, Iqbal Town, Gujranwala",
+        "Program: ticked",
+        "Matric Year: 2020",
+        "Matric Total Marks: 1200",
+        "Matric Obtained Marks: 1008",
+        "Matric Percentage: 84.00",
+        "Intermediate Year: 2022",
+        "Intermediate Total Marks: 1100",
+        "Intermediate Obtained Marks: 660",
+        "Intermediate Percentage: 60.00",
+        "Declarant Name: Mahnoor Siddiqui",
+        "Date: 18/10/2026",
+        "Signature of Applicant: empty"
+      ],
+      "image": "images/test_0001.png"
+    }
+  ]
+}

@@ -2,14 +2,14 @@
   {
     "name": "full_name",
     "bbox": [
-      78,
+      77,
       295,
-      494,
+      495,
       37
     ],
     "raw_text": "* Areeba Yousaf",
     "value": null,
-    "ocr_confidence": 0.978,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

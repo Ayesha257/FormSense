@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Areeba Yousaf",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0326,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Wagas Yousaf",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.033,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "38870-5673969-6",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0875,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "25/10/2006",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0786,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1388,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "areebayousaf@gmail.com",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0535,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "0312-2864132",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.071,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 400, Block C, Samanabad, Lahore",
+    "value": null,
+    "ocr_confidence": 0.978,
+    "ink_ratio": 0.0559,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1669,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "2022",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0714,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1200",
+    "value": null,
+    "ocr_confidence": 0.896,
+    "ink_ratio": 0.058,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1200",
+    "value": null,
+    "ocr_confidence": 0.956,
+    "ink_ratio": 0.0575,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "100.00",
+    "value": null,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0717,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "2024",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0697,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 0.964,
+    "ink_ratio": 0.0548,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "829",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0477,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "75.36",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0549,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Areeba Yousaf",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0328,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "23/10/2026",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0875,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0398,
+    "checked": null,
+    "status": "ok"
+  }
+]

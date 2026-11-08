@@ -37,12 +37,12 @@
       184,
       56
     ],
-    "raw_text": "R2n sSkd4",
+    "raw_text": "R2H sSkd4",
     "value": null,
-    "ocr_confidence": 0.574,
+    "ocr_confidence": 0.602,
     "ink_ratio": 0.0,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "date_of_birth",
@@ -52,9 +52,9 @@
       125,
       46
     ],
-    "raw_text": "4R6/2008",
+    "raw_text": "4/66/2008",
     "value": null,
-    "ocr_confidence": 0.762,
+    "ocr_confidence": 0.76,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "House 234, Street 5, uquel Town, Sudtot",
     "value": null,
-    "ocr_confidence": 0.757,
+    "ocr_confidence": 0.755,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -302,17 +302,17 @@
   {
     "name": "declaration_name",
     "bbox": [
-      229,
-      1643,
-      531,
-      52
+      0,
+      0,
+      0,
+      0
     ],
-    "raw_text": "* Ras ramao Rana",
+    "raw_text": "",
     "value": null,
-    "ocr_confidence": 0.777,
+    "ocr_confidence": null,
     "ink_ratio": 0.0,
     "checked": null,
-    "status": "ok"
+    "status": "missing"
   },
   {
     "name": "declaration_date",
@@ -322,9 +322,9 @@
       134,
       49
     ],
-    "raw_text": "2/to/206",
+    "raw_text": "21/4o/206",
     "value": null,
-    "ocr_confidence": 0.589,
+    "ocr_confidence": 0.58,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "unreadable"

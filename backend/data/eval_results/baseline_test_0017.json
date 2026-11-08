@@ -39,7 +39,7 @@
     ],
     "raw_text": "*",
     "value": null,
-    "ocr_confidence": 0.989,
+    "ocr_confidence": 0.99,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "*",
     "value": null,
-    "ocr_confidence": 0.995,
+    "ocr_confidence": 0.994,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "* 26 Oct 2026",
     "value": null,
-    "ocr_confidence": 0.985,
+    "ocr_confidence": 0.984,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

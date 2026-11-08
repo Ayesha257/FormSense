@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      143,
+      406,
+      518,
+      36
+    ],
+    "raw_text": "* Hira Saba Ghauri",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      146,
+      474,
+      485,
+      36
+    ],
+    "raw_text": "* Hamza Ghauri",
+    "value": null,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      464,
+      544,
+      203,
+      36
+    ],
+    "raw_text": "32371-0707044-4",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      464,
+      622,
+      126,
+      29
+    ],
+    "raw_text": "13/12/2004",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      512,
+      683,
+      65,
+      31
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      734,
+      684,
+      87,
+      31
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      467,
+      751,
+      331,
+      36
+    ],
+    "raw_text": "hira.ghauri2o04@gmail.com",
+    "value": null,
+    "ocr_confidence": 0.976,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      152,
+      824,
+      811,
+      26
+    ],
+    "raw_text": "* 0324-1394S8S 03XX-XXXX0XX",
+    "value": null,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      152,
+      891,
+      891,
+      45
+    ],
+    "raw_text": "* House 446, Street12, Bahria Town, sialkot",
+    "value": null,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      215,
+      1071,
+      246,
+      25
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      780,
+      1065,
+      275,
+      30
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      218,
+      1129,
+      267,
+      25
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      165,
+      1590,
+      434,
+      34
+    ],
+    "raw_text": "* Hira Rana",
+    "value": null,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      480,
+      1670,
+      128,
+      32
+    ],
+    "raw_text": "14/10/2026",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "ok"
+  }
+]

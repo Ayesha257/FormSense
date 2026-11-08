@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Taimoor Hashmi",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 213, Main Boulevard, Gulberg III, Multan",
     "value": null,
-    "ocr_confidence": 0.988,
+    "ocr_confidence": 0.989,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

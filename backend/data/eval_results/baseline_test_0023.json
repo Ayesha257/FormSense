@@ -24,7 +24,7 @@
     ],
     "raw_text": "Herran Chorma",
     "value": null,
-    "ocr_confidence": 0.708,
+    "ocr_confidence": 0.703,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -39,7 +39,7 @@
     ],
     "raw_text": "99221-9090949.1",
     "value": null,
-    "ocr_confidence": 0.943,
+    "ocr_confidence": 0.94,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -52,9 +52,9 @@
       169,
       58
     ],
-    "raw_text": "18/01/2004",
+    "raw_text": "15/01/2004",
     "value": null,
-    "ocr_confidence": 0.907,
+    "ocr_confidence": 0.908,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -114,7 +114,7 @@
     ],
     "raw_text": "0310-0835972",
     "value": null,
-    "ocr_confidence": 0.829,
+    "ocr_confidence": 0.842,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -122,14 +122,14 @@
   {
     "name": "address",
     "bbox": [
-      586,
-      908,
-      702,
-      71
+      237,
+      882,
+      203,
+      44
     ],
-    "raw_text": "House 170. Garden Avanue, Model Town, Gujranwala",
+    "raw_text": "*",
     "value": null,
-    "ocr_confidence": 0.905,
+    "ocr_confidence": 0.889,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Hascain Choma",
     "value": null,
-    "ocr_confidence": 0.859,
+    "ocr_confidence": 0.856,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "of Brth",
     "value": null,
-    "ocr_confidence": 0.945,
+    "ocr_confidence": 0.932,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

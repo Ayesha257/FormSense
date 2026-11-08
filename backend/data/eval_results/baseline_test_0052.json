@@ -114,7 +114,7 @@
     ],
     "raw_text": "* 042-35761234 03XX-XXXXXXX",
     "value": null,
-    "ocr_confidence": 0.913,
+    "ocr_confidence": 0.922,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 379, Lane 3, Iqbal Town, Faisalabad",
     "value": null,
-    "ocr_confidence": 0.981,
+    "ocr_confidence": 0.983,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

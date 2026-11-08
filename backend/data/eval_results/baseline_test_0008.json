@@ -99,7 +99,7 @@
     ],
     "raw_text": "komal.chaudhry@qmail.com",
     "value": null,
-    "ocr_confidence": 0.994,
+    "ocr_confidence": 0.993,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -114,7 +114,7 @@
     ],
     "raw_text": "0325-7400484",
     "value": null,
-    "ocr_confidence": 0.999,
+    "ocr_confidence": 1.0,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Junaid Omar Malik",
     "value": null,
-    "ocr_confidence": 0.979,
+    "ocr_confidence": 0.98,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

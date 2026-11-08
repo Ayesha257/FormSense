@@ -9,7 +9,7 @@
     ],
     "raw_text": "* zain Taimoor zafar",
     "value": null,
-    "ocr_confidence": 0.991,
+    "ocr_confidence": 0.99,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -99,7 +99,7 @@
     ],
     "raw_text": "* zainzafar59@nicedu\u00b7pk",
     "value": null,
-    "ocr_confidence": 0.983,
+    "ocr_confidence": 0.984,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -114,7 +114,7 @@
     ],
     "raw_text": "0315-8764500",
     "value": null,
-    "ocr_confidence": 0.996,
+    "ocr_confidence": 0.966,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 385, Canal Road, Model Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.994,
+    "ocr_confidence": 0.995,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -139,7 +139,7 @@
     "bbox": [
       135,
       975,
-      240,
+      238,
       23
     ],
     "raw_text": "",
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* zain Taimoor zafar",
     "value": null,
-    "ocr_confidence": 0.987,
+    "ocr_confidence": 0.988,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "27/10/2026",
     "value": null,
-    "ocr_confidence": 0.99,
+    "ocr_confidence": 0.989,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

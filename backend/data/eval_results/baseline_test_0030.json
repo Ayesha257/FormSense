@@ -54,7 +54,7 @@
     ],
     "raw_text": "13/70/2006",
     "value": null,
-    "ocr_confidence": 0.82,
+    "ocr_confidence": 0.804,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -97,12 +97,12 @@
       348,
       79
     ],
-    "raw_text": "naj@hotmtl.com",
+    "raw_text": "naj@hotmal.com",
     "value": null,
-    "ocr_confidence": 0.597,
+    "ocr_confidence": 0.622,
     "ink_ratio": 0.0,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "phone",
@@ -309,7 +309,7 @@
     ],
     "raw_text": "Mamle Niay",
     "value": null,
-    "ocr_confidence": 0.643,
+    "ocr_confidence": 0.666,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "of Baren 2293h199304-5",
     "value": null,
-    "ocr_confidence": 0.769,
+    "ocr_confidence": 0.777,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

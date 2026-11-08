@@ -9,7 +9,7 @@
     ],
     "raw_text": "* Bilal Zain Mughal",
     "value": null,
-    "ocr_confidence": 0.977,
+    "ocr_confidence": 0.976,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -54,7 +54,7 @@
     ],
     "raw_text": "* 02 Apr 2004 DD/MM/YYYY",
     "value": null,
-    "ocr_confidence": 0.979,
+    "ocr_confidence": 0.986,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -99,7 +99,7 @@
     ],
     "raw_text": "bilalmughal29@gmail.com",
     "value": null,
-    "ocr_confidence": 1.0,
+    "ocr_confidence": 0.978,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -112,9 +112,9 @@
       804,
       36
     ],
-    "raw_text": "* 0343-43238 03XX-xXx00xxx",
+    "raw_text": "* 0343-43238 03XX-Xx00xxx",
     "value": null,
-    "ocr_confidence": 0.882,
+    "ocr_confidence": 0.887,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Bilal Zain Mughal",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.997,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

@@ -1,0 +1,9 @@
+item,form,condition,judge,faithfulness,clarity,usefulness,reason
+item_001,test_0001,llm_rag,judge_A,5,5,5,"Accurately addresses the missing signature and gives clear, actionable steps."
+item_001,test_0001,llm_rag,judge_B,5,5,5,"The explanation accurately reflects the missing signature issue and gives clear, actionable steps."
+item_002,test_0000,llm_rag,judge_A,5,5,5,"Accurately lists each issue and gives clear, actionable steps to fix them."
+item_002,test_0000,llm_rag,judge_B,5,5,5,All issues are accurately identified and clearly explained with actionable steps.
+item_003,test_0000,llm_only,judge_A,5,5,5,"Accurately lists all issues and gives clear, actionable steps to fix them."
+item_003,test_0000,llm_only,judge_B,5,5,5,All issues are accurately identified and actionable steps are clearly provided.
+item_004,test_0001,llm_only,judge_A,5,5,5,"The explanation accurately reflects the missing signature issue, is clearly written, and gives precise action to sign and resubmit."
+item_004,test_0001,llm_only,judge_B,5,4,5,"The explanation accurately reflects the issue, is clear, and gives precise action steps."

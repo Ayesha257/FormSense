@@ -1,0 +1,10 @@
+{
+  "fingerprint": "c1ad99f3fc821c69",
+  "chunks": 19,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding": "langchain_huggingface.embeddings.huggingface.HuggingFaceEmbeddings:",
+  "dim": 384,
+  "files": [
+    "admission_form_guidelines.md"
+  ]
+}

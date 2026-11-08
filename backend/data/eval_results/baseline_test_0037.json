@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Junaid Cheema",
     "value": null,
-    "ocr_confidence": 0.946,
+    "ocr_confidence": 0.947,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -39,7 +39,7 @@
     ],
     "raw_text": "36905-4602916-0",
     "value": null,
-    "ocr_confidence": 0.873,
+    "ocr_confidence": 0.867,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -52,9 +52,9 @@
       166,
       47
     ],
-    "raw_text": "01-06-1004",
+    "raw_text": "01-06-1006",
     "value": null,
-    "ocr_confidence": 0.833,
+    "ocr_confidence": 0.838,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -77,10 +77,10 @@
   {
     "name": "gender_female",
     "bbox": [
-      0,
-      0,
-      0,
-      0
+      798,
+      732,
+      160,
+      57
     ],
     "raw_text": "",
     "value": "unchecked",
@@ -99,7 +99,7 @@
     ],
     "raw_text": "* nimracbeemareotok.com",
     "value": null,
-    "ocr_confidence": 0.844,
+    "ocr_confidence": 0.845,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -127,9 +127,9 @@
       1067,
       66
     ],
-    "raw_text": "* House 128, Street 12, Igbal Town, Labore",
+    "raw_text": "* House 128, Street 12, Iabal Town, Labore",
     "value": null,
-    "ocr_confidence": 0.959,
+    "ocr_confidence": 0.952,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Nimre Meboigk Cheema",
     "value": null,
-    "ocr_confidence": 0.851,
+    "ocr_confidence": 0.858,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "12-10-2016",
     "value": null,
-    "ocr_confidence": 0.915,
+    "ocr_confidence": 0.917,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

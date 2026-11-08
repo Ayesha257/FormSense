@@ -99,7 +99,7 @@
     ],
     "raw_text": "hamza.iqbal42@hotmail.com",
     "value": null,
-    "ocr_confidence": 0.984,
+    "ocr_confidence": 0.982,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -123,9 +123,9 @@
     "name": "address",
     "bbox": [
       146,
-      895,
-      1015,
-      48
+      894,
+      1016,
+      51
     ],
     "raw_text": "* House Yo9, Model Town Link Rd, Johar Town, Lahore",
     "value": null,
@@ -319,12 +319,12 @@
     "bbox": [
       477,
       1705,
-      126,
+      128,
       36
     ],
     "raw_text": "22/10/2026",
     "value": null,
-    "ocr_confidence": 0.999,
+    "ocr_confidence": 0.998,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

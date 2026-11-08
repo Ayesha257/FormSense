@@ -77,8 +77,8 @@
   {
     "name": "gender_female",
     "bbox": [
-      648,
-      577,
+      650,
+      578,
       93,
       36
     ],
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 175, Canal Road, Township, Cahore",
     "value": null,
-    "ocr_confidence": 0.992,
+    "ocr_confidence": 0.993,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

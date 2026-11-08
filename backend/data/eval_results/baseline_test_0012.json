@@ -3,13 +3,13 @@
     "name": "full_name",
     "bbox": [
       76,
-      303,
+      304,
       473,
-      37
+      35
     ],
     "raw_text": "* Hassan Farooq",
     "value": null,
-    "ocr_confidence": 0.988,
+    "ocr_confidence": 0.995,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -18,13 +18,13 @@
     "name": "father_name",
     "bbox": [
       77,
-      367,
+      366,
       484,
-      38
+      40
     ],
     "raw_text": "* Taimoor Farooq",
     "value": null,
-    "ocr_confidence": 0.999,
+    "ocr_confidence": 0.997,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -324,7 +324,7 @@
     ],
     "raw_text": "12/10/2026",
     "value": null,
-    "ocr_confidence": 1.0,
+    "ocr_confidence": 0.981,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

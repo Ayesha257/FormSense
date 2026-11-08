@@ -99,7 +99,7 @@
     ],
     "raw_text": "adnansheikh2005@qmail.com",
     "value": null,
-    "ocr_confidence": 0.998,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "* House 364, Garden Avenue, Bahria Town, Multan",
     "value": null,
-    "ocr_confidence": 0.994,
+    "ocr_confidence": 0.997,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -137,9 +137,9 @@
   {
     "name": "program_bscs",
     "bbox": [
-      134,
+      135,
       974,
-      242,
+      241,
       26
     ],
     "raw_text": "",

@@ -4,12 +4,12 @@
     "bbox": [
       75,
       291,
-      621,
+      620,
       48
     ],
     "raw_text": "* Danish Ahmed Tariq",
     "value": null,
-    "ocr_confidence": 0.991,
+    "ocr_confidence": 0.988,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Usman Faisal Tariq",
     "value": null,
-    "ocr_confidence": 0.993,
+    "ocr_confidence": 0.994,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -97,9 +97,9 @@
       366,
       43
     ],
-    "raw_text": "danishtariq7z@gmail.com",
+    "raw_text": "danisktariq7z@gmail.com",
     "value": null,
-    "ocr_confidence": 0.965,
+    "ocr_confidence": 0.964,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Danish Tariq",
     "value": null,
-    "ocr_confidence": 0.995,
+    "ocr_confidence": 0.994,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
