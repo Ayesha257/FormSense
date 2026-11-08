@@ -7,10 +7,10 @@
       780,
       56
     ],
-    "raw_text": "Manoor baleem",
+    "raw_text": "Manoor Saleem",
     "value": null,
-    "ocr_confidence": 0.675,
-    "ink_ratio": 0.0116,
+    "ocr_confidence": 0.633,
+    "ink_ratio": 0.065,
     "checked": null,
     "status": "ok"
   },
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "Vahtd haleem",
+    "raw_text": "fahnd Laleem",
     "value": null,
-    "ocr_confidence": 0.673,
-    "ink_ratio": 0.0124,
+    "ocr_confidence": 0.611,
+    "ink_ratio": 0.0572,
     "checked": null,
     "status": "ok"
   },
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "38100-3630106-6",
+    "raw_text": "38100-36301066",
     "value": null,
-    "ocr_confidence": 0.674,
-    "ink_ratio": 0.0296,
+    "ocr_confidence": 0.676,
+    "ink_ratio": 0.1512,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "02-09-200%",
     "value": null,
-    "ocr_confidence": 0.973,
-    "ink_ratio": 0.0173,
+    "ocr_confidence": 0.959,
+    "ink_ratio": 0.1232,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1406,
+    "ink_ratio": 0.2825,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "mahnoongleem4n@gmal com",
+    "raw_text": "mahnoongdeem41@gmal.com",
     "value": null,
-    "ocr_confidence": 0.775,
-    "ink_ratio": 0.0276,
+    "ocr_confidence": 0.759,
+    "ink_ratio": 0.128,
     "checked": null,
     "status": "ok"
   },
@@ -112,10 +112,10 @@
       380,
       56
     ],
-    "raw_text": "obnormal",
+    "raw_text": "0316-1019181",
     "value": null,
-    "ocr_confidence": 0.294,
-    "ink_ratio": 0.0313,
+    "ocr_confidence": 0.443,
+    "ink_ratio": 0.1247,
     "checked": null,
     "status": "unreadable"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "noule 35e, barden Avenue, wapda Town, Lahore",
+    "raw_text": "toute 3se, barden Avenue, wapda Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.904,
-    "ink_ratio": 0.041,
+    "ocr_confidence": 0.918,
+    "ink_ratio": 0.1242,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1344,
+    "ink_ratio": 0.2756,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2022",
     "value": null,
-    "ocr_confidence": 0.968,
-    "ink_ratio": 0.0256,
+    "ocr_confidence": 0.982,
+    "ink_ratio": 0.1186,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.995,
-    "ink_ratio": 0.0169,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0913,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "936",
     "value": null,
-    "ocr_confidence": 0.725,
-    "ink_ratio": 0.0248,
+    "ocr_confidence": 0.78,
+    "ink_ratio": 0.0792,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "61.28",
     "value": null,
-    "ocr_confidence": 0.918,
-    "ink_ratio": 0.0398,
+    "ocr_confidence": 0.884,
+    "ink_ratio": 0.0845,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0311,
+    "ink_ratio": 0.1222,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.851,
-    "ink_ratio": 0.0218,
+    "ocr_confidence": 0.919,
+    "ink_ratio": 0.0854,
     "checked": null,
     "status": "ok"
   },
@@ -279,10 +279,10 @@
     ],
     "raw_text": "im",
     "value": null,
-    "ocr_confidence": 0.704,
-    "ink_ratio": 0.0247,
+    "ocr_confidence": 0.463,
+    "ink_ratio": 0.0765,
     "checked": null,
-    "status": "ok"
+    "status": "unreadable"
   },
   {
     "name": "inter_percentage",
@@ -294,8 +294,8 @@
     ],
     "raw_text": "5.00",
     "value": null,
-    "ocr_confidence": 0.85,
-    "ink_ratio": 0.0378,
+    "ocr_confidence": 0.945,
+    "ink_ratio": 0.0986,
     "checked": null,
     "status": "ok"
   },
@@ -307,10 +307,10 @@
       780,
       56
     ],
-    "raw_text": "Sdra liddiqui",
+    "raw_text": "Sdra biddiqui",
     "value": null,
-    "ocr_confidence": 0.782,
-    "ink_ratio": 0.0148,
+    "ocr_confidence": 0.86,
+    "ink_ratio": 0.0589,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "24-10-2026",
     "value": null,
-    "ocr_confidence": 0.977,
-    "ink_ratio": 0.0313,
+    "ocr_confidence": 0.953,
+    "ink_ratio": 0.1254,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0539,
+    "ink_ratio": 0.1828,
     "checked": null,
     "status": "ok"
   }

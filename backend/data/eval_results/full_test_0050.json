@@ -2,32 +2,32 @@
   {
     "name": "full_name",
     "bbox": [
-      380,
+      381,
       290,
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "wre lods",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.721,
+    "ink_ratio": 0.037,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "father_name",
     "bbox": [
-      380,
+      381,
       360,
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Sand Lod",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.774,
+    "ink_ratio": 0.0503,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "cnic",
@@ -37,12 +37,12 @@
       380,
       56
     ],
-    "raw_text": "",
+    "raw_text": "mos.",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.685,
+    "ink_ratio": 0.1297,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "date_of_birth",
@@ -52,12 +52,12 @@
       300,
       56
     ],
-    "raw_text": "",
+    "raw_text": "chlooaS",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0009,
+    "ocr_confidence": 0.549,
+    "ink_ratio": 0.128,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "gender_male",
@@ -85,54 +85,54 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1094,
+    "ink_ratio": 0.6763,
     "checked": true,
     "status": "ok"
   },
   {
     "name": "email",
     "bbox": [
-      380,
+      381,
       640,
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "tnatodhas@omalcom",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.002,
+    "ocr_confidence": 0.59,
+    "ink_ratio": 0.1193,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "phone",
     "bbox": [
-      380,
+      381,
       710,
       380,
       56
     ],
-    "raw_text": "",
+    "raw_text": "dD\u20ac RSSBo",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0023,
+    "ocr_confidence": 0.494,
+    "ink_ratio": 0.1264,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "address",
     "bbox": [
-      380,
+      381,
       780,
       780,
       110
     ],
-    "raw_text": "",
+    "raw_text": "House 36, Block C, Guberg ia, Lahore",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0038,
+    "ocr_confidence": 0.874,
+    "ink_ratio": 0.0986,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "program_bscs",
@@ -152,7 +152,7 @@
   {
     "name": "program_bsse",
     "bbox": [
-      640,
+      641,
       965,
       44,
       44
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1694,
+    "ink_ratio": 0.6806,
     "checked": true,
     "status": "ok"
   },
@@ -187,10 +187,10 @@
       140,
       56
     ],
-    "raw_text": "0",
+    "raw_text": "20",
     "value": null,
-    "ocr_confidence": 0.694,
-    "ink_ratio": 0.0256,
+    "ocr_confidence": 0.872,
+    "ink_ratio": 0.1322,
     "checked": null,
     "status": "ok"
   },
@@ -204,38 +204,38 @@
     ],
     "raw_text": "en",
     "value": null,
-    "ocr_confidence": 0.673,
-    "ink_ratio": 0.0058,
+    "ocr_confidence": 0.824,
+    "ink_ratio": 0.0842,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "matric_obtained",
     "bbox": [
-      730,
+      731,
       1205,
       170,
       56
     ],
-    "raw_text": "vi",
+    "raw_text": "a",
     "value": null,
-    "ocr_confidence": 0.448,
-    "ink_ratio": 0.0083,
+    "ocr_confidence": 0.825,
+    "ink_ratio": 0.0778,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "matric_percentage",
     "bbox": [
-      920,
+      922,
       1205,
       180,
       56
     ],
-    "raw_text": "RS",
+    "raw_text": "as",
     "value": null,
-    "ocr_confidence": 0.724,
-    "ink_ratio": 0.009,
+    "ocr_confidence": 0.94,
+    "ink_ratio": 0.0765,
     "checked": null,
     "status": "ok"
   },
@@ -247,72 +247,72 @@
       140,
       56
     ],
-    "raw_text": "20",
+    "raw_text": "20%",
     "value": null,
-    "ocr_confidence": 0.912,
-    "ink_ratio": 0.0222,
+    "ocr_confidence": 0.83,
+    "ink_ratio": 0.1169,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_total",
     "bbox": [
-      540,
+      541,
       1275,
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "8",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0032,
+    "ocr_confidence": 0.823,
+    "ink_ratio": 0.074,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_obtained",
     "bbox": [
-      730,
+      731,
       1275,
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "1",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0021,
-    "checked": null,
-    "status": "missing"
-  },
-  {
-    "name": "inter_percentage",
-    "bbox": [
-      920,
-      1275,
-      180,
-      56
-    ],
-    "raw_text": "de",
-    "value": null,
-    "ocr_confidence": 0.445,
-    "ink_ratio": 0.015,
+    "ocr_confidence": 0.559,
+    "ink_ratio": 0.049,
     "checked": null,
     "status": "unreadable"
   },
   {
+    "name": "inter_percentage",
+    "bbox": [
+      922,
+      1276,
+      180,
+      56
+    ],
+    "raw_text": "0",
+    "value": null,
+    "ocr_confidence": 0.631,
+    "ink_ratio": 0.1002,
+    "checked": null,
+    "status": "ok"
+  },
+  {
     "name": "declaration_name",
     "bbox": [
-      380,
-      1495,
+      381,
+      1496,
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Hna lodh",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.003,
+    "ocr_confidence": 0.732,
+    "ink_ratio": 0.0392,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "declaration_date",
@@ -322,25 +322,25 @@
       270,
       56
     ],
-    "raw_text": "002:26",
+    "raw_text": "02:26",
     "value": null,
-    "ocr_confidence": 0.772,
-    "ink_ratio": 0.0265,
+    "ocr_confidence": 0.85,
+    "ink_ratio": 0.1202,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "signature",
     "bbox": [
-      700,
-      1555,
+      701,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0802,
+    "ink_ratio": 0.182,
     "checked": null,
     "status": "ok"
   }

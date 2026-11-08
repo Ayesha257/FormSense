@@ -9,8 +9,8 @@
     ],
     "raw_text": "Komal Niazi",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0257,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0355,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Haris Hamza Niazi",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0386,
+    "ink_ratio": 0.0532,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "31309-0405434-4",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0827,
+    "ink_ratio": 0.1145,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "06 Jun 2007",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0716,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0952,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1613,
+    "ink_ratio": 0.2069,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "komalniazi2007@nic.edu.pk",
     "value": null,
     "ocr_confidence": 0.99,
-    "ink_ratio": 0.0606,
+    "ink_ratio": 0.084,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0347-5613393",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0701,
+    "ink_ratio": 0.0935,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 17, Canal Road, Township, Islamabad",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0563,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0751,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1638,
+    "ink_ratio": 0.2094,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0782,
+    "ink_ratio": 0.1035,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0593,
+    "ink_ratio": 0.0799,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "850",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0491,
+    "ink_ratio": 0.0663,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "70.83",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0627,
+    "ink_ratio": 0.0806,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0786,
+    "ink_ratio": 0.1055,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0527,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0725,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "1019",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0492,
+    "ink_ratio": 0.066,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "92.64",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0547,
+    "ink_ratio": 0.0716,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Komal Niazi",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0261,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0359,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "28 Oct 2026",
     "value": null,
-    "ocr_confidence": 0.977,
-    "ink_ratio": 0.0863,
+    "ocr_confidence": 0.976,
+    "ink_ratio": 0.1115,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0664,
+    "ink_ratio": 0.0935,
     "checked": null,
     "status": "ok"
   }

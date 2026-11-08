@@ -9,8 +9,8 @@
     ],
     "raw_text": "Danish Niazi",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0314,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0415,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Nauman Niazi",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0322,
+    "ocr_confidence": 0.971,
+    "ink_ratio": 0.0439,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "30623-2330126-9",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0879,
+    "ink_ratio": 0.1076,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "30/11/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0787,
+    "ink_ratio": 0.0939,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1619,
+    "ink_ratio": 0.2112,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "danish.niazi2004,outlook.com",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0625,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0829,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0300-8878955",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0794,
+    "ink_ratio": 0.1012,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 94, Main Boulevard, Wapda Town, Faisalabad",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0757,
+    "ink_ratio": 0.1007,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1694,
+    "ink_ratio": 0.2219,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0749,
+    "ink_ratio": 0.0949,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.934,
-    "ink_ratio": 0.0585,
+    "ocr_confidence": 0.922,
+    "ink_ratio": 0.0696,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "783",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0483,
+    "ink_ratio": 0.0591,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "65.25",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0568,
+    "ink_ratio": 0.0661,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.073,
+    "ink_ratio": 0.0858,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1700",
     "value": null,
-    "ocr_confidence": 0.882,
-    "ink_ratio": 0.0586,
+    "ocr_confidence": 0.889,
+    "ink_ratio": 0.07,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "864",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0484,
+    "ink_ratio": 0.0577,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "73.04",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0575,
+    "ink_ratio": 0.0703,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Danish Niazi",
     "value": null,
-    "ocr_confidence": 0.968,
-    "ink_ratio": 0.0309,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0392,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "15/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0887,
+    "ink_ratio": 0.1098,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0731,
+    "ink_ratio": 0.109,
     "checked": null,
     "status": "ok"
   }

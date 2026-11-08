@@ -10,7 +10,7 @@
     "raw_text": "Rida Tariq",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0251,
+    "ink_ratio": 0.0297,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Usman Tariq",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0284,
+    "ink_ratio": 0.0316,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "38547-3928315-2",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0907,
+    "ink_ratio": 0.0996,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "26-09-2007",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0763,
+    "ink_ratio": 0.0851,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1931,
+    "ink_ratio": 0.2537,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "ridatariq2007@hotmail.com",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0677,
+    "ink_ratio": 0.0862,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0322-5351950",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0791,
+    "ink_ratio": 0.0979,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 195, Canal Road, Iqbal Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0584,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0693,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2106,
+    "ink_ratio": 0.2519,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0788,
+    "ink_ratio": 0.0899,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0614,
+    "ink_ratio": 0.0686,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1097",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0565,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.068,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "91.42",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.052,
+    "ink_ratio": 0.0592,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0796,
+    "ink_ratio": 0.0882,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.896,
-    "ink_ratio": 0.0551,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0593,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "716",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0387,
+    "ink_ratio": 0.0433,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "65.09",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0624,
+    "ink_ratio": 0.0697,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Rida Tariq",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0245,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0312,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "12-10-2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0821,
+    "ink_ratio": 0.0977,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0778,
+    "ink_ratio": 0.1084,
     "checked": null,
     "status": "ok"
   }

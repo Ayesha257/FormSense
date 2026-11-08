@@ -10,7 +10,7 @@
     "raw_text": "Alina Hashmi",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0271,
+    "ink_ratio": 0.0293,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Taimoor Hashmi",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0306,
+    "ink_ratio": 0.0339,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "34646-4986721-2",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0749,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0779,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "00/00/0000",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0742,
+    "ink_ratio": 0.0776,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2056,
+    "ink_ratio": 0.2762,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "alina.hashmi86@hotmail.com",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.055,
+    "ink_ratio": 0.0583,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0341-7289759",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0611,
+    "ink_ratio": 0.0582,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 213, Main Boulevard, Gulberg III, Multan",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0611,
+    "ink_ratio": 0.064,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1862,
+    "ink_ratio": 0.1881,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0639,
+    "ink_ratio": 0.0625,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0504,
+    "ink_ratio": 0.0511,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1024",
     "value": null,
-    "ocr_confidence": 0.961,
-    "ink_ratio": 0.0498,
+    "ocr_confidence": 0.963,
+    "ink_ratio": 0.0518,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "85.33",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0553,
+    "ink_ratio": 0.0586,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0632,
+    "ink_ratio": 0.0636,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.886,
-    "ink_ratio": 0.0497,
+    "ocr_confidence": 0.896,
+    "ink_ratio": 0.0496,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "N/A?",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0692,
+    "ink_ratio": 0.0776,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "93.97",
     "value": null,
-    "ocr_confidence": 0.952,
-    "ink_ratio": 0.0494,
+    "ocr_confidence": 0.958,
+    "ink_ratio": 0.0515,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Hashmi Alina",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0262,
+    "ink_ratio": 0.0286,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "28-10-2026",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0692,
+    "ink_ratio": 0.0662,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0609,
+    "ink_ratio": 0.0877,
     "checked": null,
     "status": "ok"
   }

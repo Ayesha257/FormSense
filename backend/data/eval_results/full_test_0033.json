@@ -10,7 +10,7 @@
     "raw_text": "Hussain Imran Gill",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0453,
+    "ink_ratio": 0.0626,
     "checked": null,
     "status": "ok"
   },
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "Fatha oilt Talha Gill",
+    "raw_text": "Fathao Talha Gill",
     "value": null,
-    "ocr_confidence": 0.86,
-    "ink_ratio": 0.0394,
+    "ocr_confidence": 0.871,
+    "ink_ratio": 0.0513,
     "checked": null,
     "status": "ok"
   },
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "37431-6S86699-S",
+    "raw_text": "37431-6586699-5",
     "value": null,
-    "ocr_confidence": 0.95,
-    "ink_ratio": 0.0998,
+    "ocr_confidence": 0.967,
+    "ink_ratio": 0.1347,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "06/12/2007",
     "value": null,
     "ocr_confidence": 0.995,
-    "ink_ratio": 0.083,
+    "ink_ratio": 0.1071,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1581,
+    "ink_ratio": 0.2019,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "hussain.gill2oo7@gmail.com",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0811,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.1111,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0310-S678634",
     "value": null,
-    "ocr_confidence": 0.983,
-    "ink_ratio": 0.0827,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.1087,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 321, Main Boulevard, Johar Town, Multan",
     "value": null,
-    "ocr_confidence": 0.985,
-    "ink_ratio": 0.0801,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.1055,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1556,
+    "ink_ratio": 0.1988,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0827,
+    "ink_ratio": 0.1055,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0634,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0781,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1287",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0639,
+    "ink_ratio": 0.0812,
     "checked": null,
     "status": "ok"
   },
@@ -232,10 +232,10 @@
       180,
       56
     ],
-    "raw_text": "107.25",
+    "raw_text": "107.2S",
     "value": null,
-    "ocr_confidence": 0.936,
-    "ink_ratio": 0.0793,
+    "ocr_confidence": 0.932,
+    "ink_ratio": 0.0994,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0841,
+    "ink_ratio": 0.1073,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0553,
+    "ink_ratio": 0.0697,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "903",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0542,
+    "ink_ratio": 0.0695,
     "checked": null,
     "status": "ok"
   },
@@ -288,14 +288,14 @@
     "name": "inter_percentage",
     "bbox": [
       920,
-      1275,
+      1276,
       180,
       56
     ],
     "raw_text": "82.09",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.073,
+    "ink_ratio": 0.0897,
     "checked": null,
     "status": "ok"
   },
@@ -303,14 +303,14 @@
     "name": "declaration_name",
     "bbox": [
       380,
-      1495,
+      1496,
       780,
       56
     ],
     "raw_text": "Hussain Imran Gill",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0468,
+    "ocr_confidence": 0.989,
+    "ink_ratio": 0.0637,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "20/10/2026",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0945,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.1177,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0625,
+    "ink_ratio": 0.0929,
     "checked": null,
     "status": "ok"
   }

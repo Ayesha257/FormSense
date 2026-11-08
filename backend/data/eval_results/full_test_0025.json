@@ -9,8 +9,8 @@
     ],
     "raw_text": "Danish Ahmed Tariq",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0534,
+    "ocr_confidence": 0.963,
+    "ink_ratio": 0.0661,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Usman Faisal Tariq",
     "value": null,
-    "ocr_confidence": 0.979,
-    "ink_ratio": 0.0473,
+    "ocr_confidence": 0.968,
+    "ink_ratio": 0.0585,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "38971-0229906-7",
     "value": null,
-    "ocr_confidence": 0.995,
-    "ink_ratio": 0.0819,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.098,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "05-11-2007",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0582,
+    "ink_ratio": 0.0695,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3256,
+    "ink_ratio": 0.29,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "danisktariq7z@gmail.com",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0652,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0815,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0345-2279482",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0715,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0856,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 171, Model Town Link Rd, Johar Town, Islamabad",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0843,
+    "ink_ratio": 0.1047,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3131,
+    "ink_ratio": 0.2369,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2023",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.07,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0814,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0513,
+    "ink_ratio": 0.0579,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "850",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0449,
+    "ink_ratio": 0.0543,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2025",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0684,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0807,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0455,
+    "ink_ratio": 0.0548,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "763",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0382,
+    "ink_ratio": 0.0458,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "69.36",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0565,
+    "ink_ratio": 0.0686,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Danish Tariq",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0337,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.041,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "06-11-2026",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0681,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0821,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0663,
+    "ink_ratio": 0.1009,
     "checked": null,
     "status": "ok"
   }

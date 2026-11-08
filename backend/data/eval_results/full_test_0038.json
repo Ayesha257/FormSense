@@ -9,8 +9,8 @@
     ],
     "raw_text": "BilalAwan",
     "value": null,
-    "ocr_confidence": 0.943,
-    "ink_ratio": 0.0273,
+    "ocr_confidence": 0.946,
+    "ink_ratio": 0.0361,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Fahad Ahmed Awan",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0481,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0612,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "38353-1474017-7",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0898,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.1062,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "06-12-2003",
     "value": null,
-    "ocr_confidence": 0.988,
-    "ink_ratio": 0.0763,
+    "ocr_confidence": 0.989,
+    "ink_ratio": 0.09,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.325,
+    "ink_ratio": 0.2231,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "bilalawan2003@yahoo.com",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0639,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0857,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0324-1879882",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.082,
+    "ink_ratio": 0.0993,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 175, Canal Road, Township, Lahore",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0572,
+    "ocr_confidence": 0.992,
+    "ink_ratio": 0.0705,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2775,
+    "ink_ratio": 0.33,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2019",
     "value": null,
-    "ocr_confidence": 0.979,
-    "ink_ratio": 0.0741,
+    "ocr_confidence": 0.984,
+    "ink_ratio": 0.0858,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.955,
-    "ink_ratio": 0.0633,
+    "ocr_confidence": 0.969,
+    "ink_ratio": 0.073,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "852",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0512,
+    "ink_ratio": 0.0604,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "77.00",
     "value": null,
-    "ocr_confidence": 0.941,
-    "ink_ratio": 0.0618,
+    "ocr_confidence": 0.968,
+    "ink_ratio": 0.0705,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2021",
     "value": null,
-    "ocr_confidence": 0.918,
-    "ink_ratio": 0.0749,
+    "ocr_confidence": 0.838,
+    "ink_ratio": 0.0865,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1700",
     "value": null,
-    "ocr_confidence": 0.886,
-    "ink_ratio": 0.0616,
+    "ocr_confidence": 0.913,
+    "ink_ratio": 0.0715,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "1029",
     "value": null,
-    "ocr_confidence": 0.923,
-    "ink_ratio": 0.0621,
+    "ocr_confidence": 0.922,
+    "ink_ratio": 0.0739,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "93.55",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0599,
+    "ink_ratio": 0.0709,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "BilalAwan",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0276,
+    "ink_ratio": 0.0352,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "26-10-2026",
     "value": null,
     "ocr_confidence": 0.995,
-    "ink_ratio": 0.0842,
+    "ink_ratio": 0.1005,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0821,
+    "ink_ratio": 0.1273,
     "checked": null,
     "status": "ok"
   }

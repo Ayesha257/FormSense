@@ -10,7 +10,7 @@
     "raw_text": "Sidra Abbasi",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0286,
+    "ink_ratio": 0.0298,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Wagas Arslan Abbasi",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0467,
+    "ink_ratio": 0.0541,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "32494-4822584-8",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0812,
+    "ink_ratio": 0.0859,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "21/10/2005",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0728,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.078,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2019,
+    "ink_ratio": 0.2544,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "sidra.abbasi@gmail.com",
     "value": null,
-    "ocr_confidence": 0.975,
-    "ink_ratio": 0.0486,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0582,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0304-3189870",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0687,
+    "ink_ratio": 0.0729,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 450, Model Town Link Rd, Johar Town, Sialkot",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0666,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.076,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2181,
+    "ink_ratio": 0.2581,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2027",
     "value": null,
-    "ocr_confidence": 0.891,
-    "ink_ratio": 0.065,
+    "ocr_confidence": 0.888,
+    "ink_ratio": 0.0715,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0538,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.059,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "948",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0445,
+    "ink_ratio": 0.0481,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "79.00",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0564,
+    "ink_ratio": 0.0604,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0659,
+    "ink_ratio": 0.0737,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1700",
     "value": null,
-    "ocr_confidence": 0.832,
-    "ink_ratio": 0.0511,
+    "ocr_confidence": 0.838,
+    "ink_ratio": 0.0533,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "680",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0463,
+    "ink_ratio": 0.0492,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "67.82",
     "value": null,
-    "ocr_confidence": 0.955,
-    "ink_ratio": 0.0575,
+    "ocr_confidence": 0.965,
+    "ink_ratio": 0.0611,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Sidra Abbasi",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0284,
+    "ink_ratio": 0.0324,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "12/10/2026",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0797,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0827,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0753,
+    "ink_ratio": 0.1104,
     "checked": null,
     "status": "ok"
   }

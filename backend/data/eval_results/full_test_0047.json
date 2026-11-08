@@ -10,7 +10,7 @@
     "raw_text": "Taimoor Taimoor Siddiqui",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0528,
+    "ink_ratio": 0.0618,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Junaid Siddiqui",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.035,
+    "ink_ratio": 0.0409,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "38562-7941597-0",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0705,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0841,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "05-04-2007",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0567,
+    "ink_ratio": 0.0647,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2137,
+    "ink_ratio": 0.2662,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "taimoorsiddiqui2oo7@nic.edu.pk",
     "value": null,
-    "ocr_confidence": 0.971,
-    "ink_ratio": 0.0705,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0854,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0317-3693222",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.058,
+    "ink_ratio": 0.0706,
     "checked": null,
     "status": "ok"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "House 16, Lane 3, I9bal Town, Multan",
+    "raw_text": "House 16, Lane 3, Iqbal Town, Multan",
     "value": null,
-    "ocr_confidence": 0.973,
-    "ink_ratio": 0.043,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0504,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2037,
+    "ink_ratio": 0.2556,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.058,
+    "ink_ratio": 0.0713,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0425,
+    "ink_ratio": 0.0502,
     "checked": null,
     "status": "ok"
   },
@@ -219,23 +219,23 @@
     ],
     "raw_text": "1140",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0366,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0434,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "matric_percentage",
     "bbox": [
-      920,
+      921,
       1205,
       180,
       56
     ],
     "raw_text": "95.00",
     "value": null,
-    "ocr_confidence": 0.937,
-    "ink_ratio": 0.05,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0556,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0649,
+    "ink_ratio": 0.0755,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0372,
+    "ink_ratio": 0.0454,
     "checked": null,
     "status": "ok"
   },
@@ -280,22 +280,22 @@
     "raw_text": "827",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.035,
+    "ink_ratio": 0.0426,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_percentage",
     "bbox": [
-      920,
+      921,
       1275,
       180,
       56
     ],
     "raw_text": "75.18",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0453,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0564,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Taimoor Taimoor Siddiqui",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0513,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0605,
     "checked": null,
     "status": "ok"
   },
@@ -318,29 +318,29 @@
     "name": "declaration_date",
     "bbox": [
       380,
-      1575,
+      1576,
       270,
       56
     ],
     "raw_text": "14-10-2026",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0588,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0714,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "signature",
     "bbox": [
-      700,
-      1555,
+      701,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0722,
+    "ink_ratio": 0.1145,
     "checked": null,
     "status": "ok"
   }

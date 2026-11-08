@@ -10,7 +10,7 @@
     "raw_text": "Adnan Sheikh",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0383,
+    "ink_ratio": 0.0475,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Omar Junaid Sheikh",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0528,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.068,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "30101-8405289-5",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1092,
+    "ink_ratio": 0.1358,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "03/12/2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0966,
+    "ink_ratio": 0.1179,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1562,
+    "ink_ratio": 0.1913,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "adnansheikh2005@gmail.com",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0822,
+    "ink_ratio": 0.1075,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0313-9175156",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0839,
+    "ink_ratio": 0.1047,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 364, Garden Avenue, Bahria Town, Multan",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0786,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.095,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1606,
+    "ink_ratio": 0.1856,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0977,
+    "ink_ratio": 0.1141,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0709,
+    "ink_ratio": 0.0901,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "853",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0599,
+    "ink_ratio": 0.0724,
     "checked": null,
     "status": "ok"
   },
@@ -228,14 +228,14 @@
     "name": "matric_percentage",
     "bbox": [
       920,
-      1205,
+      1204,
       180,
       56
     ],
     "raw_text": "71.08",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0693,
+    "ink_ratio": 0.0788,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0913,
+    "ink_ratio": 0.1114,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0659,
+    "ink_ratio": 0.0871,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "809",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0593,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0736,
     "checked": null,
     "status": "ok"
   },
@@ -288,14 +288,14 @@
     "name": "inter_percentage",
     "bbox": [
       920,
-      1275,
+      1274,
       180,
       56
     ],
     "raw_text": "73.55",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0727,
+    "ink_ratio": 0.0795,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Sheikh Adnan",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.037,
+    "ink_ratio": 0.045,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "07/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1053,
+    "ink_ratio": 0.1211,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1554,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0734,
+    "ink_ratio": 0.1031,
     "checked": null,
     "status": "ok"
   }

@@ -10,7 +10,7 @@
     "raw_text": "Hafsa Sana Niazi",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0494,
+    "ink_ratio": 0.0583,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Asad Niazi",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0293,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0355,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "30783-8565487-8",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0921,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.1095,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "13/02/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0763,
+    "ink_ratio": 0.0878,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1681,
+    "ink_ratio": 0.2194,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "hafsa.niaziz004@gmail.com",
     "value": null,
     "ocr_confidence": 0.988,
-    "ink_ratio": 0.0729,
+    "ink_ratio": 0.0884,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0302-00972135",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0753,
+    "ink_ratio": 0.0883,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 152, Street 12, Model Town, Sialkot",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0652,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0776,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1525,
+    "ink_ratio": 0.2,
     "checked": true,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1588,
+    "ink_ratio": 0.205,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2021",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0652,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0793,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0533,
+    "ink_ratio": 0.0615,
     "checked": null,
     "status": "ok"
   },
@@ -217,10 +217,10 @@
       170,
       56
     ],
-    "raw_text": "Y",
+    "raw_text": "silly",
     "value": null,
-    "ocr_confidence": 0.449,
-    "ink_ratio": 0.245,
+    "ocr_confidence": 0.545,
+    "ink_ratio": 0.7759,
     "checked": null,
     "status": "unreadable"
   },
@@ -235,7 +235,7 @@
     "raw_text": "84.17",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0554,
+    "ink_ratio": 0.0635,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2023",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0715,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0844,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0472,
+    "ink_ratio": 0.054,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "996",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0455,
+    "ink_ratio": 0.0539,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "90.55",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0551,
+    "ink_ratio": 0.067,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Hafsa Sana Niazi",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.047,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0554,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "08/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0847,
+    "ink_ratio": 0.101,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0406,
+    "ink_ratio": 0.0602,
     "checked": null,
     "status": "ok"
   }

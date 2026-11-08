@@ -9,8 +9,8 @@
     ],
     "raw_text": "Khadija Farooq",
     "value": null,
-    "ocr_confidence": 0.982,
-    "ink_ratio": 0.0371,
+    "ocr_confidence": 0.959,
+    "ink_ratio": 0.0473,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Ahmed Farooq",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0347,
+    "ink_ratio": 0.0428,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "32343-6140871-1",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0916,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.1065,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "03/08/2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0892,
+    "ink_ratio": 0.1071,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2112,
+    "ink_ratio": 0.2656,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "khadija.farooq2005@gmail.com",
     "value": null,
-    "ocr_confidence": 0.982,
-    "ink_ratio": 0.077,
+    "ocr_confidence": 0.986,
+    "ink_ratio": 0.0962,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "042-35761234",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0755,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0903,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 379, Lane 3, Iqbal Town, Faisalabad",
     "value": null,
-    "ocr_confidence": 0.978,
-    "ink_ratio": 0.0642,
+    "ocr_confidence": 0.979,
+    "ink_ratio": 0.0802,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.205,
+    "ink_ratio": 0.2562,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0758,
+    "ink_ratio": 0.0885,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.97,
-    "ink_ratio": 0.0635,
+    "ocr_confidence": 0.972,
+    "ink_ratio": 0.0725,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "765",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0459,
+    "ink_ratio": 0.0539,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "63.75",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0612,
+    "ink_ratio": 0.0712,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0779,
+    "ink_ratio": 0.0933,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.846,
-    "ink_ratio": 0.0608,
+    "ocr_confidence": 0.857,
+    "ink_ratio": 0.0693,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "723",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0461,
+    "ink_ratio": 0.0543,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "65.73",
     "value": null,
-    "ocr_confidence": 0.901,
-    "ink_ratio": 0.0615,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0718,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Khadija Farooq.",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0387,
+    "ink_ratio": 0.0496,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "15/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0927,
+    "ink_ratio": 0.1105,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0775,
+    "ink_ratio": 0.1193,
     "checked": null,
     "status": "ok"
   }

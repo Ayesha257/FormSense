@@ -9,7 +9,7 @@
     ],
     "raw_text": "* Ahmed Saleem",
     "value": null,
-    "ocr_confidence": 0.997,
+    "ocr_confidence": 0.998,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -137,9 +137,9 @@
   {
     "name": "program_bscs",
     "bbox": [
-      240,
+      239,
       1050,
-      237,
+      239,
       25
     ],
     "raw_text": "",
@@ -309,7 +309,7 @@
     ],
     "raw_text": "* Ahmed Saleem",
     "value": null,
-    "ocr_confidence": 1.0,
+    "ocr_confidence": 0.999,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

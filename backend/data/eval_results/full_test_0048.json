@@ -10,7 +10,7 @@
     "raw_text": "zain Taimoor zafar",
     "value": null,
     "ocr_confidence": 0.983,
-    "ink_ratio": 0.0346,
+    "ink_ratio": 0.0359,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Arslan zafar",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0246,
+    "ink_ratio": 0.0248,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "34430-0879296-3",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0574,
+    "ink_ratio": 0.056,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "25/09/2007",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0535,
+    "ink_ratio": 0.0539,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1444,
+    "ink_ratio": 0.1812,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "zainzafar59@nicedu\u00b7pk",
     "value": null,
-    "ocr_confidence": 0.972,
-    "ink_ratio": 0.046,
+    "ocr_confidence": 0.973,
+    "ink_ratio": 0.044,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0315-8764500",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0514,
+    "ink_ratio": 0.0535,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 385, Canal Road, Model Town, Lahore",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0496,
+    "ink_ratio": 0.0501,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1462,
+    "ink_ratio": 0.1837,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0498,
+    "ink_ratio": 0.0443,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0381,
+    "ink_ratio": 0.0393,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1073",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0365,
+    "ink_ratio": 0.0375,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "89.42",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0417,
+    "ink_ratio": 0.0436,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2025",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.052,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0475,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0344,
+    "ink_ratio": 0.0314,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "704",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0275,
+    "ink_ratio": 0.0276,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "64.00",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0403,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0401,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "zain Taimoor zafar",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0343,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0331,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0652,
+    "ink_ratio": 0.088,
     "checked": null,
     "status": "ok"
   }

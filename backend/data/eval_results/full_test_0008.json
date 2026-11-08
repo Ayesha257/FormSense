@@ -10,7 +10,7 @@
     "raw_text": "Komal Amna Chaudhry",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0468,
+    "ink_ratio": 0.0563,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Salman Chaudhry",
     "value": null,
-    "ocr_confidence": 0.995,
-    "ink_ratio": 0.0395,
+    "ocr_confidence": 0.968,
+    "ink_ratio": 0.0468,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "3052848546232",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.071,
+    "ink_ratio": 0.0886,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "13/05/2005",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0634,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0739,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2037,
+    "ink_ratio": 0.2519,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "komal.chaudhry@gmail.com",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0597,
+    "ocr_confidence": 0.992,
+    "ink_ratio": 0.0719,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0325-7400484",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0569,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0671,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 439, Lane 3, Faisal Town, Lahore",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0484,
+    "ink_ratio": 0.0564,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2019,
+    "ink_ratio": 0.255,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0559,
+    "ink_ratio": 0.0676,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0416,
+    "ink_ratio": 0.0499,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "785",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0379,
+    "ink_ratio": 0.0447,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "65.42",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0562,
+    "ink_ratio": 0.0635,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0601,
+    "ink_ratio": 0.0704,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0371,
+    "ink_ratio": 0.0453,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "677",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.035,
+    "ink_ratio": 0.0409,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "61.55",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0557,
+    "ink_ratio": 0.0628,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Junaid Omar Malik",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0366,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0429,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "14/10/2026",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0653,
+    "ocr_confidence": 0.992,
+    "ink_ratio": 0.0785,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0722,
+    "ink_ratio": 0.1086,
     "checked": null,
     "status": "ok"
   }

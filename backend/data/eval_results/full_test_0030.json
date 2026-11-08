@@ -7,10 +7,10 @@
       780,
       56
     ],
-    "raw_text": "Maoma N",
+    "raw_text": "JAN",
     "value": null,
-    "ocr_confidence": 0.454,
-    "ink_ratio": 0.0082,
+    "ocr_confidence": 0.455,
+    "ink_ratio": 0.0559,
     "checked": null,
     "status": "unreadable"
   },
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "wen Ny",
+    "raw_text": "e Ny",
     "value": null,
-    "ocr_confidence": 0.527,
-    "ink_ratio": 0.0076,
+    "ocr_confidence": 0.556,
+    "ink_ratio": 0.0478,
     "checked": null,
     "status": "unreadable"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "2293199304.5",
     "value": null,
-    "ocr_confidence": 0.728,
-    "ink_ratio": 0.0292,
+    "ocr_confidence": 0.782,
+    "ink_ratio": 0.149,
     "checked": null,
     "status": "ok"
   },
@@ -52,10 +52,10 @@
       300,
       56
     ],
-    "raw_text": "310/200%",
+    "raw_text": "130/000%",
     "value": null,
-    "ocr_confidence": 0.688,
-    "ink_ratio": 0.0146,
+    "ocr_confidence": 0.669,
+    "ink_ratio": 0.1326,
     "checked": null,
     "status": "ok"
   },
@@ -97,12 +97,12 @@
       780,
       56
     ],
-    "raw_text": "uma.n@ot.com",
+    "raw_text": "management information",
     "value": null,
-    "ocr_confidence": 0.598,
-    "ink_ratio": 0.0183,
+    "ocr_confidence": 0.604,
+    "ink_ratio": 0.1203,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "phone",
@@ -112,10 +112,10 @@
       380,
       56
     ],
-    "raw_text": "0344-41309m",
+    "raw_text": "convulsive",
     "value": null,
-    "ocr_confidence": 0.727,
-    "ink_ratio": 0.0281,
+    "ocr_confidence": 0.722,
+    "ink_ratio": 0.1261,
     "checked": null,
     "status": "ok"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "Mouge 280, Lane 3. Bahria Town, Lahore",
+    "raw_text": "House 280, lame 3. Bahria Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.842,
-    "ink_ratio": 0.0259,
+    "ocr_confidence": 0.879,
+    "ink_ratio": 0.1077,
     "checked": null,
     "status": "ok"
   },
@@ -173,10 +173,10 @@
       44
     ],
     "raw_text": "",
-    "value": "unchecked",
+    "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0,
-    "checked": false,
+    "ink_ratio": 0.6806,
+    "checked": true,
     "status": "ok"
   },
   {
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0345,
+    "ink_ratio": 0.1329,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "200",
     "value": null,
-    "ocr_confidence": 0.858,
-    "ink_ratio": 0.0273,
+    "ocr_confidence": 0.895,
+    "ink_ratio": 0.1029,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "880",
     "value": null,
-    "ocr_confidence": 0.739,
-    "ink_ratio": 0.0242,
+    "ocr_confidence": 0.812,
+    "ink_ratio": 0.0911,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "3.33",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0315,
+    "ocr_confidence": 0.983,
+    "ink_ratio": 0.1009,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2028",
     "value": null,
-    "ocr_confidence": 0.98,
-    "ink_ratio": 0.0389,
+    "ocr_confidence": 0.945,
+    "ink_ratio": 0.1465,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "100",
     "value": null,
-    "ocr_confidence": 0.882,
-    "ink_ratio": 0.027,
+    "ocr_confidence": 0.914,
+    "ink_ratio": 0.0878,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "ase",
     "value": null,
-    "ocr_confidence": 0.7,
-    "ink_ratio": 0.0218,
+    "ocr_confidence": 0.714,
+    "ink_ratio": 0.0882,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": ".02",
     "value": null,
-    "ocr_confidence": 0.739,
-    "ink_ratio": 0.0354,
+    "ocr_confidence": 0.769,
+    "ink_ratio": 0.0967,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Mamle Niay",
     "value": null,
-    "ocr_confidence": 0.714,
-    "ink_ratio": 0.0244,
+    "ocr_confidence": 0.69,
+    "ink_ratio": 0.0564,
     "checked": null,
     "status": "ok"
   },
@@ -322,10 +322,10 @@
       270,
       56
     ],
-    "raw_text": "0/0/2024",
+    "raw_text": "0/0/2026",
     "value": null,
-    "ocr_confidence": 0.773,
-    "ink_ratio": 0.0441,
+    "ocr_confidence": 0.736,
+    "ink_ratio": 0.1544,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0776,
+    "ink_ratio": 0.1832,
     "checked": null,
     "status": "ok"
   }

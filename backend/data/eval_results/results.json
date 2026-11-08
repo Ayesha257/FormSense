@@ -4,7 +4,7 @@
     "field_extraction": {
       "n": 1368,
       "exact_match_accuracy": 0.40497076023391815,
-      "mean_cer": 0.44748923532626034,
+      "mean_cer": 0.44827131204583714,
       "per_field": {
         "full_name": {
           "n": 60,
@@ -39,17 +39,17 @@
         "email": {
           "n": 60,
           "exact_match_accuracy": 0.4666666666666667,
-          "mean_cer": 0.1830111711959538
+          "mean_cer": 0.18434450452928713
         },
         "phone": {
           "n": 60,
           "exact_match_accuracy": 0.6666666666666666,
-          "mean_cer": 0.2888888888888889
+          "mean_cer": 0.2902777777777778
         },
         "address": {
           "n": 60,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.26150586656976643
+          "mean_cer": 0.27747808879198865
         },
         "program_bscs": {
           "n": 60,
@@ -104,12 +104,12 @@
         "declaration_name": {
           "n": 60,
           "exact_match_accuracy": 0.0,
-          "mean_cer": 0.30138578533895866
+          "mean_cer": 0.29885602343419665
         },
         "declaration_date": {
           "n": 60,
           "exact_match_accuracy": 0.7666666666666667,
-          "mean_cer": 0.19166666666666668
+          "mean_cer": 0.19333333333333333
         },
         "signature": {
           "n": 51,
@@ -132,12 +132,12 @@
       "f1": 0.03600654664484452
     },
     "issue_detection": {
-      "tp": 36,
-      "fp": 750,
-      "fn": 39,
-      "precision": 0.04580152671755725,
-      "recall": 0.48,
-      "f1": 0.08362369337979095
+      "tp": 37,
+      "fp": 748,
+      "fn": 38,
+      "precision": 0.04713375796178344,
+      "recall": 0.49333333333333335,
+      "f1": 0.08604651162790697
     },
     "issue_detection_by_type": {
       "missing": {
@@ -150,7 +150,7 @@
       },
       "unreadable": {
         "tp": 0,
-        "fp": 17,
+        "fp": 14,
         "fn": 7,
         "precision": 0.0,
         "recall": 0.0,
@@ -158,19 +158,19 @@
       },
       "format": {
         "tp": 13,
-        "fp": 25,
+        "fp": 26,
         "fn": 11,
-        "precision": 0.34210526315789475,
+        "precision": 0.3333333333333333,
         "recall": 0.5416666666666666,
-        "f1": 0.4193548387096774
+        "f1": 0.4126984126984126
       },
       "inconsistency": {
-        "tp": 10,
+        "tp": 11,
         "fp": 2,
-        "fn": 17,
-        "precision": 0.8333333333333334,
-        "recall": 0.37037037037037035,
-        "f1": 0.5128205128205128
+        "fn": 16,
+        "precision": 0.8461538461538461,
+        "recall": 0.4074074074074074,
+        "f1": 0.5499999999999999
       },
       "selection": {
         "tp": 2,
@@ -210,28 +210,28 @@
     "n_forms": 60,
     "field_extraction": {
       "n": 1368,
-      "exact_match_accuracy": 0.814327485380117,
-      "mean_cer": 0.10108537644119157,
+      "exact_match_accuracy": 0.8179824561403509,
+      "mean_cer": 0.081507637136257,
       "per_field": {
         "full_name": {
           "n": 60,
-          "exact_match_accuracy": 0.75,
-          "mean_cer": 0.1244020794020794
+          "exact_match_accuracy": 0.7333333333333333,
+          "mean_cer": 0.10306128204154517
         },
         "father_name": {
           "n": 59,
-          "exact_match_accuracy": 0.6610169491525424,
-          "mean_cer": 0.1512017687786434
+          "exact_match_accuracy": 0.6440677966101694,
+          "mean_cer": 0.09889279493427573
         },
         "cnic": {
           "n": 60,
-          "exact_match_accuracy": 0.7833333333333333,
-          "mean_cer": 0.09222222222222222
+          "exact_match_accuracy": 0.8166666666666667,
+          "mean_cer": 0.08777777777777777
         },
         "date_of_birth": {
           "n": 60,
           "exact_match_accuracy": 0.8166666666666667,
-          "mean_cer": 0.125
+          "mean_cer": 0.10333333333333333
         },
         "gender_male": {
           "n": 60,
@@ -246,17 +246,17 @@
         "email": {
           "n": 60,
           "exact_match_accuracy": 0.6,
-          "mean_cer": 0.1412426878006588
+          "mean_cer": 0.11403057516825633
         },
         "phone": {
           "n": 60,
-          "exact_match_accuracy": 0.7333333333333333,
-          "mean_cer": 0.1625
+          "exact_match_accuracy": 0.75,
+          "mean_cer": 0.14999999999999997
         },
         "address": {
           "n": 60,
-          "exact_match_accuracy": 0.5833333333333334,
-          "mean_cer": 0.11271793444476196
+          "exact_match_accuracy": 0.6,
+          "mean_cer": 0.042372801771600195
         },
         "program_bscs": {
           "n": 60,
@@ -276,47 +276,47 @@
         "matric_total": {
           "n": 60,
           "exact_match_accuracy": 0.8666666666666667,
-          "mean_cer": 0.10277777777777779
+          "mean_cer": 0.07777777777777777
         },
         "matric_obtained": {
           "n": 60,
-          "exact_match_accuracy": 0.7833333333333333,
-          "mean_cer": 0.15833333333333333
+          "exact_match_accuracy": 0.8,
+          "mean_cer": 0.14444444444444443
         },
         "matric_percentage": {
           "n": 59,
-          "exact_match_accuracy": 0.7627118644067796,
-          "mean_cer": 0.13898305084745763
+          "exact_match_accuracy": 0.7457627118644068,
+          "mean_cer": 0.1282485875706215
         },
         "inter_year": {
           "n": 60,
-          "exact_match_accuracy": 0.85,
-          "mean_cer": 0.1
+          "exact_match_accuracy": 0.8666666666666667,
+          "mean_cer": 0.0625
         },
         "inter_total": {
           "n": 60,
-          "exact_match_accuracy": 0.75,
-          "mean_cer": 0.12916666666666668
+          "exact_match_accuracy": 0.7333333333333333,
+          "mean_cer": 0.11666666666666667
         },
         "inter_obtained": {
           "n": 60,
-          "exact_match_accuracy": 0.75,
-          "mean_cer": 0.20416666666666664
+          "exact_match_accuracy": 0.7666666666666667,
+          "mean_cer": 0.19166666666666668
         },
         "inter_percentage": {
           "n": 60,
           "exact_match_accuracy": 0.7166666666666667,
-          "mean_cer": 0.16666666666666666
+          "mean_cer": 0.15444444444444447
         },
         "declaration_name": {
           "n": 60,
           "exact_match_accuracy": 0.7333333333333333,
-          "mean_cer": 0.13103547524600154
+          "mean_cer": 0.061109330484330496
         },
         "declaration_date": {
           "n": 60,
-          "exact_match_accuracy": 0.7666666666666667,
-          "mean_cer": 0.165
+          "exact_match_accuracy": 0.7833333333333333,
+          "mean_cer": 0.155
         },
         "signature": {
           "n": 51,
@@ -325,67 +325,67 @@
         },
         "matric_year": {
           "n": 59,
-          "exact_match_accuracy": 0.847457627118644,
-          "mean_cer": 0.1059322033898305
+          "exact_match_accuracy": 0.864406779661017,
+          "mean_cer": 0.07203389830508475
         }
       }
     },
     "missing_field_detection": {
       "tp": 12,
-      "fp": 64,
+      "fp": 1,
       "fn": 0,
-      "precision": 0.15789473684210525,
+      "precision": 0.9230769230769231,
       "recall": 1.0,
-      "f1": 0.2727272727272727
+      "f1": 0.9600000000000001
     },
     "issue_detection": {
-      "tp": 64,
-      "fp": 170,
-      "fn": 11,
-      "precision": 0.27350427350427353,
-      "recall": 0.8533333333333334,
-      "f1": 0.4142394822006473
+      "tp": 65,
+      "fp": 148,
+      "fn": 10,
+      "precision": 0.3051643192488263,
+      "recall": 0.8666666666666667,
+      "f1": 0.45138888888888895
     },
     "issue_detection_by_type": {
       "missing": {
         "tp": 12,
-        "fp": 64,
+        "fp": 1,
         "fn": 0,
-        "precision": 0.15789473684210525,
+        "precision": 0.9230769230769231,
         "recall": 1.0,
-        "f1": 0.2727272727272727
+        "f1": 0.9600000000000001
       },
       "unreadable": {
         "tp": 7,
-        "fp": 68,
+        "fp": 110,
         "fn": 0,
-        "precision": 0.09333333333333334,
+        "precision": 0.05982905982905983,
         "recall": 1.0,
-        "f1": 0.17073170731707318
+        "f1": 0.11290322580645161
       },
       "format": {
-        "tp": 16,
-        "fp": 19,
-        "fn": 8,
-        "precision": 0.45714285714285713,
-        "recall": 0.6666666666666666,
-        "f1": 0.5423728813559322
+        "tp": 18,
+        "fp": 20,
+        "fn": 6,
+        "precision": 0.47368421052631576,
+        "recall": 0.75,
+        "f1": 0.5806451612903226
       },
       "inconsistency": {
-        "tp": 24,
-        "fp": 14,
-        "fn": 3,
-        "precision": 0.631578947368421,
-        "recall": 0.8888888888888888,
-        "f1": 0.7384615384615385
+        "tp": 23,
+        "fp": 17,
+        "fn": 4,
+        "precision": 0.575,
+        "recall": 0.8518518518518519,
+        "f1": 0.6865671641791045
       },
       "selection": {
         "tp": 5,
-        "fp": 5,
+        "fp": 0,
         "fn": 0,
-        "precision": 0.5,
+        "precision": 1.0,
         "recall": 1.0,
-        "f1": 0.6666666666666666
+        "f1": 1.0
       }
     },
     "missing_vs_unreadable": {

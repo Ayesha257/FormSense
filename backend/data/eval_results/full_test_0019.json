@@ -9,8 +9,8 @@
     ],
     "raw_text": "Taimoor Zain Baig",
     "value": null,
-    "ocr_confidence": 0.985,
-    "ink_ratio": 0.0438,
+    "ocr_confidence": 0.979,
+    "ink_ratio": 0.0515,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Fahad umair Baig",
     "value": null,
-    "ocr_confidence": 0.973,
-    "ink_ratio": 0.0467,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0547,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "30250-0962107-1",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0711,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.081,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "14/03/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0664,
+    "ink_ratio": 0.075,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1525,
+    "ink_ratio": 0.1938,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "taimoorbaig@yahoo.com",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0533,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.062,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0308-5941467",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0621,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0712,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 189, Street s, Samanabad, Lahore",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0539,
+    "ink_ratio": 0.0641,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1606,
+    "ink_ratio": 0.2006,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0615,
+    "ink_ratio": 0.0711,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.044,
+    "ink_ratio": 0.0503,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0451,
+    "ink_ratio": 0.0518,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "100.00",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0567,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0659,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0621,
+    "ink_ratio": 0.0732,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.04,
+    "ink_ratio": 0.0472,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "670",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0345,
+    "ink_ratio": 0.0373,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "60.91",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0452,
+    "ink_ratio": 0.0529,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Taimoor Zain Baig",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0439,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.0497,
     "checked": null,
     "status": "ok"
   },
@@ -325,14 +325,14 @@
     "raw_text": "18/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0702,
+    "ink_ratio": 0.0806,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "signature",
     "bbox": [
-      700,
+      699,
       1555,
       460,
       110
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0663,
+    "ink_ratio": 0.0974,
     "checked": null,
     "status": "ok"
   }

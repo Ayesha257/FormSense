@@ -7,10 +7,10 @@
       780,
       56
     ],
-    "raw_text": "Nauman Fahad Kayani",
+    "raw_text": "Naumtn Fahad Kayani",
     "value": null,
-    "ocr_confidence": 0.892,
-    "ink_ratio": 0.0183,
+    "ocr_confidence": 0.896,
+    "ink_ratio": 0.1103,
     "checked": null,
     "status": "ok"
   },
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "Ahmed Zain Kayan",
+    "raw_text": "Ahmed Zain Kayani",
     "value": null,
-    "ocr_confidence": 0.976,
-    "ink_ratio": 0.0148,
+    "ocr_confidence": 0.951,
+    "ink_ratio": 0.0963,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "15169-8887624-1",
     "value": null,
-    "ocr_confidence": 0.947,
-    "ink_ratio": 0.0338,
+    "ocr_confidence": 0.939,
+    "ink_ratio": 0.19,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "25-10-2006",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0324,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1684,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1419,
+    "ink_ratio": 0.41,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "nauman.kayani2006egmall.com",
+    "raw_text": "nauman.kayani2006egmal.com",
     "value": null,
-    "ocr_confidence": 0.911,
-    "ink_ratio": 0.0212,
+    "ocr_confidence": 0.855,
+    "ink_ratio": 0.1639,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0325-0451880",
     "value": null,
     "ocr_confidence": 0.905,
-    "ink_ratio": 0.0216,
+    "ink_ratio": 0.1811,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 302 Garden Avenue, Township, Multan",
     "value": null,
-    "ocr_confidence": 0.946,
-    "ink_ratio": 0.0239,
+    "ocr_confidence": 0.929,
+    "ink_ratio": 0.1326,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1306,
+    "ink_ratio": 0.3975,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0291,
+    "ink_ratio": 0.1772,
     "checked": null,
     "status": "ok"
   },
@@ -204,38 +204,38 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0169,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.1413,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "matric_obtained",
     "bbox": [
-      730,
+      731,
       1205,
       170,
       56
     ],
     "raw_text": "1028",
     "value": null,
-    "ocr_confidence": 0.98,
-    "ink_ratio": 0.0168,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.1443,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "matric_percentage",
     "bbox": [
-      920,
+      921,
       1205,
       180,
       56
     ],
     "raw_text": "85.67",
     "value": null,
-    "ocr_confidence": 0.905,
-    "ink_ratio": 0.0281,
+    "ocr_confidence": 0.935,
+    "ink_ratio": 0.1241,
     "checked": null,
     "status": "ok"
   },
@@ -250,67 +250,67 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0276,
+    "ink_ratio": 0.1811,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_total",
     "bbox": [
-      540,
+      541,
       1275,
       170,
       56
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.981,
-    "ink_ratio": 0.0102,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.1262,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_obtained",
     "bbox": [
-      730,
+      731,
       1275,
       170,
       56
     ],
-    "raw_text": "39",
+    "raw_text": "791",
     "value": null,
-    "ocr_confidence": 0.685,
-    "ink_ratio": 0.0139,
+    "ocr_confidence": 0.812,
+    "ink_ratio": 0.0783,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_percentage",
     "bbox": [
-      920,
+      921,
       1275,
       180,
       56
     ],
-    "raw_text": "mm",
+    "raw_text": "191",
     "value": null,
-    "ocr_confidence": 0.426,
-    "ink_ratio": 0.0213,
+    "ocr_confidence": 0.669,
+    "ink_ratio": 0.0946,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "declaration_name",
     "bbox": [
-      380,
+      381,
       1495,
       780,
       56
     ],
-    "raw_text": "Nauman Fahad Kaya",
+    "raw_text": "Nauman Fahad Kayani",
     "value": null,
-    "ocr_confidence": 0.961,
-    "ink_ratio": 0.0049,
+    "ocr_confidence": 0.944,
+    "ink_ratio": 0.1079,
     "checked": null,
     "status": "ok"
   },
@@ -324,23 +324,23 @@
     ],
     "raw_text": "28-10-2026",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0228,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1872,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "signature",
     "bbox": [
-      700,
-      1555,
+      701,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0514,
+    "ink_ratio": 0.1433,
     "checked": null,
     "status": "ok"
   }

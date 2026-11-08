@@ -24,7 +24,7 @@
     ],
     "raw_text": "* Vahd baleem",
     "value": null,
-    "ocr_confidence": 0.767,
+    "ocr_confidence": 0.768,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -39,7 +39,7 @@
     ],
     "raw_text": "38180 3630106-6",
     "value": null,
-    "ocr_confidence": 0.822,
+    "ocr_confidence": 0.82,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -54,7 +54,7 @@
     ],
     "raw_text": "02-09 2006",
     "value": null,
-    "ocr_confidence": 0.929,
+    "ocr_confidence": 0.936,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -92,14 +92,14 @@
   {
     "name": "email",
     "bbox": [
-      525,
+      197,
       729,
-      395,
-      52
+      723,
+      64
     ],
-    "raw_text": "mahnoongdleem41@gmal com",
+    "raw_text": "* mahnoongleem41@gmal com",
     "value": null,
-    "ocr_confidence": 0.768,
+    "ocr_confidence": 0.823,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -112,9 +112,9 @@
       196,
       47
     ],
-    "raw_text": "0316-9818181",
+    "raw_text": "0316-1818181",
     "value": null,
-    "ocr_confidence": 0.795,
+    "ocr_confidence": 0.822,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -129,7 +129,7 @@
     ],
     "raw_text": "Houle 3se, Garden Avenue, wapda Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.935,
+    "ocr_confidence": 0.936,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"
@@ -302,17 +302,17 @@
   {
     "name": "declaration_name",
     "bbox": [
-      0,
-      0,
-      0,
-      0
+      203,
+      1631,
+      526,
+      60
     ],
-    "raw_text": "",
+    "raw_text": "* Gidra biddiqui",
     "value": null,
-    "ocr_confidence": null,
+    "ocr_confidence": 0.805,
     "ink_ratio": 0.0,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "declaration_date",
@@ -324,7 +324,7 @@
     ],
     "raw_text": "24-10-2026",
     "value": null,
-    "ocr_confidence": 0.941,
+    "ocr_confidence": 0.956,
     "ink_ratio": 0.0,
     "checked": null,
     "status": "ok"

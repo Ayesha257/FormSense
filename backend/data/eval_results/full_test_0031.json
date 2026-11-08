@@ -10,7 +10,7 @@
     "raw_text": "Rabia Qureshi",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0335,
+    "ink_ratio": 0.0408,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Kamran Qureshi",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0371,
+    "ink_ratio": 0.0448,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "30298-5640963-2",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0808,
+    "ink_ratio": 0.0844,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "09/12/2003",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0581,
+    "ink_ratio": 0.0531,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3075,
+    "ink_ratio": 0.1313,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "rabiaqureshi2003@hotmail.com",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0709,
+    "ocr_confidence": 0.981,
+    "ink_ratio": 0.088,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0349-7490803",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0668,
+    "ink_ratio": 0.0765,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "Wa",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.0051,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.0057,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3075,
+    "ink_ratio": 0.1706,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2019",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0518,
+    "ink_ratio": 0.0493,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0383,
+    "ink_ratio": 0.0327,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "752",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0389,
+    "ink_ratio": 0.0399,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "62.67",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.053,
+    "ink_ratio": 0.0487,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0509,
+    "ink_ratio": 0.0506,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.835,
-    "ink_ratio": 0.0332,
+    "ocr_confidence": 0.807,
+    "ink_ratio": 0.0319,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "789",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0421,
+    "ink_ratio": 0.044,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "71.73",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0427,
+    "ink_ratio": 0.0416,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Rabia Qureshi",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.0337,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0383,
     "checked": null,
     "status": "ok"
   },
@@ -322,10 +322,10 @@
       270,
       56
     ],
-    "raw_text": "1.",
+    "raw_text": "13",
     "value": null,
-    "ocr_confidence": 0.354,
-    "ink_ratio": 0.258,
+    "ocr_confidence": 0.234,
+    "ink_ratio": 0.4988,
     "checked": null,
     "status": "unreadable"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0598,
+    "ink_ratio": 0.0774,
     "checked": null,
     "status": "ok"
   }

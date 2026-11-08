@@ -9,8 +9,8 @@
     ],
     "raw_text": "newspapers .",
     "value": null,
-    "ocr_confidence": 0.517,
-    "ink_ratio": 0.0132,
+    "ocr_confidence": 0.555,
+    "ink_ratio": 0.0654,
     "checked": null,
     "status": "unreadable"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Taimony ighal",
     "value": null,
-    "ocr_confidence": 0.786,
-    "ink_ratio": 0.0122,
+    "ocr_confidence": 0.686,
+    "ink_ratio": 0.0549,
     "checked": null,
     "status": "ok"
   },
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "33960-4014019-7",
+    "raw_text": "33960.4014019\u2192",
     "value": null,
-    "ocr_confidence": 0.716,
-    "ink_ratio": 0.0374,
+    "ocr_confidence": 0.709,
+    "ink_ratio": 0.1309,
     "checked": null,
     "status": "ok"
   },
@@ -52,10 +52,10 @@
       300,
       56
     ],
-    "raw_text": "01-04-2003",
+    "raw_text": "01-04-2007",
     "value": null,
-    "ocr_confidence": 0.766,
-    "ink_ratio": 0.017,
+    "ocr_confidence": 0.789,
+    "ink_ratio": 0.1106,
     "checked": null,
     "status": "ok"
   },
@@ -63,15 +63,15 @@
     "name": "gender_male",
     "bbox": [
       380,
-      576,
+      577,
       44,
       44
     ],
     "raw_text": "",
-    "value": "unchecked",
+    "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0,
-    "checked": false,
+    "ink_ratio": 0.6806,
+    "checked": true,
     "status": "ok"
   },
   {
@@ -97,12 +97,12 @@
       780,
       56
     ],
-    "raw_text": "Balgak iqbaal@outook.com",
+    "raw_text": "Baigak iqbakl@ouook.com",
     "value": null,
-    "ocr_confidence": 0.567,
-    "ink_ratio": 0.0305,
+    "ocr_confidence": 0.644,
+    "ink_ratio": 0.1333,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "phone",
@@ -112,10 +112,10 @@
       380,
       56
     ],
-    "raw_text": "0328-la2",
+    "raw_text": "0328-302",
     "value": null,
-    "ocr_confidence": 0.479,
-    "ink_ratio": 0.0321,
+    "ocr_confidence": 0.522,
+    "ink_ratio": 0.1236,
     "checked": null,
     "status": "unreadable"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "rouge t0o, Lane 3, sgbal Town, Sialgo\u0142",
+    "raw_text": "rouse 100, lane 3, igbal Town, Salgot",
     "value": null,
-    "ocr_confidence": 0.83,
-    "ink_ratio": 0.0306,
+    "ocr_confidence": 0.81,
+    "ink_ratio": 0.0938,
     "checked": null,
     "status": "ok"
   },
@@ -138,15 +138,15 @@
     "name": "program_bscs",
     "bbox": [
       80,
-      965,
+      966,
       44,
       44
     ],
     "raw_text": "",
-    "value": "unchecked",
+    "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0,
-    "checked": false,
+    "ink_ratio": 0.6806,
+    "checked": true,
     "status": "ok"
   },
   {
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2023",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0267,
+    "ocr_confidence": 0.97,
+    "ink_ratio": 0.1222,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "200",
     "value": null,
-    "ocr_confidence": 0.894,
-    "ink_ratio": 0.0178,
+    "ocr_confidence": 0.911,
+    "ink_ratio": 0.0935,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "900",
     "value": null,
-    "ocr_confidence": 0.634,
-    "ink_ratio": 0.0242,
+    "ocr_confidence": 0.743,
+    "ink_ratio": 0.0663,
     "checked": null,
     "status": "ok"
   },
@@ -232,10 +232,10 @@
       180,
       56
     ],
-    "raw_text": "98.0%",
+    "raw_text": "18.0%",
     "value": null,
-    "ocr_confidence": 0.554,
-    "ink_ratio": 0.0456,
+    "ocr_confidence": 0.525,
+    "ink_ratio": 0.1027,
     "checked": null,
     "status": "unreadable"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2028",
     "value": null,
-    "ocr_confidence": 0.935,
-    "ink_ratio": 0.0215,
+    "ocr_confidence": 0.941,
+    "ink_ratio": 0.1277,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.767,
-    "ink_ratio": 0.0215,
+    "ocr_confidence": 0.792,
+    "ink_ratio": 0.0816,
     "checked": null,
     "status": "ok"
   },
@@ -277,10 +277,10 @@
       170,
       56
     ],
-    "raw_text": "900",
+    "raw_text": "100",
     "value": null,
-    "ocr_confidence": 0.933,
-    "ink_ratio": 0.0301,
+    "ocr_confidence": 0.792,
+    "ink_ratio": 0.0796,
     "checked": null,
     "status": "ok"
   },
@@ -292,10 +292,10 @@
       180,
       56
     ],
-    "raw_text": "en82",
+    "raw_text": "882",
     "value": null,
-    "ocr_confidence": 0.409,
-    "ink_ratio": 0.0428,
+    "ocr_confidence": 0.453,
+    "ink_ratio": 0.098,
     "checked": null,
     "status": "unreadable"
   },
@@ -307,10 +307,10 @@
       780,
       56
     ],
-    "raw_text": "S\u00fcuttdab squal",
+    "raw_text": "S\u00fcutt dab rqbat",
     "value": null,
-    "ocr_confidence": 0.413,
-    "ink_ratio": 0.0199,
+    "ocr_confidence": 0.431,
+    "ink_ratio": 0.0645,
     "checked": null,
     "status": "unreadable"
   },
@@ -322,10 +322,10 @@
       270,
       56
     ],
-    "raw_text": "20-10-2016",
+    "raw_text": "20-10-2026",
     "value": null,
-    "ocr_confidence": 0.901,
-    "ink_ratio": 0.0299,
+    "ocr_confidence": 0.883,
+    "ink_ratio": 0.1285,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0692,
+    "ink_ratio": 0.1997,
     "checked": null,
     "status": "ok"
   }

@@ -10,7 +10,7 @@
     "raw_text": "Salman Dar",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0223,
+    "ink_ratio": 0.0257,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Fahad Dar",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0212,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.023,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "33093-0064178-9",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.069,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0733,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "23/05/2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0576,
+    "ink_ratio": 0.0596,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2019,
+    "ink_ratio": 0.2263,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "salmandar@nic.edu.pk",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0485,
+    "ink_ratio": 0.0514,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0346-7874452",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0616,
+    "ink_ratio": 0.0649,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 274, Main Boulevard, Samanabad, Lahore",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.059,
+    "ocr_confidence": 0.989,
+    "ink_ratio": 0.0649,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.19,
+    "ink_ratio": 0.2575,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.046,
+    "ink_ratio": 0.045,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0358,
+    "ink_ratio": 0.0356,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "B14",
     "value": null,
-    "ocr_confidence": 0.909,
-    "ink_ratio": 0.037,
+    "ocr_confidence": 0.883,
+    "ink_ratio": 0.0394,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "109.50",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0504,
+    "ink_ratio": 0.0515,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0547,
+    "ink_ratio": 0.051,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.874,
-    "ink_ratio": 0.0297,
+    "ocr_confidence": 0.903,
+    "ink_ratio": 0.0308,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "802",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0335,
+    "ink_ratio": 0.0348,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "7291",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0406,
+    "ink_ratio": 0.039,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Salman Dar",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0231,
+    "ocr_confidence": 0.98,
+    "ink_ratio": 0.0269,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "26/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0605,
+    "ink_ratio": 0.0616,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0627,
+    "ink_ratio": 0.0802,
     "checked": null,
     "status": "ok"
   }

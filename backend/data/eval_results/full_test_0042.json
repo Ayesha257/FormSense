@@ -9,8 +9,8 @@
     ],
     "raw_text": "Fatima Niazi",
     "value": null,
-    "ocr_confidence": 0.939,
-    "ink_ratio": 0.0242,
+    "ocr_confidence": 0.94,
+    "ink_ratio": 0.0281,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Omar Niazi",
     "value": null,
-    "ocr_confidence": 0.967,
-    "ink_ratio": 0.0199,
+    "ocr_confidence": 0.966,
+    "ink_ratio": 0.0228,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "25383-5508409-0",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.0676,
+    "ink_ratio": 0.0774,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "06/11/2010",
     "value": null,
-    "ocr_confidence": 0.949,
-    "ink_ratio": 0.0516,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.06,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1512,
+    "ink_ratio": 0.1913,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "fatima.niazi2@gmail.com",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0487,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0595,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0325-3338401",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0531,
+    "ink_ratio": 0.0624,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 1o1, Garden Avenue, Johar Town, Faisalabad",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0587,
+    "ink_ratio": 0.0682,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1569,
+    "ink_ratio": 0.1969,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0563,
+    "ink_ratio": 0.0638,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "700",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0364,
+    "ink_ratio": 0.0393,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0341,
+    "ink_ratio": 0.0389,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "91.67",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0391,
+    "ink_ratio": 0.0463,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0539,
+    "ink_ratio": 0.0628,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0345,
+    "ink_ratio": 0.0403,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "972",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0316,
+    "ink_ratio": 0.0361,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "95.69",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0465,
+    "ink_ratio": 0.0547,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Fatima Niazi",
     "value": null,
-    "ocr_confidence": 0.944,
-    "ink_ratio": 0.024,
+    "ocr_confidence": 0.952,
+    "ink_ratio": 0.0283,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "22/10/2026",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0632,
+    "ink_ratio": 0.0741,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0713,
+    "ink_ratio": 0.1096,
     "checked": null,
     "status": "ok"
   }

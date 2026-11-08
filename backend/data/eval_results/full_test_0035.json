@@ -7,12 +7,12 @@
       780,
       56
     ],
-    "raw_text": "Sahrosh i\u00fcbal",
+    "raw_text": "Sthroh",
     "value": null,
-    "ocr_confidence": 0.629,
-    "ink_ratio": 0.0056,
+    "ocr_confidence": 0.551,
+    "ink_ratio": 0.0659,
     "checked": null,
-    "status": "ok"
+    "status": "unreadable"
   },
   {
     "name": "father_name",
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "Sead igbal",
+    "raw_text": "Sa",
     "value": null,
-    "ocr_confidence": 0.706,
-    "ink_ratio": 0.007,
+    "ocr_confidence": 0.827,
+    "ink_ratio": 0.0526,
     "checked": null,
     "status": "ok"
   },
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "358S.m051-2",
+    "raw_text": "358M5.051-2",
     "value": null,
-    "ocr_confidence": 0.668,
-    "ink_ratio": 0.0213,
+    "ocr_confidence": 0.603,
+    "ink_ratio": 0.18,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "01/10/2005",
     "value": null,
-    "ocr_confidence": 0.946,
-    "ink_ratio": 0.015,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.1796,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0944,
+    "ink_ratio": 0.3706,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "anthropologicalism .",
+    "raw_text": "swhrishigbdleg",
     "value": null,
-    "ocr_confidence": 0.71,
-    "ink_ratio": 0.0092,
+    "ocr_confidence": 0.746,
+    "ink_ratio": 0.1222,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "common .",
     "value": null,
-    "ocr_confidence": 0.803,
-    "ink_ratio": 0.0165,
+    "ocr_confidence": 0.782,
+    "ink_ratio": 0.1579,
     "checked": null,
     "status": "ok"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "House 233. Model Town Linik Rd Wopdo Town, Lahore",
+    "raw_text": "House 233. Model Town Link Rd Wopdo Town Lahore",
     "value": null,
-    "ocr_confidence": 0.917,
-    "ink_ratio": 0.0151,
+    "ocr_confidence": 0.879,
+    "ink_ratio": 0.1441,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0894,
+    "ink_ratio": 0.3394,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2021",
     "value": null,
-    "ocr_confidence": 0.912,
-    "ink_ratio": 0.0185,
+    "ocr_confidence": 0.947,
+    "ink_ratio": 0.1606,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.945,
-    "ink_ratio": 0.0065,
+    "ocr_confidence": 0.894,
+    "ink_ratio": 0.1321,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "6",
     "value": null,
-    "ocr_confidence": 0.359,
-    "ink_ratio": 0.0101,
+    "ocr_confidence": 0.512,
+    "ink_ratio": 0.087,
     "checked": null,
     "status": "unreadable"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "18.25",
     "value": null,
-    "ocr_confidence": 0.787,
-    "ink_ratio": 0.0156,
+    "ocr_confidence": 0.835,
+    "ink_ratio": 0.1299,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2023",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0119,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1718,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "100",
     "value": null,
-    "ocr_confidence": 0.672,
-    "ink_ratio": 0.0063,
+    "ocr_confidence": 0.77,
+    "ink_ratio": 0.1135,
     "checked": null,
     "status": "ok"
   },
@@ -277,10 +277,10 @@
       170,
       56
     ],
-    "raw_text": "29",
+    "raw_text": "21",
     "value": null,
-    "ocr_confidence": 0.791,
-    "ink_ratio": 0.0134,
+    "ocr_confidence": 0.72,
+    "ink_ratio": 0.0775,
     "checked": null,
     "status": "ok"
   },
@@ -292,10 +292,10 @@
       180,
       56
     ],
-    "raw_text": "as",
+    "raw_text": "ng",
     "value": null,
-    "ocr_confidence": 0.604,
-    "ink_ratio": 0.0059,
+    "ocr_confidence": 0.674,
+    "ink_ratio": 0.1319,
     "checked": null,
     "status": "ok"
   },
@@ -307,12 +307,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Sebrish ighal",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.002,
+    "ocr_confidence": 0.74,
+    "ink_ratio": 0.0626,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "declaration_date",
@@ -322,10 +322,10 @@
       270,
       56
     ],
-    "raw_text": "/0/200",
+    "raw_text": "1/0/2026",
     "value": null,
-    "ocr_confidence": 0.88,
-    "ink_ratio": 0.0053,
+    "ocr_confidence": 0.738,
+    "ink_ratio": 0.1802,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0559,
+    "ink_ratio": 0.1815,
     "checked": null,
     "status": "ok"
   }

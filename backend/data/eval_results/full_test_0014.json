@@ -10,7 +10,7 @@
     "raw_text": "Saad Awan",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0304,
+    "ink_ratio": 0.0425,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Umair Awan",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0313,
+    "ocr_confidence": 0.986,
+    "ink_ratio": 0.0431,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "25487-2276636-5",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1126,
+    "ink_ratio": 0.1473,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "23/10/2006",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1002,
+    "ink_ratio": 0.1329,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2194,
+    "ink_ratio": 0.2856,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "saad.awan@gmail.com",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0612,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0851,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0315-4461135",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0849,
+    "ink_ratio": 0.1159,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 261, Model Town Link Rd, Model Town, Faisalabad",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0969,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.1316,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2188,
+    "ink_ratio": 0.2831,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1027,
+    "ink_ratio": 0.1308,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0761,
+    "ink_ratio": 0.1033,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "747",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0512,
+    "ink_ratio": 0.0655,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "62.25",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0785,
+    "ink_ratio": 0.1029,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0953,
+    "ink_ratio": 0.1274,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.071,
+    "ink_ratio": 0.098,
     "checked": null,
     "status": "ok"
   },
@@ -280,14 +280,14 @@
     "raw_text": "697",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0525,
+    "ink_ratio": 0.0686,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_percentage",
     "bbox": [
-      920,
+      919,
       1275,
       180,
       56
@@ -295,22 +295,22 @@
     "raw_text": "63.36",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0729,
+    "ink_ratio": 0.096,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "declaration_name",
     "bbox": [
-      380,
+      379,
       1495,
       780,
       56
     ],
     "raw_text": "Saad Awan",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0304,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0417,
     "checked": null,
     "status": "ok"
   },
@@ -318,21 +318,21 @@
     "name": "declaration_date",
     "bbox": [
       380,
-      1575,
+      1574,
       270,
       56
     ],
     "raw_text": "26/07/2027",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1136,
+    "ink_ratio": 0.1457,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "signature",
     "bbox": [
-      700,
+      699,
       1555,
       460,
       110

@@ -9,8 +9,8 @@
     ],
     "raw_text": "Asad Umair Malik",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0447,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0513,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Adnan Omar Malik",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0449,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0491,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "3750-433812-",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0678,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.067,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "28/09/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0837,
+    "ink_ratio": 0.0882,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1544,
+    "ink_ratio": 0.1888,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "asad.malik7@hotmail.com",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0594,
+    "ocr_confidence": 0.989,
+    "ink_ratio": 0.0688,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0301-3228719",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0752,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.081,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 53, Block C, Bahria Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0532,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0587,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1625,
+    "ink_ratio": 0.1919,
     "checked": true,
     "status": "ok"
   },
@@ -204,7 +204,7 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.992,
+    "ocr_confidence": 0.991,
     "ink_ratio": 0.0583,
     "checked": null,
     "status": "ok"
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1136",
     "value": null,
-    "ocr_confidence": 0.982,
-    "ink_ratio": 0.0564,
+    "ocr_confidence": 0.976,
+    "ink_ratio": 0.058,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "94.67",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0583,
+    "ink_ratio": 0.0597,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0752,
+    "ink_ratio": 0.0773,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1700",
     "value": null,
-    "ocr_confidence": 0.834,
-    "ink_ratio": 0.0531,
+    "ocr_confidence": 0.841,
+    "ink_ratio": 0.0485,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "769",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0432,
+    "ink_ratio": 0.0439,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "69.97",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.0555,
+    "ocr_confidence": 0.986,
+    "ink_ratio": 0.054,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Asad Umair Malik",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0447,
+    "ink_ratio": 0.053,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "23/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0916,
+    "ink_ratio": 0.0971,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0753,
+    "ink_ratio": 0.103,
     "checked": null,
     "status": "ok"
   }

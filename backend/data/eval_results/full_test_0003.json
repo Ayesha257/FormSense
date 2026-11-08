@@ -9,8 +9,8 @@
     ],
     "raw_text": "Imran Faroog",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0348,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0502,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Zain Faroog",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.034,
+    "ocr_confidence": 0.965,
+    "ink_ratio": 0.0484,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "39979-1621627-7",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0891,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.1233,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "09-12-2004",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0754,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.1001,
     "checked": null,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "imran.faroog@gmail.com",
+    "raw_text": "imran.farooq@gmail.com",
     "value": null,
     "ocr_confidence": 0.983,
-    "ink_ratio": 0.0701,
+    "ink_ratio": 0.0994,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0303-6S33460",
     "value": null,
-    "ocr_confidence": 0.978,
-    "ink_ratio": 0.0833,
+    "ocr_confidence": 0.971,
+    "ink_ratio": 0.1164,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 316, canal Road, Faisal Town, Rawalpindi",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.08,
+    "ink_ratio": 0.1133,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1562,
+    "ink_ratio": 0.2131,
     "checked": true,
     "status": "ok"
   },
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2021",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0714,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0946,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0604,
+    "ink_ratio": 0.0799,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "788",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.054,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0744,
     "checked": null,
     "status": "ok"
   },
@@ -228,14 +228,14 @@
     "name": "matric_percentage",
     "bbox": [
       920,
-      1205,
+      1206,
       180,
       56
     ],
     "raw_text": "65.67",
     "value": null,
-    "ocr_confidence": 0.939,
-    "ink_ratio": 0.0676,
+    "ocr_confidence": 0.962,
+    "ink_ratio": 0.0924,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0816,
+    "ink_ratio": 0.1086,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0547,
+    "ink_ratio": 0.0718,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "879",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0538,
+    "ink_ratio": 0.0726,
     "checked": null,
     "status": "ok"
   },
@@ -288,14 +288,14 @@
     "name": "inter_percentage",
     "bbox": [
       920,
-      1275,
+      1276,
       180,
       56
     ],
     "raw_text": "79.91",
     "value": null,
-    "ocr_confidence": 0.928,
-    "ink_ratio": 0.0604,
+    "ocr_confidence": 0.9,
+    "ink_ratio": 0.078,
     "checked": null,
     "status": "ok"
   },
@@ -303,14 +303,14 @@
     "name": "declaration_name",
     "bbox": [
       380,
-      1495,
+      1496,
       780,
       56
     ],
     "raw_text": "Imran Faroog",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0359,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.051,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "oolooloooo",
     "value": null,
-    "ocr_confidence": 0.907,
-    "ink_ratio": 0.0976,
+    "ocr_confidence": 0.863,
+    "ink_ratio": 0.1286,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0767,
+    "ink_ratio": 0.118,
     "checked": null,
     "status": "ok"
   }

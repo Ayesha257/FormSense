@@ -10,7 +10,7 @@
     "raw_text": "Eman Baig",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0246,
+    "ink_ratio": 0.0279,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Zeeshan Baig",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0306,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0358,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "14250-9698344-6",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0816,
+    "ink_ratio": 0.089,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "05-03-2011",
     "value": null,
     "ocr_confidence": 0.994,
-    "ink_ratio": 0.0641,
+    "ink_ratio": 0.0661,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3094,
+    "ink_ratio": 0.1588,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "emanbaig2006@hotmail.com",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0592,
+    "ink_ratio": 0.0671,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0336-0701989",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0708,
+    "ink_ratio": 0.0756,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 211, Canal Road, Gulberg III, Rawalpindi",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0635,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0691,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.325,
+    "ink_ratio": 0.3006,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0682,
+    "ink_ratio": 0.0717,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.979,
-    "ink_ratio": 0.0535,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.056,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "785",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0448,
+    "ink_ratio": 0.048,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "65.4%",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0624,
+    "ink_ratio": 0.0687,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0677,
+    "ink_ratio": 0.0737,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1700",
     "value": null,
-    "ocr_confidence": 0.865,
-    "ink_ratio": 0.0528,
+    "ocr_confidence": 0.822,
+    "ink_ratio": 0.056,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "777",
     "value": null,
-    "ocr_confidence": 0.982,
-    "ink_ratio": 0.0379,
+    "ocr_confidence": 0.974,
+    "ink_ratio": 0.0403,
     "checked": null,
     "status": "ok"
   },
@@ -292,12 +292,12 @@
       180,
       56
     ],
-    "raw_text": "1",
+    "raw_text": "2d",
     "value": null,
-    "ocr_confidence": 0.792,
-    "ink_ratio": 0.2131,
+    "ocr_confidence": 0.25,
+    "ink_ratio": 0.5671,
     "checked": null,
-    "status": "ok"
+    "status": "unreadable"
   },
   {
     "name": "declaration_name",
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Eman Baig",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0244,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0272,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "11-10-2026",
     "value": null,
-    "ocr_confidence": 0.96,
-    "ink_ratio": 0.0719,
+    "ocr_confidence": 0.978,
+    "ink_ratio": 0.0759,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0698,
+    "ink_ratio": 0.1002,
     "checked": null,
     "status": "ok"
   }

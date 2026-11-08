@@ -9,8 +9,8 @@
     ],
     "raw_text": "Areeba Yousaf",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0326,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0411,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Wagas Yousaf",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.033,
+    "ocr_confidence": 0.971,
+    "ink_ratio": 0.0434,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "38870-5673969-6",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0875,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.1056,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "25/10/2006",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0786,
+    "ink_ratio": 0.0943,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1388,
+    "ink_ratio": 0.1812,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "areebayousaf@gmail.com",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0535,
+    "ink_ratio": 0.0711,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0312-2864132",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.071,
+    "ink_ratio": 0.0838,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 400, Block C, Samanabad, Lahore",
     "value": null,
-    "ocr_confidence": 0.978,
-    "ink_ratio": 0.0559,
+    "ocr_confidence": 0.98,
+    "ink_ratio": 0.0711,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1669,
+    "ink_ratio": 0.2156,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0714,
+    "ink_ratio": 0.0814,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.896,
-    "ink_ratio": 0.058,
+    "ocr_confidence": 0.89,
+    "ink_ratio": 0.0695,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.956,
-    "ink_ratio": 0.0575,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.0685,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "100.00",
     "value": null,
-    "ocr_confidence": 0.995,
-    "ink_ratio": 0.0717,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0861,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0697,
+    "ink_ratio": 0.0827,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.964,
-    "ink_ratio": 0.0548,
+    "ocr_confidence": 0.972,
+    "ink_ratio": 0.0636,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "829",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0477,
+    "ink_ratio": 0.0553,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "75.36",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0549,
+    "ink_ratio": 0.0636,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Areeba Yousaf",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0328,
+    "ink_ratio": 0.0415,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "23/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0875,
+    "ink_ratio": 0.1052,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0398,
+    "ink_ratio": 0.0599,
     "checked": null,
     "status": "ok"
   }

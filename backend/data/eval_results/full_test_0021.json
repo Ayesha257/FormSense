@@ -7,12 +7,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Bia vomea Para",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.49,
+    "ink_ratio": 0.0525,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "father_name",
@@ -22,12 +22,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "ma tara",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.6,
+    "ink_ratio": 0.0281,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "cnic",
@@ -37,12 +37,12 @@
       380,
       56
     ],
-    "raw_text": "",
+    "raw_text": "women .",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.747,
+    "ink_ratio": 0.091,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "date_of_birth",
@@ -52,12 +52,12 @@
       300,
       56
     ],
-    "raw_text": "",
+    "raw_text": "4/h4/2008",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.583,
+    "ink_ratio": 0.0843,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "gender_male",
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1019,
+    "ink_ratio": 0.2956,
     "checked": true,
     "status": "ok"
   },
@@ -97,12 +97,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "war an ag-ditoraltiom",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.522,
+    "ink_ratio": 0.0762,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "phone",
@@ -112,12 +112,12 @@
       380,
       56
     ],
-    "raw_text": "",
+    "raw_text": "So--",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.487,
+    "ink_ratio": 0.0656,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "address",
@@ -127,12 +127,12 @@
       780,
       110
     ],
-    "raw_text": "",
+    "raw_text": "House 21, Street 5, uhel Town, Seekkot",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0001,
+    "ocr_confidence": 0.687,
+    "ink_ratio": 0.0627,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "program_bscs",
@@ -167,7 +167,7 @@
   {
     "name": "program_bsai",
     "bbox": [
-      80,
+      79,
       1025,
       44,
       44
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1219,
+    "ink_ratio": 0.2831,
     "checked": true,
     "status": "ok"
   },
@@ -187,12 +187,12 @@
       140,
       56
     ],
-    "raw_text": "",
+    "raw_text": "20",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.776,
+    "ink_ratio": 0.0817,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "matric_total",
@@ -202,42 +202,42 @@
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "0",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.514,
+    "ink_ratio": 0.0495,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "matric_obtained",
     "bbox": [
-      730,
+      731,
       1205,
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "111",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.499,
+    "ink_ratio": 0.0444,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "matric_percentage",
     "bbox": [
-      920,
+      921,
       1205,
       180,
       56
     ],
-    "raw_text": "",
+    "raw_text": "%",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.839,
+    "ink_ratio": 0.0546,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_year",
@@ -247,12 +247,12 @@
       140,
       56
     ],
-    "raw_text": "",
+    "raw_text": "2006",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0006,
+    "ocr_confidence": 0.839,
+    "ink_ratio": 0.0977,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_total",
@@ -262,42 +262,42 @@
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "0",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.682,
+    "ink_ratio": 0.0524,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_obtained",
     "bbox": [
-      730,
+      731,
       1275,
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "e",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.581,
+    "ink_ratio": 0.0472,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "inter_percentage",
     "bbox": [
-      920,
+      921,
       1275,
       180,
       56
     ],
-    "raw_text": "",
+    "raw_text": "00",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.346,
+    "ink_ratio": 0.0675,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "declaration_name",
@@ -307,12 +307,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Buss ramaa Rane",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.511,
+    "ink_ratio": 0.0519,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "declaration_date",
@@ -322,12 +322,12 @@
       270,
       56
     ],
-    "raw_text": "",
+    "raw_text": "2Ut/226",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0,
+    "ocr_confidence": 0.47,
+    "ink_ratio": 0.0882,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "signature",
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0247,
+    "ink_ratio": 0.1947,
     "checked": null,
     "status": "ok"
   }

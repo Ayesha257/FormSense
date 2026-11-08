@@ -9,8 +9,8 @@
     ],
     "raw_text": "Nimra Hashmi",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0335,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0395,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "35304-0666876-2",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0756,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0869,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "10/01/2006",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0639,
+    "ink_ratio": 0.0724,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1594,
+    "ink_ratio": 0.1963,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "nimra.hashmizo06@outlook.com",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.0692,
+    "ocr_confidence": 0.979,
+    "ink_ratio": 0.0793,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0332-3281775",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0611,
+    "ink_ratio": 0.0695,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 371, Street 12, DHA Phase s, Lahore",
     "value": null,
     "ocr_confidence": 0.996,
-    "ink_ratio": 0.0588,
+    "ink_ratio": 0.069,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1562,
+    "ink_ratio": 0.1913,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0622,
+    "ink_ratio": 0.0754,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0488,
+    "ink_ratio": 0.0564,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "990",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0445,
+    "ink_ratio": 0.0538,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "82.5%",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0689,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0826,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0629,
+    "ink_ratio": 0.0711,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0414,
+    "ink_ratio": 0.0495,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "799",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0415,
+    "ink_ratio": 0.0477,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "72.64",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0485,
+    "ink_ratio": 0.0544,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Nimra Hashmi",
     "value": null,
-    "ocr_confidence": 0.969,
-    "ink_ratio": 0.0321,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0405,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "08/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0746,
+    "ink_ratio": 0.0878,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0621,
+    "ink_ratio": 0.0942,
     "checked": null,
     "status": "ok"
   }

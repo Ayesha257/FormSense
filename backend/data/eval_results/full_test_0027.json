@@ -9,8 +9,8 @@
     ],
     "raw_text": "Haris Salman Raza",
     "value": null,
-    "ocr_confidence": 0.973,
-    "ink_ratio": 0.0482,
+    "ocr_confidence": 0.992,
+    "ink_ratio": 0.0628,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Shah3aib Fahad Ra3a",
     "value": null,
-    "ocr_confidence": 0.953,
-    "ink_ratio": 0.0593,
+    "ocr_confidence": 0.947,
+    "ink_ratio": 0.0777,
     "checked": null,
     "status": "ok"
   },
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "38027-28623S1-3",
+    "raw_text": "38027-2862351-3",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0953,
+    "ocr_confidence": 0.969,
+    "ink_ratio": 0.121,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "09/10/2007",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0773,
+    "ocr_confidence": 0.951,
+    "ink_ratio": 0.1008,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2888,
+    "ink_ratio": 0.25,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "haris.raza@ouHook.com",
+    "raw_text": "haris.raza@outHook.com",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0657,
+    "ocr_confidence": 0.964,
+    "ink_ratio": 0.0883,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0334-4144723",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0751,
+    "ink_ratio": 0.0954,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 161, Main Boulevard, Wapda Town, Islamabad",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0847,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1123,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3025,
+    "ink_ratio": 0.2756,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0776,
+    "ink_ratio": 0.0988,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0586,
+    "ink_ratio": 0.0707,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0575,
+    "ink_ratio": 0.0719,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "100.00",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0751,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0903,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "202S",
     "value": null,
     "ocr_confidence": 0.961,
-    "ink_ratio": 0.0796,
+    "ink_ratio": 0.1032,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0528,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0648,
     "checked": null,
     "status": "ok"
   },
@@ -277,12 +277,12 @@
       170,
       56
     ],
-    "raw_text": "to",
+    "raw_text": "o",
     "value": null,
-    "ocr_confidence": 0.531,
-    "ink_ratio": 0.2129,
+    "ocr_confidence": 0.654,
+    "ink_ratio": 0.598,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "inter_percentage",
@@ -295,7 +295,7 @@
     "raw_text": "72.64",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0606,
+    "ink_ratio": 0.0752,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Haris Salman Raza",
     "value": null,
-    "ocr_confidence": 0.966,
-    "ink_ratio": 0.0481,
+    "ocr_confidence": 0.978,
+    "ink_ratio": 0.064,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "11/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0779,
+    "ink_ratio": 0.0978,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": null,
     "ocr_confidence": null,
-    "ink_ratio": 0.0026,
+    "ink_ratio": 0.0032,
     "checked": null,
     "status": "missing"
   }

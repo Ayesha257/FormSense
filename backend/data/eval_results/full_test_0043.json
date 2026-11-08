@@ -9,8 +9,8 @@
     ],
     "raw_text": "Danish Zeeshan Malik",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.046,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0428,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Nauman Malik",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0282,
+    "ink_ratio": 0.027,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "21878-5462578-7",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0697,
+    "ink_ratio": 0.0628,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "11-07-2014",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0485,
+    "ink_ratio": 0.0445,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.15,
+    "ink_ratio": 0.1444,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "danish.malik@nic.edu.pk",
+    "raw_text": "danish.malik@nic.edu\u00b7pk",
     "value": null,
     "ocr_confidence": 0.978,
-    "ink_ratio": 0.0534,
+    "ink_ratio": 0.0487,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0318-1749134",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0496,
+    "ink_ratio": 0.0448,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 59, Model Town Link Rd, Wapda Town, Gujranwala",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0678,
+    "ink_ratio": 0.0623,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1494,
+    "ink_ratio": 0.145,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2027",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.057,
+    "ink_ratio": 0.0508,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0423,
+    "ink_ratio": 0.0389,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "843",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0352,
+    "ink_ratio": 0.031,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "70.25",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0496,
+    "ink_ratio": 0.0445,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2026",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0626,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0574,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 0.996,
-    "ink_ratio": 0.0388,
+    "ink_ratio": 0.0363,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "995",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0363,
+    "ink_ratio": 0.0335,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "90.45",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.049,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0461,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Danish Zeeshan Malik",
     "value": null,
-    "ocr_confidence": 0.984,
-    "ink_ratio": 0.0455,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0426,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "20-10-2026",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0608,
+    "ink_ratio": 0.0568,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0418,
+    "ink_ratio": 0.0318,
     "checked": null,
     "status": "ok"
   }

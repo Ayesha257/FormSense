@@ -9,8 +9,8 @@
     ],
     "raw_text": "Hira Saba Ghauri",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0324,
+    "ocr_confidence": 0.967,
+    "ink_ratio": 0.0439,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Hamza Ghauri",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0277,
+    "ocr_confidence": 0.99,
+    "ink_ratio": 0.0367,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "32371-0707044-4",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0685,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0892,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "13/12/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0552,
+    "ink_ratio": 0.0731,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3287,
+    "ink_ratio": 0.2231,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "hira.ghauri2oo4@gmail.com",
     "value": null,
     "ocr_confidence": 0.985,
-    "ink_ratio": 0.0581,
+    "ink_ratio": 0.0772,
     "checked": null,
     "status": "ok"
   },
@@ -112,10 +112,10 @@
       380,
       56
     ],
-    "raw_text": "0324-139458S",
+    "raw_text": "0324-1394S8S",
     "value": null,
-    "ocr_confidence": 0.919,
-    "ink_ratio": 0.0608,
+    "ocr_confidence": 0.916,
+    "ink_ratio": 0.0795,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 446, Street12, Bahria Town, sialkot",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0518,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0685,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3162,
+    "ink_ratio": 0.1994,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0609,
+    "ink_ratio": 0.0761,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0452,
+    "ink_ratio": 0.0563,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "903",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0389,
+    "ink_ratio": 0.0507,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "75.2%",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0546,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0704,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2022",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0594,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0752,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.0411,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.0489,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "677",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0358,
+    "ink_ratio": 0.0448,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "61.SS",
     "value": null,
-    "ocr_confidence": 0.91,
-    "ink_ratio": 0.0475,
+    "ocr_confidence": 0.952,
+    "ink_ratio": 0.0612,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Hira Rana",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0191,
+    "ink_ratio": 0.0251,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "14/10/2026",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0628,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0818,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0718,
+    "ink_ratio": 0.1084,
     "checked": null,
     "status": "ok"
   }

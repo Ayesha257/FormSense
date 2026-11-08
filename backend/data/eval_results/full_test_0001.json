@@ -10,7 +10,7 @@
     "raw_text": "Mahnoor Zainab Siddiqui",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.061,
+    "ink_ratio": 0.0769,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Taimoor Siddiqui",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0388,
+    "ink_ratio": 0.047,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "33383-0833495-2",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0954,
+    "ink_ratio": 0.1103,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "19/12/2004",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0815,
+    "ink_ratio": 0.093,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2013,
+    "ink_ratio": 0.2537,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "mahnoor.siddiqui@gmail.com",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0637,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.081,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0324-2671955",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0732,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.084,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 111, Street 5, Iqbal Town, Gujranwala",
     "value": null,
-    "ocr_confidence": 0.984,
-    "ink_ratio": 0.0612,
+    "ocr_confidence": 0.986,
+    "ink_ratio": 0.0738,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.205,
+    "ink_ratio": 0.2556,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0809,
+    "ink_ratio": 0.0906,
     "checked": null,
     "status": "ok"
   },
@@ -204,8 +204,8 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.918,
-    "ink_ratio": 0.0622,
+    "ocr_confidence": 0.95,
+    "ink_ratio": 0.0699,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1008",
     "value": null,
-    "ocr_confidence": 0.979,
-    "ink_ratio": 0.0663,
+    "ocr_confidence": 0.973,
+    "ink_ratio": 0.0769,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "84.00",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0675,
+    "ink_ratio": 0.0765,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0788,
+    "ink_ratio": 0.0898,
     "checked": null,
     "status": "ok"
   },
@@ -262,10 +262,10 @@
       170,
       56
     ],
-    "raw_text": "1700",
+    "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.842,
-    "ink_ratio": 0.0598,
+    "ocr_confidence": 0.803,
+    "ink_ratio": 0.0652,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "660",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0494,
+    "ink_ratio": 0.0577,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "60.00",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0672,
+    "ink_ratio": 0.0764,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Mahnoor Siddiqui",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0447,
+    "ink_ratio": 0.0552,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "18/10/2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.097,
+    "ink_ratio": 0.1122,
     "checked": null,
     "status": "ok"
   },

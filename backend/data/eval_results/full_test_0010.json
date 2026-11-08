@@ -10,7 +10,7 @@
     "raw_text": "Amna Ayesha Zafar",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0459,
+    "ink_ratio": 0.0555,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Salman Zafar",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0328,
+    "ink_ratio": 0.0393,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "32100-3966189-8",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0914,
+    "ink_ratio": 0.1038,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "02-06-2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0717,
+    "ink_ratio": 0.0801,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1469,
+    "ink_ratio": 0.1862,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "amna.zafar2004@gmail.com",
     "value": null,
     "ocr_confidence": 0.985,
-    "ink_ratio": 0.062,
+    "ink_ratio": 0.0766,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0330 5862977",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0742,
+    "ink_ratio": 0.0824,
     "checked": null,
     "status": "ok"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "House 89, Canal Road, Wapda Town, Cahore",
+    "raw_text": "House 89, CanalRoad, Wapda Town, Lahore",
     "value": null,
-    "ocr_confidence": 0.987,
-    "ink_ratio": 0.062,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0742,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1481,
+    "ink_ratio": 0.1888,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0754,
+    "ink_ratio": 0.0827,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 0.938,
-    "ink_ratio": 0.0608,
+    "ink_ratio": 0.0656,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1027",
     "value": null,
-    "ocr_confidence": 0.809,
-    "ink_ratio": 0.0561,
+    "ocr_confidence": 0.816,
+    "ink_ratio": 0.0608,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "85.08",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0689,
+    "ink_ratio": 0.0768,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0731,
+    "ink_ratio": 0.0822,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "7700",
     "value": null,
-    "ocr_confidence": 0.889,
-    "ink_ratio": 0.0564,
+    "ocr_confidence": 0.897,
+    "ink_ratio": 0.0629,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "712",
     "value": null,
-    "ocr_confidence": 0.909,
-    "ink_ratio": 0.0418,
+    "ocr_confidence": 0.91,
+    "ink_ratio": 0.0437,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "64.73",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0582,
+    "ink_ratio": 0.0634,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Amna Ayesha Zafar",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0475,
+    "ink_ratio": 0.0563,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "07-10-2026",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0802,
+    "ocr_confidence": 0.989,
+    "ink_ratio": 0.0881,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0756,
+    "ink_ratio": 0.1031,
     "checked": null,
     "status": "ok"
   }

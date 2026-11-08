@@ -10,7 +10,7 @@
     "raw_text": "Bilal Kayani",
     "value": null,
     "ocr_confidence": 0.989,
-    "ink_ratio": 0.0275,
+    "ink_ratio": 0.0286,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Hussain Kayani",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0289,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.03,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "1968-448760-7",
     "value": null,
     "ocr_confidence": 0.996,
-    "ink_ratio": 0.0546,
+    "ink_ratio": 0.0571,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "06-11-2010",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0434,
+    "ink_ratio": 0.0429,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1975,
+    "ink_ratio": 0.2494,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "bilal.kayani38,outlook.com",
     "value": null,
-    "ocr_confidence": 0.994,
-    "ink_ratio": 0.0501,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0513,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0313-9223840",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0546,
+    "ink_ratio": 0.0557,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 376, Street 12, Igbal Town, Lahore",
     "value": null,
     "ocr_confidence": 0.975,
-    "ink_ratio": 0.0456,
+    "ink_ratio": 0.0469,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.195,
+    "ink_ratio": 0.2569,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0523,
+    "ink_ratio": 0.0554,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.038,
+    "ink_ratio": 0.0383,
     "checked": null,
     "status": "ok"
   },
@@ -219,7 +219,7 @@
     ],
     "raw_text": "1002",
     "value": null,
-    "ocr_confidence": 0.979,
+    "ocr_confidence": 0.944,
     "ink_ratio": 0.039,
     "checked": null,
     "status": "ok"
@@ -235,7 +235,7 @@
     "raw_text": "83.50",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.045,
+    "ink_ratio": 0.047,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2026",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.052,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0566,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0354,
+    "ink_ratio": 0.0363,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "684",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.036,
+    "ink_ratio": 0.0387,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "62.18",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0426,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0436,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Bilal Kayani",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0269,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0275,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "29-10-2026",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.054,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0519,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.045,
+    "ink_ratio": 0.0564,
     "checked": null,
     "status": "ok"
   }

@@ -9,8 +9,8 @@
     ],
     "raw_text": "Kinza Bhatti",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0288,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.0392,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Ali Ali Bhatti",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0306,
+    "ink_ratio": 0.042,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "31103-7306706-8",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0867,
+    "ink_ratio": 0.1203,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "27-07-2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0767,
+    "ink_ratio": 0.1031,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2137,
+    "ink_ratio": 0.2706,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "kinzabhatti@outlook.com",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0559,
+    "ink_ratio": 0.0806,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0341-1221076",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.069,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.0959,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 315, Main Boulevard, DHA Phase 5, Sialkot",
     "value": null,
-    "ocr_confidence": 0.991,
-    "ink_ratio": 0.0659,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0907,
     "checked": null,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2213,
+    "ink_ratio": 0.2931,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0754,
+    "ink_ratio": 0.1001,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0598,
+    "ink_ratio": 0.0843,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "823",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0507,
+    "ink_ratio": 0.0684,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "68.58",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.064,
+    "ink_ratio": 0.0886,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0792,
+    "ink_ratio": 0.1077,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0547,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0721,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "936",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0436,
+    "ink_ratio": 0.0611,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "85.1%",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0682,
+    "ink_ratio": 0.0873,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Saad Dar",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0214,
+    "ink_ratio": 0.0289,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "26-02-2003",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0865,
+    "ink_ratio": 0.1166,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": null,
     "ocr_confidence": null,
-    "ink_ratio": 0.0007,
+    "ink_ratio": 0.0009,
     "checked": null,
     "status": "missing"
   }

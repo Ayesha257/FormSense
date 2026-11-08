@@ -10,7 +10,7 @@
     "raw_text": "Sidra Aiza Kayani",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0419,
+    "ink_ratio": 0.055,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Asad Faisal Kayani",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0443,
+    "ink_ratio": 0.0596,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "35564-4002228-6",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0967,
+    "ink_ratio": 0.1262,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "26 Aug 2006",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0832,
+    "ink_ratio": 0.1051,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.15,
+    "ink_ratio": 0.1894,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "sidrakayani@outlook.com",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0602,
+    "ink_ratio": 0.0809,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0326-0679079",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.077,
+    "ink_ratio": 0.1009,
     "checked": null,
     "status": "ok"
   },
@@ -130,7 +130,7 @@
     "raw_text": "House 196, Canal Road, Iqbal Town, Lahore",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.061,
+    "ink_ratio": 0.0793,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1406,
+    "ink_ratio": 0.1812,
     "checked": true,
     "status": "ok"
   },
@@ -160,7 +160,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1462,
+    "ink_ratio": 0.1856,
     "checked": true,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.16,
+    "ink_ratio": 0.2037,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0839,
+    "ink_ratio": 0.1038,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0634,
+    "ink_ratio": 0.0839,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "903",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0487,
+    "ink_ratio": 0.0643,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "75.25",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0653,
+    "ink_ratio": 0.0828,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2025",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0846,
+    "ink_ratio": 0.1085,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0591,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0762,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "668",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.049,
+    "ink_ratio": 0.0634,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "60.73",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0635,
+    "ink_ratio": 0.0763,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Sidra Aiza Kayani",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0413,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0556,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "26 Oct 2026",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0895,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.1132,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0673,
+    "ink_ratio": 0.0942,
     "checked": null,
     "status": "ok"
   }

@@ -10,7 +10,7 @@
     "raw_text": "Anum Rabia Rana",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0452,
+    "ink_ratio": 0.0534,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Omar Rana",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.029,
+    "ink_ratio": 0.033,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "34172-5745892-8",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.1023,
+    "ink_ratio": 0.1138,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "20-08-2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0933,
+    "ink_ratio": 0.1028,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1925,
+    "ink_ratio": 0.2206,
     "checked": true,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.19,
+    "ink_ratio": 0.1938,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "anumrana2005@gmail.com",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0705,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0783,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0307 0668919",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0837,
+    "ink_ratio": 0.09,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 256, Garden Avenue, Gulberg III, Multan",
     "value": null,
-    "ocr_confidence": 0.974,
-    "ink_ratio": 0.0762,
+    "ocr_confidence": 0.973,
+    "ink_ratio": 0.0869,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2006,
+    "ink_ratio": 0.2162,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0857,
+    "ink_ratio": 0.0936,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0703,
+    "ink_ratio": 0.0767,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "743",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0495,
+    "ink_ratio": 0.0521,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "61.92",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0656,
+    "ink_ratio": 0.0693,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0892,
+    "ink_ratio": 0.0977,
     "checked": null,
     "status": "ok"
   },
@@ -265,7 +265,7 @@
     "raw_text": "1100",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0655,
+    "ink_ratio": 0.0746,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "1198",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0607,
+    "ink_ratio": 0.0721,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "108.91",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0803,
+    "ink_ratio": 0.0911,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Anum Rabia Rana",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0445,
+    "ocr_confidence": 0.982,
+    "ink_ratio": 0.0543,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "06-11-2026",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0938,
+    "ink_ratio": 0.104,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0641,
+    "ink_ratio": 0.0793,
     "checked": null,
     "status": "ok"
   }

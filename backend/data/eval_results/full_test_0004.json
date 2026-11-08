@@ -9,8 +9,8 @@
     ],
     "raw_text": "Zeeshan Gill",
     "value": null,
-    "ocr_confidence": 0.972,
-    "ink_ratio": 0.0257,
+    "ocr_confidence": 0.976,
+    "ink_ratio": 0.0351,
     "checked": null,
     "status": "ok"
   },
@@ -22,10 +22,10 @@
       780,
       56
     ],
-    "raw_text": "Ali Haris Gill",
+    "raw_text": "Ali HHaris Gill",
     "value": null,
-    "ocr_confidence": 0.94,
-    "ink_ratio": 0.0231,
+    "ocr_confidence": 0.941,
+    "ink_ratio": 0.0325,
     "checked": null,
     "status": "ok"
   },
@@ -39,8 +39,8 @@
     ],
     "raw_text": "33926-2198091-5",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0736,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0939,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "12/07/2004",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0589,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0787,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.16,
+    "ink_ratio": 0.2006,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "zeeshangill@gmail.com",
     "value": null,
-    "ocr_confidence": 0.984,
-    "ink_ratio": 0.0499,
+    "ocr_confidence": 0.983,
+    "ink_ratio": 0.0704,
     "checked": null,
     "status": "ok"
   },
@@ -115,7 +115,7 @@
     "raw_text": "0346-9223160",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0604,
+    "ink_ratio": 0.0777,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 139, Lane 3, Township, Islamabad",
     "value": null,
-    "ocr_confidence": 0.992,
-    "ink_ratio": 0.0502,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0663,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1431,
+    "ink_ratio": 0.1794,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0614,
+    "ink_ratio": 0.0781,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0482,
+    "ink_ratio": 0.0595,
     "checked": null,
     "status": "ok"
   },
@@ -219,8 +219,8 @@
     ],
     "raw_text": "1102",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0412,
+    "ocr_confidence": 0.994,
+    "ink_ratio": 0.05,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "91.83",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0484,
+    "ink_ratio": 0.0638,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0608,
+    "ink_ratio": 0.0761,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.952,
-    "ink_ratio": 0.0432,
+    "ocr_confidence": 0.945,
+    "ink_ratio": 0.0514,
     "checked": null,
     "status": "ok"
   },
@@ -279,8 +279,8 @@
     ],
     "raw_text": "956",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0408,
+    "ocr_confidence": 0.991,
+    "ink_ratio": 0.0539,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "86.91",
     "value": null,
-    "ocr_confidence": 0.996,
-    "ink_ratio": 0.0487,
+    "ocr_confidence": 0.981,
+    "ink_ratio": 0.0618,
     "checked": null,
     "status": "ok"
   },
@@ -307,10 +307,10 @@
       780,
       56
     ],
-    "raw_text": "Zeeshan Gill",
+    "raw_text": "zeeshan Gill",
     "value": null,
-    "ocr_confidence": 0.928,
-    "ink_ratio": 0.026,
+    "ocr_confidence": 0.936,
+    "ink_ratio": 0.0356,
     "checked": null,
     "status": "ok"
   },
@@ -322,10 +322,10 @@
       270,
       56
     ],
-    "raw_text": "money",
+    "raw_text": "moreport",
     "value": null,
-    "ocr_confidence": 0.253,
-    "ink_ratio": 0.2409,
+    "ocr_confidence": 0.373,
+    "ink_ratio": 0.7304,
     "checked": null,
     "status": "unreadable"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0602,
+    "ink_ratio": 0.087,
     "checked": null,
     "status": "ok"
   }

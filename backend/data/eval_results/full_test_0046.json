@@ -10,7 +10,7 @@
     "raw_text": "Sana Javed",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0261,
+    "ink_ratio": 0.0329,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Junaid Kamran Javed",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0476,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0616,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "39402-3675608-6",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0924,
+    "ink_ratio": 0.1148,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "14/07/2004",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0782,
+    "ink_ratio": 0.0937,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1525,
+    "ink_ratio": 0.195,
     "checked": true,
     "status": "ok"
   },
@@ -100,7 +100,7 @@
     "raw_text": "sanajaved99@yahoo.com",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0558,
+    "ink_ratio": 0.0711,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0344-4999104",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.07,
+    "ocr_confidence": 0.975,
+    "ink_ratio": 0.0863,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 161, Lane 3, Gulberg III, Faisalabad",
     "value": null,
-    "ocr_confidence": 0.993,
-    "ink_ratio": 0.0573,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0671,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1531,
+    "ink_ratio": 0.1856,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2020",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0831,
+    "ink_ratio": 0.0987,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0631,
+    "ink_ratio": 0.0745,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1095",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0582,
+    "ink_ratio": 0.0715,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "91.25",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0597,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0679,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0848,
+    "ink_ratio": 0.1022,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0572,
+    "ocr_confidence": 0.883,
+    "ink_ratio": 0.0736,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "945",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0448,
+    "ink_ratio": 0.0548,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "85.91",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0603,
+    "ocr_confidence": 0.97,
+    "ink_ratio": 0.0738,
     "checked": null,
     "status": "ok"
   },
@@ -310,7 +310,7 @@
     "raw_text": "Sana Javed",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0259,
+    "ink_ratio": 0.0315,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "18/10/2002",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0916,
+    "ink_ratio": 0.109,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0828,
+    "ink_ratio": 0.1114,
     "checked": null,
     "status": "ok"
   }

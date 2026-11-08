@@ -10,7 +10,7 @@
     "raw_text": "Ayesha Faroog",
     "value": null,
     "ocr_confidence": 0.998,
-    "ink_ratio": 0.0361,
+    "ink_ratio": 0.0476,
     "checked": null,
     "status": "ok"
   },
@@ -24,8 +24,8 @@
     ],
     "raw_text": "Rehan Faroog",
     "value": null,
-    "ocr_confidence": 0.967,
-    "ink_ratio": 0.0355,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0478,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "32433-3450879-6",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0918,
+    "ink_ratio": 0.1159,
     "checked": null,
     "status": "ok"
   },
@@ -55,7 +55,7 @@
     "raw_text": "05/09/2005",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0726,
+    "ink_ratio": 0.093,
     "checked": null,
     "status": "ok"
   },
@@ -85,7 +85,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2913,
+    "ink_ratio": 0.31,
     "checked": true,
     "status": "ok"
   },
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "ayeshafarooag8o,nic.edupk",
+    "raw_text": "ayeshafaroog8o,nic.edu.pk",
     "value": null,
-    "ocr_confidence": 0.845,
-    "ink_ratio": 0.0642,
+    "ocr_confidence": 0.901,
+    "ink_ratio": 0.0857,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0339-1548079",
     "value": null,
-    "ocr_confidence": 0.989,
-    "ink_ratio": 0.0706,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0886,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 163, Canal Road, Township, Lahore",
     "value": null,
-    "ocr_confidence": 0.984,
-    "ink_ratio": 0.0622,
+    "ocr_confidence": 0.987,
+    "ink_ratio": 0.0823,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.3063,
+    "ink_ratio": 0.2112,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2022",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0669,
+    "ink_ratio": 0.0768,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0452,
+    "ink_ratio": 0.0542,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "745",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0476,
+    "ink_ratio": 0.0584,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "62.08",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0542,
+    "ink_ratio": 0.0694,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2024",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.07,
+    "ink_ratio": 0.0817,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.905,
-    "ink_ratio": 0.036,
+    "ocr_confidence": 0.926,
+    "ink_ratio": 0.0473,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "845",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.05,
+    "ink_ratio": 0.0656,
     "checked": null,
     "status": "ok"
   },
@@ -295,7 +295,7 @@
     "raw_text": "76.82",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0576,
+    "ink_ratio": 0.0691,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Ayesha Faroog",
     "value": null,
-    "ocr_confidence": 0.99,
-    "ink_ratio": 0.0361,
+    "ocr_confidence": 0.993,
+    "ink_ratio": 0.0483,
     "checked": null,
     "status": "ok"
   },
@@ -324,8 +324,8 @@
     ],
     "raw_text": "08/10/2026",
     "value": null,
-    "ocr_confidence": 0.986,
-    "ink_ratio": 0.0737,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.0941,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0637,
+    "ink_ratio": 0.1073,
     "checked": null,
     "status": "ok"
   }

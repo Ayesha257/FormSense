@@ -10,7 +10,7 @@
     "raw_text": "Junaid Ali Chaudhry",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0455,
+    "ink_ratio": 0.0482,
     "checked": null,
     "status": "ok"
   },
@@ -25,7 +25,7 @@
     "raw_text": "Asad Chaudhry",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.036,
+    "ink_ratio": 0.0375,
     "checked": null,
     "status": "ok"
   },
@@ -40,7 +40,7 @@
     "raw_text": "33797-0771780-1",
     "value": null,
     "ocr_confidence": 0.997,
-    "ink_ratio": 0.062,
+    "ink_ratio": 0.0686,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "13/10/2004",
     "value": null,
-    "ocr_confidence": 1.0,
-    "ink_ratio": 0.0586,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.0623,
     "checked": null,
     "status": "ok"
   },
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2094,
+    "ink_ratio": 0.2562,
     "checked": true,
     "status": "ok"
   },
@@ -99,8 +99,8 @@
     ],
     "raw_text": "junaid.chaudhry21@outlook.com",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0736,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0731,
     "checked": null,
     "status": "ok"
   },
@@ -114,8 +114,8 @@
     ],
     "raw_text": "0325-9615884",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.061,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.0577,
     "checked": null,
     "status": "ok"
   },
@@ -129,8 +129,8 @@
     ],
     "raw_text": "House 405, Street 12, Gulberg II, Multan",
     "value": null,
-    "ocr_confidence": 0.975,
-    "ink_ratio": 0.0478,
+    "ocr_confidence": 0.963,
+    "ink_ratio": 0.046,
     "checked": null,
     "status": "ok"
   },
@@ -145,7 +145,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.2194,
+    "ink_ratio": 0.2219,
     "checked": true,
     "status": "ok"
   },
@@ -190,7 +190,7 @@
     "raw_text": "2021",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.058,
+    "ink_ratio": 0.0604,
     "checked": null,
     "status": "ok"
   },
@@ -205,7 +205,7 @@
     "raw_text": "1200",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0451,
+    "ink_ratio": 0.0468,
     "checked": null,
     "status": "ok"
   },
@@ -220,7 +220,7 @@
     "raw_text": "1019",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0414,
+    "ink_ratio": 0.0453,
     "checked": null,
     "status": "ok"
   },
@@ -235,7 +235,7 @@
     "raw_text": "84.92",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0503,
+    "ink_ratio": 0.0549,
     "checked": null,
     "status": "ok"
   },
@@ -250,7 +250,7 @@
     "raw_text": "2023",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0622,
+    "ink_ratio": 0.0663,
     "checked": null,
     "status": "ok"
   },
@@ -264,8 +264,8 @@
     ],
     "raw_text": "1100",
     "value": null,
-    "ocr_confidence": 0.998,
-    "ink_ratio": 0.0415,
+    "ocr_confidence": 0.997,
+    "ink_ratio": 0.0449,
     "checked": null,
     "status": "ok"
   },
@@ -280,7 +280,7 @@
     "raw_text": "882",
     "value": null,
     "ocr_confidence": 1.0,
-    "ink_ratio": 0.0429,
+    "ink_ratio": 0.0444,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "80.18",
     "value": null,
-    "ocr_confidence": 0.999,
-    "ink_ratio": 0.0473,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.053,
     "checked": null,
     "status": "ok"
   },
@@ -309,8 +309,8 @@
     ],
     "raw_text": "Junaid Ali Chaudhry",
     "value": null,
-    "ocr_confidence": 0.983,
-    "ink_ratio": 0.0463,
+    "ocr_confidence": 0.985,
+    "ink_ratio": 0.0489,
     "checked": null,
     "status": "ok"
   },
@@ -325,7 +325,7 @@
     "raw_text": "10/05/2027",
     "value": null,
     "ocr_confidence": 0.999,
-    "ink_ratio": 0.0698,
+    "ink_ratio": 0.0731,
     "checked": null,
     "status": "ok"
   },
@@ -333,14 +333,14 @@
     "name": "signature",
     "bbox": [
       700,
-      1555,
+      1556,
       460,
       110
     ],
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0409,
+    "ink_ratio": 0.0481,
     "checked": null,
     "status": "ok"
   }

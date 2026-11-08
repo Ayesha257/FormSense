@@ -7,12 +7,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Hurvain Chooms",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0018,
+    "ocr_confidence": 0.771,
+    "ink_ratio": 0.051,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "father_name",
@@ -22,12 +22,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Haris Chetma",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.002,
+    "ocr_confidence": 0.856,
+    "ink_ratio": 0.0463,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "cnic",
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "1221-9090149.1",
+    "raw_text": "39221-9090949.1",
     "value": null,
-    "ocr_confidence": 0.863,
-    "ink_ratio": 0.008,
+    "ocr_confidence": 0.889,
+    "ink_ratio": 0.0999,
     "checked": null,
     "status": "ok"
   },
@@ -52,12 +52,12 @@
       300,
       56
     ],
-    "raw_text": "",
+    "raw_text": "18/01/2004",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0006,
+    "ocr_confidence": 0.941,
+    "ink_ratio": 0.1017,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "gender_male",
@@ -70,7 +70,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.11,
+    "ink_ratio": 0.2775,
     "checked": true,
     "status": "ok"
   },
@@ -97,12 +97,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "hhmm",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0031,
+    "ocr_confidence": 0.587,
+    "ink_ratio": 0.1026,
     "checked": null,
-    "status": "missing"
+    "status": "unreadable"
   },
   {
     "name": "phone",
@@ -112,12 +112,12 @@
       380,
       56
     ],
-    "raw_text": "",
+    "raw_text": "0350-0815972",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0037,
+    "ocr_confidence": 0.846,
+    "ink_ratio": 0.1005,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "address",
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "House 170. Garden Avenue, Model Toun, Gajranwala",
+    "raw_text": "House 170, Garden Avenue, Model Toun, Gajranwala",
     "value": null,
-    "ocr_confidence": 0.907,
-    "ink_ratio": 0.0101,
+    "ocr_confidence": 0.841,
+    "ink_ratio": 0.1104,
     "checked": null,
     "status": "ok"
   },
@@ -175,7 +175,7 @@
     "raw_text": "",
     "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.1256,
+    "ink_ratio": 0.295,
     "checked": true,
     "status": "ok"
   },
@@ -187,12 +187,12 @@
       140,
       56
     ],
-    "raw_text": "",
+    "raw_text": "2020",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0025,
+    "ocr_confidence": 0.98,
+    "ink_ratio": 0.1165,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "matric_total",
@@ -202,12 +202,12 @@
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "9200",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0025,
+    "ocr_confidence": 0.866,
+    "ink_ratio": 0.0872,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "matric_obtained",
@@ -217,10 +217,10 @@
       170,
       56
     ],
-    "raw_text": "1001",
+    "raw_text": "1007",
     "value": null,
-    "ocr_confidence": 0.877,
-    "ink_ratio": 0.0056,
+    "ocr_confidence": 0.873,
+    "ink_ratio": 0.0826,
     "checked": null,
     "status": "ok"
   },
@@ -234,8 +234,8 @@
     ],
     "raw_text": "81.92",
     "value": null,
-    "ocr_confidence": 0.905,
-    "ink_ratio": 0.0188,
+    "ocr_confidence": 0.884,
+    "ink_ratio": 0.0763,
     "checked": null,
     "status": "ok"
   },
@@ -247,12 +247,12 @@
       140,
       56
     ],
-    "raw_text": "",
+    "raw_text": "2022",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0037,
+    "ocr_confidence": 0.988,
+    "ink_ratio": 0.1076,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_total",
@@ -262,12 +262,12 @@
       170,
       56
     ],
-    "raw_text": "",
+    "raw_text": "+100",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0024,
+    "ocr_confidence": 0.854,
+    "ink_ratio": 0.0788,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "inter_obtained",
@@ -277,10 +277,10 @@
       170,
       56
     ],
-    "raw_text": "11",
+    "raw_text": "10",
     "value": null,
-    "ocr_confidence": 0.752,
-    "ink_ratio": 0.0054,
+    "ocr_confidence": 0.696,
+    "ink_ratio": 0.0565,
     "checked": null,
     "status": "ok"
   },
@@ -294,8 +294,8 @@
     ],
     "raw_text": "85.09",
     "value": null,
-    "ocr_confidence": 0.919,
-    "ink_ratio": 0.0114,
+    "ocr_confidence": 0.96,
+    "ink_ratio": 0.0814,
     "checked": null,
     "status": "ok"
   },
@@ -307,12 +307,12 @@
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Huttain Cheoma",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0031,
+    "ocr_confidence": 0.787,
+    "ink_ratio": 0.055,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "declaration_date",
@@ -322,12 +322,12 @@
       270,
       56
     ],
-    "raw_text": "",
+    "raw_text": "21/90/2020",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0023,
+    "ocr_confidence": 0.984,
+    "ink_ratio": 0.1278,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "signature",

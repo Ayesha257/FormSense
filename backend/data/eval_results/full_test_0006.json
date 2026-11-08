@@ -2,32 +2,32 @@
   {
     "name": "full_name",
     "bbox": [
-      380,
+      381,
       290,
       780,
       56
     ],
-    "raw_text": "Rida Tarie",
+    "raw_text": "Rida Tarip",
     "value": null,
-    "ocr_confidence": 0.868,
-    "ink_ratio": 0.006,
+    "ocr_confidence": 0.822,
+    "ink_ratio": 0.0408,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "father_name",
     "bbox": [
-      380,
+      381,
       360,
       780,
       56
     ],
-    "raw_text": "",
+    "raw_text": "Al/A",
     "value": null,
-    "ocr_confidence": null,
-    "ink_ratio": 0.0032,
+    "ocr_confidence": 0.775,
+    "ink_ratio": 0.0256,
     "checked": null,
-    "status": "missing"
+    "status": "ok"
   },
   {
     "name": "cnic",
@@ -37,10 +37,10 @@
       380,
       56
     ],
-    "raw_text": "10792-0273882-8",
+    "raw_text": "96792-0273882-8",
     "value": null,
-    "ocr_confidence": 0.85,
-    "ink_ratio": 0.0147,
+    "ocr_confidence": 0.889,
+    "ink_ratio": 0.1433,
     "checked": null,
     "status": "ok"
   },
@@ -54,8 +54,8 @@
     ],
     "raw_text": "11-10.2001",
     "value": null,
-    "ocr_confidence": 0.968,
-    "ink_ratio": 0.0107,
+    "ocr_confidence": 0.97,
+    "ink_ratio": 0.1055,
     "checked": null,
     "status": "ok"
   },
@@ -78,15 +78,15 @@
     "name": "gender_female",
     "bbox": [
       600,
-      576,
+      577,
       44,
       44
     ],
     "raw_text": "",
-    "value": "unchecked",
+    "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0,
-    "checked": false,
+    "ink_ratio": 0.6806,
+    "checked": true,
     "status": "ok"
   },
   {
@@ -97,10 +97,10 @@
       780,
       56
     ],
-    "raw_text": "ridatariq2001pgmailoom",
+    "raw_text": "ridatarin2007gmaiom",
     "value": null,
-    "ocr_confidence": 0.652,
-    "ink_ratio": 0.0123,
+    "ocr_confidence": 0.689,
+    "ink_ratio": 0.1072,
     "checked": null,
     "status": "ok"
   },
@@ -112,10 +112,10 @@
       380,
       56
     ],
-    "raw_text": "345-1359882",
+    "raw_text": "0345-1359882",
     "value": null,
-    "ocr_confidence": 0.8,
-    "ink_ratio": 0.017,
+    "ocr_confidence": 0.889,
+    "ink_ratio": 0.1119,
     "checked": null,
     "status": "ok"
   },
@@ -127,10 +127,10 @@
       780,
       110
     ],
-    "raw_text": "House 138. Lane 3. Johar Toun, Faigalabad",
+    "raw_text": "House 138. Cane 3. Johar Town Faigalabad",
     "value": null,
-    "ocr_confidence": 0.939,
-    "ink_ratio": 0.0259,
+    "ocr_confidence": 0.941,
+    "ink_ratio": 0.1015,
     "checked": null,
     "status": "ok"
   },
@@ -168,15 +168,15 @@
     "name": "program_bsai",
     "bbox": [
       80,
-      1025,
+      1027,
       44,
       44
     ],
     "raw_text": "",
-    "value": "unchecked",
+    "value": "checked",
     "ocr_confidence": null,
-    "ink_ratio": 0.0,
-    "checked": false,
+    "ink_ratio": 0.6806,
+    "checked": true,
     "status": "ok"
   },
   {
@@ -189,8 +189,8 @@
     ],
     "raw_text": "2029",
     "value": null,
-    "ocr_confidence": 0.905,
-    "ink_ratio": 0.0249,
+    "ocr_confidence": 0.825,
+    "ink_ratio": 0.1283,
     "checked": null,
     "status": "ok"
   },
@@ -204,38 +204,38 @@
     ],
     "raw_text": "1200",
     "value": null,
-    "ocr_confidence": 0.975,
-    "ink_ratio": 0.0161,
+    "ocr_confidence": 0.97,
+    "ink_ratio": 0.1068,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "matric_obtained",
     "bbox": [
-      730,
+      731,
       1205,
       170,
       56
     ],
     "raw_text": "000",
     "value": null,
-    "ocr_confidence": 0.541,
-    "ink_ratio": 0.0259,
+    "ocr_confidence": 0.655,
+    "ink_ratio": 0.0639,
     "checked": null,
-    "status": "unreadable"
+    "status": "ok"
   },
   {
     "name": "matric_percentage",
     "bbox": [
-      920,
-      1205,
+      921,
+      1206,
       180,
       56
     ],
     "raw_text": "11.15",
     "value": null,
-    "ocr_confidence": 0.837,
-    "ink_ratio": 0.0283,
+    "ocr_confidence": 0.835,
+    "ink_ratio": 0.0735,
     "checked": null,
     "status": "ok"
   },
@@ -249,8 +249,8 @@
     ],
     "raw_text": "2026",
     "value": null,
-    "ocr_confidence": 0.86,
-    "ink_ratio": 0.0189,
+    "ocr_confidence": 0.933,
+    "ink_ratio": 0.1411,
     "checked": null,
     "status": "ok"
   },
@@ -258,59 +258,59 @@
     "name": "inter_total",
     "bbox": [
       540,
-      1275,
+      1276,
       170,
       56
     ],
-    "raw_text": "1100",
+    "raw_text": "9100",
     "value": null,
-    "ocr_confidence": 0.902,
-    "ink_ratio": 0.0152,
+    "ocr_confidence": 0.863,
+    "ink_ratio": 0.1004,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "inter_obtained",
     "bbox": [
-      730,
-      1275,
+      731,
+      1276,
       170,
       56
     ],
     "raw_text": "30",
     "value": null,
-    "ocr_confidence": 0.491,
-    "ink_ratio": 0.0161,
+    "ocr_confidence": 0.475,
+    "ink_ratio": 0.0696,
     "checked": null,
     "status": "unreadable"
   },
   {
     "name": "inter_percentage",
     "bbox": [
-      920,
-      1275,
+      921,
+      1276,
       180,
       56
     ],
     "raw_text": "81.69",
     "value": null,
-    "ocr_confidence": 0.743,
-    "ink_ratio": 0.0323,
+    "ocr_confidence": 0.844,
+    "ink_ratio": 0.0874,
     "checked": null,
     "status": "ok"
   },
   {
     "name": "declaration_name",
     "bbox": [
-      380,
-      1495,
+      381,
+      1496,
       780,
       56
     ],
     "raw_text": "RIDA TARIQ",
     "value": null,
-    "ocr_confidence": 0.997,
-    "ink_ratio": 0.0165,
+    "ocr_confidence": 0.996,
+    "ink_ratio": 0.0807,
     "checked": null,
     "status": "ok"
   },
@@ -318,14 +318,14 @@
     "name": "declaration_date",
     "bbox": [
       380,
-      1575,
+      1576,
       270,
       56
     ],
-    "raw_text": "4.91-2020",
+    "raw_text": "04-91-2020",
     "value": null,
-    "ocr_confidence": 0.848,
-    "ink_ratio": 0.0232,
+    "ocr_confidence": 0.836,
+    "ink_ratio": 0.1257,
     "checked": null,
     "status": "ok"
   },
@@ -340,7 +340,7 @@
     "raw_text": "",
     "value": "signed",
     "ocr_confidence": null,
-    "ink_ratio": 0.0672,
+    "ink_ratio": 0.22,
     "checked": null,
     "status": "ok"
   }
