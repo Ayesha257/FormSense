@@ -24,8 +24,10 @@ instead of sending the value.
 """
 from __future__ import annotations
 
+import json
 import logging
 import os
+import re
 from dataclasses import dataclass
 from typing import Mapping, Optional, Protocol, Sequence, Union
 
@@ -37,7 +39,7 @@ from formsense.schema import FieldResult, Issue
 
 log = logging.getLogger("formsense.llm")
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "qwen/qwen3.8-27b"   # override with GROQ_LLM_MODEL in .env
 
 
 class LLMClient(Protocol):
@@ -50,7 +52,11 @@ class LLMNotConfigured(RuntimeError):
 
 @dataclass
 class GroqClient:
-    """Default client: LangChain's ChatGroq with structured output.
+    """Default client: LangChain's ChatGroq, asked for one JSON object.
+
+    Tool-calling structured output is not used: some Groq models write the tool call
+    in a slightly malformed format and the API rejects it (tool_use_failed). Asking for
+    plain JSON and validating it with Pydantic is more reliable across models.
 
     Nothing here runs at import time or at construction time beyond reading an env var;
     the network call and the langchain_groq import both happen inside ``explain``, so a
@@ -68,14 +74,24 @@ class GroqClient:
                 "GroqClient(api_key=...)"
             )
         from langchain_groq import ChatGroq  # imported here: keeps this module importable without the package
-        return ChatGroq(model=self.model, api_key=key, temperature=self.temperature)
+        return ChatGroq(model=os.environ.get("GROQ_LLM_MODEL", self.model), api_key=key,
+                        temperature=self.temperature)
 
     def explain(self, system_prompt: str, user_prompt: str) -> ExplanationOutput:
-        llm = self._model().with_structured_output(ExplanationOutput)
-        result = llm.invoke([("system", system_prompt), ("human", user_prompt)])
-        if isinstance(result, ExplanationOutput):
-            return result
-        return ExplanationOutput.model_validate(result)  # some integrations return a dict
+        schema = json.dumps(ExplanationOutput.model_json_schema())
+        msg = (user_prompt + "\n\nReturn ONLY one JSON object (no markdown, no commentary) "
+               "matching this schema. Use the exact issue ids given above.\n" + schema)
+        llm = self._model()
+        last: Optional[Exception] = None
+        for _ in range(2):  # one retry if the JSON comes back malformed
+            text = llm.invoke([("system", system_prompt), ("human", msg)]).content
+            text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)
+            m = re.search(r"\{.*\}", text, flags=re.S)
+            try:
+                return ExplanationOutput.model_validate_json(m.group(0))
+            except Exception as e:  # no JSON found, or it does not match the schema
+                last = e
+        raise last
 
 
 def _labels(template: Union[TemplateInfo, Mapping, str, None]) -> Mapping[str, str]:
@@ -157,3 +173,28 @@ def _align_issue_order(out: ExplanationOutput, issues: Sequence[Issue]) -> None:
     if got != want:
         log.warning("LLM explanation issue ids do not match the input exactly: missing=%s extra=%s",
                     want - got, got - want)
+
+
+def explain(report):
+    """Hook for the rating tool and the app: AuditReport -> str.
+
+    report.citations filled = LLM + RAG; empty = LLM alone.
+    """
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        pass
+    ctx = []
+    for c in (getattr(report, "citations", None) or []):
+        if isinstance(c, str):
+            ctx.append(c)
+        elif isinstance(c, dict):
+            ctx.append(str(c.get("text") or c.get("passage") or c))
+        else:
+            ctx.append(str(getattr(c, "text", None) or getattr(c, "passage", None) or c))
+    out = explain_audit(report.fields, report.issues, None, guideline_context=ctx or None)
+    lines = [out.summary] + [f"- {e.explanation}" for e in out.issues]
+    if out.overall_recommendation:
+        lines.append(out.overall_recommendation)
+    return "\n".join(lines)

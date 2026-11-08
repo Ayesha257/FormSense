@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      381,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Samun uhen",
+    "value": null,
+    "ocr_confidence": 0.699,
+    "ink_ratio": 0.0568,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      381,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Niai Zeodhan chun",
+    "value": null,
+    "ocr_confidence": 0.6,
+    "ink_ratio": 0.0884,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "2477-74044294",
+    "value": null,
+    "ocr_confidence": 0.887,
+    "ink_ratio": 0.134,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "A0/1k",
+    "value": null,
+    "ocr_confidence": 0.453,
+    "ink_ratio": 0.0864,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.3319,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      381,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "unprivilegedism .",
+    "value": null,
+    "ocr_confidence": 0.614,
+    "ink_ratio": 0.1379,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "ax-Matot",
+    "value": null,
+    "ocr_confidence": 0.348,
+    "ink_ratio": 0.1156,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      381,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "NA",
+    "value": null,
+    "ocr_confidence": 0.978,
+    "ink_ratio": 0.0129,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      79,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.005,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.3319,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      79,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0025,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "m",
+    "value": null,
+    "ocr_confidence": 0.573,
+    "ink_ratio": 0.0915,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "11",
+    "value": null,
+    "ocr_confidence": 0.467,
+    "ink_ratio": 0.0712,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      731,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "14",
+    "value": null,
+    "ocr_confidence": 0.485,
+    "ink_ratio": 0.0839,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      922,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "74%",
+    "value": null,
+    "ocr_confidence": 0.844,
+    "ink_ratio": 0.0696,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "Do0a",
+    "value": null,
+    "ocr_confidence": 0.361,
+    "ink_ratio": 0.1036,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "m",
+    "value": null,
+    "ocr_confidence": 0.695,
+    "ink_ratio": 0.0563,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      731,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "11",
+    "value": null,
+    "ocr_confidence": 0.857,
+    "ink_ratio": 0.0605,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      922,
+      1276,
+      180,
+      56
+    ],
+    "raw_text": "ult",
+    "value": null,
+    "ocr_confidence": 0.407,
+    "ink_ratio": 0.1104,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      381,
+      1496,
+      780,
+      56
+    ],
+    "raw_text": "Seiman l\u00e4gn",
+    "value": null,
+    "ocr_confidence": 0.652,
+    "ink_ratio": 0.0591,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1576,
+      270,
+      56
+    ],
+    "raw_text": "14-0-t\u00e0",
+    "value": null,
+    "ocr_confidence": 0.597,
+    "ink_ratio": 0.107,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      701,
+      1556,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  }
+]

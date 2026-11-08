@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "Naumtn Fahad Kayani",
+    "value": null,
+    "ocr_confidence": 0.896,
+    "ink_ratio": 0.1103,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Ahmed Zain Kayani",
+    "value": null,
+    "ocr_confidence": 0.951,
+    "ink_ratio": 0.0963,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "15169-8887624-1",
+    "value": null,
+    "ocr_confidence": 0.939,
+    "ink_ratio": 0.19,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "25-10-2006",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1684,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.41,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "nauman.kayani2006egmal.com",
+    "value": null,
+    "ocr_confidence": 0.855,
+    "ink_ratio": 0.1639,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "0325-0451880",
+    "value": null,
+    "ocr_confidence": 0.905,
+    "ink_ratio": 0.1811,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 302 Garden Avenue, Township, Multan",
+    "value": null,
+    "ocr_confidence": 0.929,
+    "ink_ratio": 0.1326,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.3975,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "2023",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.1772,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1200",
+    "value": null,
+    "ocr_confidence": 0.999,
+    "ink_ratio": 0.1413,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      731,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "1028",
+    "value": null,
+    "ocr_confidence": 0.995,
+    "ink_ratio": 0.1443,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      921,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "85.67",
+    "value": null,
+    "ocr_confidence": 0.935,
+    "ink_ratio": 0.1241,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "2025",
+    "value": null,
+    "ocr_confidence": 1.0,
+    "ink_ratio": 0.1811,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      541,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1100",
+    "value": null,
+    "ocr_confidence": 0.949,
+    "ink_ratio": 0.1262,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      731,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "791",
+    "value": null,
+    "ocr_confidence": 0.812,
+    "ink_ratio": 0.0783,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      921,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "191",
+    "value": null,
+    "ocr_confidence": 0.669,
+    "ink_ratio": 0.0946,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      381,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Nauman Fahad Kayani",
+    "value": null,
+    "ocr_confidence": 0.944,
+    "ink_ratio": 0.1079,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "28-10-2026",
+    "value": null,
+    "ocr_confidence": 0.998,
+    "ink_ratio": 0.1872,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      701,
+      1556,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.1433,
+    "checked": null,
+    "status": "ok"
+  }
+]

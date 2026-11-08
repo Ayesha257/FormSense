@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      380,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "unvilvers .",
+    "value": null,
+    "ocr_confidence": 0.588,
+    "ink_ratio": 0.0318,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      380,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Tamoor vamea Cheema",
+    "value": null,
+    "ocr_confidence": 0.773,
+    "ink_ratio": 0.063,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "wisdom .",
+    "value": null,
+    "ocr_confidence": 0.604,
+    "ink_ratio": 0.0932,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "2N00/20o3",
+    "value": null,
+    "ocr_confidence": 0.472,
+    "ink_ratio": 0.0794,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.325,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      380,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "noo,cheemadoenchduph",
+    "value": null,
+    "ocr_confidence": 0.456,
+    "ink_ratio": 0.0734,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      380,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "www",
+    "value": null,
+    "ocr_confidence": 0.326,
+    "ink_ratio": 0.0806,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      380,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House niks, Mode Town link Rd Bahra Town Sialkot",
+    "value": null,
+    "ocr_confidence": 0.889,
+    "ink_ratio": 0.0944,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.3212,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      640,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "30",
+    "value": null,
+    "ocr_confidence": 0.677,
+    "ink_ratio": 0.0843,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "01",
+    "value": null,
+    "ocr_confidence": 0.498,
+    "ink_ratio": 0.0653,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      730,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "xx",
+    "value": null,
+    "ocr_confidence": 0.382,
+    "ink_ratio": 0.0525,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      920,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": ".25",
+    "value": null,
+    "ocr_confidence": 0.682,
+    "ink_ratio": 0.0693,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "26",
+    "value": null,
+    "ocr_confidence": 0.688,
+    "ink_ratio": 0.0919,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      540,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "\u4e00",
+    "value": null,
+    "ocr_confidence": 0.382,
+    "ink_ratio": 0.0525,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      730,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "wi",
+    "value": null,
+    "ocr_confidence": 0.531,
+    "ink_ratio": 0.0459,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      920,
+      1275,
+      180,
+      56
+    ],
+    "raw_text": "no",
+    "value": null,
+    "ocr_confidence": 0.666,
+    "ink_ratio": 0.0612,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      380,
+      1495,
+      780,
+      56
+    ],
+    "raw_text": "Npor Cheem\u00e0",
+    "value": null,
+    "ocr_confidence": 0.762,
+    "ink_ratio": 0.0325,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "20020",
+    "value": null,
+    "ocr_confidence": 0.585,
+    "ink_ratio": 0.1045,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      700,
+      1555,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": null,
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": null,
+    "status": "missing"
+  }
+]

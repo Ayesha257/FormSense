@@ -1,0 +1,957 @@
+system,form,field,bucket,truth,predicted,ocr_conf
+baseline,test_0000,cnic,ocr_text_error,3750-433812-,* 3750-433812- ##＃＃＃-＃＃＃＃＃##-#,0.911
+baseline,test_0000,gender_male,checkbox_wrong,,,
+baseline,test_0000,program_bsai,checkbox_wrong,,,
+baseline,test_0000,matric_total,false_missing,1200,,
+baseline,test_0000,matric_obtained,false_missing,1136,,
+baseline,test_0000,matric_percentage,false_missing,94.67,,
+baseline,test_0000,inter_year,false_missing,2022,,
+baseline,test_0000,inter_total,false_missing,1100,,
+baseline,test_0000,inter_obtained,false_missing,769,,
+baseline,test_0000,inter_percentage,false_missing,69.91,,
+full,test_0000,inter_total,ocr_text_error,1100,1700,0.834
+full,test_0000,inter_percentage,ocr_text_error,69.91,69.97,0.987
+baseline,test_0001,cnic,ocr_text_error,33383-0833495-2,*,0.953
+baseline,test_0001,gender_female,checkbox_wrong,,,
+baseline,test_0001,program_bsai,checkbox_wrong,,,
+baseline,test_0001,matric_year,false_missing,2020,,
+baseline,test_0001,matric_total,false_missing,1200,,
+baseline,test_0001,matric_obtained,false_missing,1008,,
+baseline,test_0001,matric_percentage,false_missing,84.00,,
+baseline,test_0001,inter_year,false_missing,2022,,
+baseline,test_0001,inter_total,false_missing,1100,,
+baseline,test_0001,inter_obtained,false_missing,660,,
+baseline,test_0001,inter_percentage,false_missing,60.00,,
+baseline,test_0001,signature,signature_missed,,,
+full,test_0001,inter_total,ocr_text_error,1100,1700,0.842
+baseline,test_0002,gender_male,checkbox_wrong,,,
+baseline,test_0002,address,ocr_text_error,"House 389, Model Town Link Rd, DHA Phase 5, Islamabad","* House 389, Model Town Link Rd, DHA Phase S",0.984
+baseline,test_0002,program_bsse,checkbox_wrong,,,
+baseline,test_0002,matric_year,false_missing,2021,,
+baseline,test_0002,matric_total,false_missing,1200,,
+baseline,test_0002,matric_obtained,false_missing,863,,
+baseline,test_0002,matric_percentage,false_missing,71.92,,
+baseline,test_0002,inter_year,false_missing,2023,,
+baseline,test_0002,inter_total,false_missing,1100,,
+baseline,test_0002,inter_obtained,false_missing,716,,
+baseline,test_0002,inter_percentage,false_missing,65.09,,
+baseline,test_0002,signature,signature_missed,,,
+full,test_0002,matric_year,ocr_text_error,2021,2027,0.912
+full,test_0002,matric_percentage,ocr_text_error,71.92,77.92,0.974
+full,test_0002,inter_total,ocr_text_error,1100,1700,0.858
+baseline,test_0003,full_name,ocr_text_error,Imran Farooq,* Imran Faroog,0.998
+baseline,test_0003,father_name,ocr_text_error,Zain Farooq,* zain Faroog,0.988
+baseline,test_0003,phone,ocr_text_error,0303-6533460,* 0303-6S33460 03XX-XXXXXXX,0.969
+baseline,test_0003,program_bscs,checkbox_wrong,,,
+baseline,test_0003,matric_year,false_missing,2021,,
+baseline,test_0003,matric_total,false_missing,1200,,
+baseline,test_0003,matric_obtained,false_missing,788,,
+baseline,test_0003,matric_percentage,false_missing,65.67,,
+baseline,test_0003,inter_year,false_missing,2023,,
+baseline,test_0003,inter_total,false_missing,1100,,
+baseline,test_0003,inter_obtained,false_missing,879,,
+baseline,test_0003,inter_percentage,false_missing,79.91,,
+baseline,test_0003,declaration_name,ocr_text_error,Imran Farooq,* Imran Faroog,0.996
+baseline,test_0003,declaration_date,ocr_text_error,00/00/0000,* ooloo/000o,0.742
+full,test_0003,declaration_date,ocr_text_error,00/00/0000,oolooloooo,0.907
+baseline,test_0004,cnic,ocr_text_error,33926-2198091-5,*,0.987
+baseline,test_0004,gender_male,checkbox_wrong,,,
+baseline,test_0004,program_bsai,checkbox_wrong,,,
+baseline,test_0004,matric_year,false_missing,2020,,
+baseline,test_0004,matric_total,false_missing,1200,,
+baseline,test_0004,matric_obtained,false_missing,1102,,
+baseline,test_0004,matric_percentage,false_missing,91.83,,
+baseline,test_0004,inter_year,false_missing,2022,,
+baseline,test_0004,inter_total,false_missing,1100,,
+baseline,test_0004,inter_obtained,false_missing,956,,
+baseline,test_0004,inter_percentage,false_missing,86.91,,
+baseline,test_0004,declaration_date,ocr_text_error,11/10/2026,*,0.979
+full,test_0004,declaration_date,flagged_unreadable,11/10/2026,money,0.253
+baseline,test_0005,date_of_birth,ocr_text_error,22 Aug 2006,* 22 Aug 2006 DD/MM/YYYY,0.991
+baseline,test_0005,gender_female,checkbox_wrong,,,
+baseline,test_0005,program_bsai,checkbox_wrong,,,
+baseline,test_0005,matric_year,false_missing,2023,,
+baseline,test_0005,matric_total,false_missing,1200,,
+baseline,test_0005,matric_obtained,false_missing,872,,
+baseline,test_0005,matric_percentage,false_missing,72.67,,
+baseline,test_0005,inter_year,false_missing,2025,,
+baseline,test_0005,inter_total,false_missing,1100,,
+baseline,test_0005,inter_obtained,false_missing,899,,
+baseline,test_0005,inter_percentage,false_missing,81.73,,
+baseline,test_0006,father_name,false_missing,N/A,,
+baseline,test_0006,cnic,ocr_text_error,36792-0273882-8,90792-0273882-8,0.929
+baseline,test_0006,gender_female,checkbox_wrong,,,
+baseline,test_0006,email,false_missing,ridatariq2007@gmail.com,,
+baseline,test_0006,address,false_missing,"House 138, Lane 3, Johar Town, Faisalabad",,
+baseline,test_0006,program_bsai,checkbox_wrong,,,
+baseline,test_0006,matric_year,false_missing,2024,,
+baseline,test_0006,matric_total,false_missing,1200,,
+baseline,test_0006,matric_obtained,false_missing,933,,
+baseline,test_0006,matric_percentage,false_missing,77.75,,
+baseline,test_0006,inter_year,false_missing,2026,,
+baseline,test_0006,inter_total,false_missing,1100,,
+baseline,test_0006,inter_obtained,false_missing,964,,
+baseline,test_0006,inter_percentage,false_missing,87.64,,
+baseline,test_0006,declaration_name,false_missing,RIDA TARIQ,,
+baseline,test_0006,declaration_date,ocr_text_error,04-11-2026,04-99-2020,0.882
+full,test_0006,father_name,false_missing,N/A,,
+full,test_0006,cnic,ocr_text_error,36792-0273882-8,10792-0273882-8,0.85
+full,test_0006,date_of_birth,ocr_text_error,11-10-2007,11-10.2001,0.968
+full,test_0006,gender_female,checkbox_wrong,,,
+full,test_0006,email,ocr_text_error,ridatariq2007@gmail.com,ridatariq2001pgmailoom,0.652
+full,test_0006,program_bsai,checkbox_wrong,,,
+full,test_0006,matric_year,ocr_text_error,2024,2029,0.905
+full,test_0006,matric_obtained,flagged_unreadable,933,000,0.541
+full,test_0006,matric_percentage,ocr_text_error,77.75,11.15,0.837
+full,test_0006,inter_obtained,flagged_unreadable,964,30,0.491
+full,test_0006,inter_percentage,ocr_text_error,87.64,81.69,0.743
+full,test_0006,declaration_date,ocr_text_error,04-11-2026,4.91-2020,0.848
+baseline,test_0007,gender_male,checkbox_wrong,,,
+baseline,test_0007,program_bscs,checkbox_wrong,,,
+baseline,test_0007,matric_year,false_missing,2021,,
+baseline,test_0007,matric_total,false_missing,1200,,
+baseline,test_0007,matric_obtained,false_missing,1200,,
+baseline,test_0007,matric_percentage,false_missing,100.00,,
+baseline,test_0007,inter_year,false_missing,2023,,
+baseline,test_0007,inter_total,false_missing,1100,,
+baseline,test_0007,inter_obtained,false_missing,704,,
+baseline,test_0007,inter_percentage,false_missing,64.00,,
+baseline,test_0008,gender_female,checkbox_wrong,,,
+baseline,test_0008,program_bsse,checkbox_wrong,,,
+baseline,test_0008,matric_year,false_missing,2021,,
+baseline,test_0008,matric_total,false_missing,1200,,
+baseline,test_0008,matric_obtained,false_missing,785,,
+baseline,test_0008,matric_percentage,false_missing,65.42,,
+baseline,test_0008,inter_year,false_missing,2023,,
+baseline,test_0008,inter_total,false_missing,1100,,
+baseline,test_0008,inter_obtained,false_missing,677,,
+baseline,test_0008,inter_percentage,false_missing,61.55,,
+baseline,test_0009,gender_male,checkbox_wrong,,,
+baseline,test_0009,program_bsse,checkbox_wrong,,,
+baseline,test_0009,matric_year,false_missing,2020,,
+baseline,test_0009,matric_total,false_missing,1200,,
+baseline,test_0009,matric_obtained,false_missing,783,,
+baseline,test_0009,matric_percentage,false_missing,65.25,,
+baseline,test_0009,inter_year,false_missing,2022,,
+baseline,test_0009,inter_total,false_missing,1100,,
+baseline,test_0009,inter_obtained,false_missing,864,,
+baseline,test_0009,inter_percentage,false_missing,73.04,,
+full,test_0009,inter_total,ocr_text_error,1100,1700,0.882
+baseline,test_0010,gender_female,checkbox_wrong,,,
+baseline,test_0010,program_bsse,checkbox_wrong,,,
+baseline,test_0010,matric_year,false_missing,2020,,
+baseline,test_0010,matric_total,false_missing,1200,,
+baseline,test_0010,matric_obtained,false_missing,1021,,
+baseline,test_0010,matric_percentage,false_missing,85.08,,
+baseline,test_0010,inter_year,false_missing,2022,,
+baseline,test_0010,inter_total,false_missing,1100,,
+baseline,test_0010,inter_obtained,false_missing,712,,
+baseline,test_0010,inter_percentage,false_missing,64.73,,
+full,test_0010,matric_obtained,ocr_text_error,1021,1027,0.809
+full,test_0010,inter_total,ocr_text_error,1100,7700,0.889
+baseline,test_0011,full_name,false_missing,Noor Cheema,,
+baseline,test_0011,father_name,false_missing,Taimoor Hamza Cheema,,
+baseline,test_0011,cnic,false_missing,31640-5321236-0,,
+baseline,test_0011,date_of_birth,false_missing,29/03/2007,,
+baseline,test_0011,gender_female,checkbox_wrong,,,
+baseline,test_0011,email,false_missing,noor.cheema20@nic.edu.pk,,
+baseline,test_0011,phone,false_missing,0337-1596703,,
+baseline,test_0011,address,false_missing,"House 176, Model Town Link Rd, Bahria Town, Sialkot",,
+baseline,test_0011,program_bscs,checkbox_wrong,,,
+baseline,test_0011,matric_year,false_missing,2024,,
+baseline,test_0011,matric_total,false_missing,1200,,
+baseline,test_0011,matric_obtained,false_missing,915,,
+baseline,test_0011,matric_percentage,false_missing,76.25,,
+baseline,test_0011,inter_year,false_missing,2026,,
+baseline,test_0011,inter_total,false_missing,1100,,
+baseline,test_0011,inter_obtained,false_missing,945,,
+baseline,test_0011,inter_percentage,false_missing,85.91,,
+baseline,test_0011,declaration_name,false_missing,Noor Cheema,,
+baseline,test_0011,declaration_date,false_missing,29/02/2009,,
+baseline,test_0011,signature,signature_missed,,,
+full,test_0011,full_name,false_missing,Noor Cheema,,
+full,test_0011,father_name,false_missing,Taimoor Hamza Cheema,,
+full,test_0011,cnic,false_missing,31640-5321236-0,,
+full,test_0011,date_of_birth,false_missing,29/03/2007,,
+full,test_0011,email,false_missing,noor.cheema20@nic.edu.pk,,
+full,test_0011,phone,false_missing,0337-1596703,,
+full,test_0011,address,false_missing,"House 176, Model Town Link Rd, Bahria Town, Sialkot",,
+full,test_0011,matric_year,flagged_unreadable,2024,M,0.502
+full,test_0011,matric_total,false_missing,1200,,
+full,test_0011,matric_obtained,false_missing,915,,
+full,test_0011,matric_percentage,ocr_text_error,76.25,2,0.875
+full,test_0011,inter_year,flagged_unreadable,2026,a,0.568
+full,test_0011,inter_total,flagged_unreadable,1100,a,0.479
+full,test_0011,inter_obtained,ocr_text_error,945,a,0.879
+full,test_0011,inter_percentage,ocr_text_error,85.91,85.,0.695
+full,test_0011,declaration_name,false_missing,Noor Cheema,,
+full,test_0011,declaration_date,flagged_unreadable,29/02/2009,20220H,0.251
+baseline,test_0012,gender_male,checkbox_wrong,,,
+baseline,test_0012,program_bsai,checkbox_wrong,,,
+baseline,test_0012,matric_year,false_missing,2024,,
+baseline,test_0012,matric_total,false_missing,1200,,
+baseline,test_0012,matric_obtained,false_missing,768,,
+baseline,test_0012,matric_percentage,false_missing,64.00,,
+baseline,test_0012,inter_year,false_missing,2026,,
+baseline,test_0012,inter_total,false_missing,1100,,
+baseline,test_0012,inter_obtained,false_missing,730,,
+baseline,test_0012,inter_percentage,false_missing,N/A?,,
+baseline,test_0013,gender_male,checkbox_wrong,,,
+baseline,test_0013,program_bsai,checkbox_wrong,,,
+baseline,test_0013,matric_year,false_missing,2023,,
+baseline,test_0013,matric_total,false_missing,1200,,
+baseline,test_0013,matric_obtained,false_missing,785,,
+baseline,test_0013,matric_percentage,false_missing,65.4%,,
+baseline,test_0013,inter_year,false_missing,2025,,
+baseline,test_0013,inter_total,false_missing,1100,,
+baseline,test_0013,inter_obtained,false_missing,771,,
+baseline,test_0013,inter_percentage,false_missing,70.09,,
+full,test_0013,inter_total,ocr_text_error,1100,1700,0.865
+full,test_0013,inter_obtained,ocr_text_error,771,777,0.982
+full,test_0013,inter_percentage,ocr_text_error,70.09,1,0.792
+baseline,test_0014,gender_male,checkbox_wrong,,,
+baseline,test_0014,address,ocr_text_error,"House 261, Model Town Link Rd, Model Town, Faisalabad","* House 261, Model Town Link Rd, Model Town",0.995
+baseline,test_0014,program_bsai,checkbox_wrong,,,
+baseline,test_0014,matric_year,false_missing,2022,,
+baseline,test_0014,matric_total,false_missing,1200,,
+baseline,test_0014,matric_obtained,false_missing,747,,
+baseline,test_0014,matric_percentage,false_missing,62.25,,
+baseline,test_0014,inter_year,false_missing,2024,,
+baseline,test_0014,inter_total,false_missing,1100,,
+baseline,test_0014,inter_obtained,false_missing,697,,
+baseline,test_0014,inter_percentage,false_missing,63.36,,
+baseline,test_0014,signature,signature_missed,,,
+baseline,test_0015,gender_female,checkbox_wrong,,,
+baseline,test_0015,program_bsse,checkbox_wrong,,,
+baseline,test_0015,matric_year,false_missing,2021,,
+baseline,test_0015,matric_total,false_missing,1200,,
+baseline,test_0015,matric_obtained,false_missing,823,,
+baseline,test_0015,matric_percentage,false_missing,68.58,,
+baseline,test_0015,inter_year,false_missing,2023,,
+baseline,test_0015,inter_total,false_missing,1100,,
+baseline,test_0015,inter_obtained,false_missing,936,,
+baseline,test_0015,inter_percentage,false_missing,85.1%,,
+baseline,test_0015,declaration_name,ocr_text_error,Saad Dar,* Saad Dar,0.999
+baseline,test_0015,signature,signature_missed,,,
+baseline,test_0016,gender_female,checkbox_wrong,,,
+baseline,test_0016,program_bsai,checkbox_wrong,,,
+baseline,test_0016,matric_year,false_missing,2022,,
+baseline,test_0016,matric_total,false_missing,1200,,
+baseline,test_0016,matric_obtained,false_missing,961,,
+baseline,test_0016,matric_percentage,false_missing,80.08,,
+baseline,test_0016,inter_year,false_missing,2024,,
+baseline,test_0016,inter_total,false_missing,1100,,
+baseline,test_0016,inter_obtained,false_missing,841,,
+baseline,test_0016,inter_percentage,false_missing,76.45,,
+baseline,test_0017,cnic,ocr_text_error,35564-4002228-6,*,0.989
+baseline,test_0017,gender_female,checkbox_wrong,,,
+baseline,test_0017,phone,ocr_text_error,0326-0679079,*,0.996
+baseline,test_0017,address,ocr_text_error,"House 196, Canal Road, Iqbal Town, Lahore",*,0.971
+baseline,test_0017,program_bscs,checkbox_wrong,,,
+baseline,test_0017,program_bsse,checkbox_wrong,,,
+baseline,test_0017,program_bsai,checkbox_wrong,,,
+baseline,test_0017,matric_year,false_missing,2023,,
+baseline,test_0017,matric_total,false_missing,1200,,
+baseline,test_0017,matric_obtained,false_missing,903,,
+baseline,test_0017,matric_percentage,false_missing,75.25,,
+baseline,test_0017,inter_year,false_missing,2025,,
+baseline,test_0017,inter_total,false_missing,1100,,
+baseline,test_0017,inter_obtained,false_missing,668,,
+baseline,test_0017,inter_percentage,false_missing,60.73,,
+baseline,test_0017,declaration_name,ocr_text_error,Sidra Aiza Kayani,*,0.995
+baseline,test_0018,gender_female,checkbox_wrong,,,
+baseline,test_0018,program_bsse,checkbox_wrong,,,
+baseline,test_0018,matric_year,false_missing,2024,,
+baseline,test_0018,matric_total,false_missing,1200,,
+baseline,test_0018,matric_obtained,false_missing,1097,,
+baseline,test_0018,matric_percentage,false_missing,91.42,,
+baseline,test_0018,inter_year,false_missing,2026,,
+baseline,test_0018,inter_total,false_missing,1100,,
+baseline,test_0018,inter_obtained,false_missing,716,,
+baseline,test_0018,inter_percentage,false_missing,65.09,,
+baseline,test_0019,gender_male,checkbox_wrong,,,
+baseline,test_0019,program_bscs,checkbox_wrong,,,
+baseline,test_0019,matric_year,false_missing,2023,,
+baseline,test_0019,matric_total,false_missing,1200,,
+baseline,test_0019,matric_obtained,false_missing,1200,,
+baseline,test_0019,matric_percentage,false_missing,100.00,,
+baseline,test_0019,inter_year,false_missing,2023,,
+baseline,test_0019,inter_total,false_missing,1100,,
+baseline,test_0019,inter_obtained,false_missing,670,,
+baseline,test_0019,inter_percentage,false_missing,60.91,,
+baseline,test_0020,gender_male,checkbox_wrong,,,
+baseline,test_0020,program_bsse,checkbox_wrong,,,
+baseline,test_0020,matric_year,false_missing,2021,,
+baseline,test_0020,matric_total,false_missing,1200,,
+baseline,test_0020,matric_obtained,false_missing,1314,,
+baseline,test_0020,matric_percentage,false_missing,109.50,,
+baseline,test_0020,inter_year,false_missing,2023,,
+baseline,test_0020,inter_total,false_missing,1100,,
+baseline,test_0020,inter_obtained,false_missing,802,,
+baseline,test_0020,inter_percentage,false_missing,72.91,,
+full,test_0020,matric_obtained,ocr_text_error,1314,B14,0.909
+full,test_0020,inter_percentage,ocr_text_error,72.91,7291,0.998
+baseline,test_0021,full_name,false_missing,Bilal Hamza Rana,,
+baseline,test_0021,father_name,false_missing,Umair Rana,,
+baseline,test_0021,cnic,flagged_unreadable,38279-0594046-3,R2n sSkd4,0.574
+baseline,test_0021,date_of_birth,ocr_text_error,13/06/2008,4R6/2008,0.762
+baseline,test_0021,gender_male,checkbox_wrong,,,
+baseline,test_0021,email,false_missing,bilalrana2008@hotmail.com,,
+baseline,test_0021,phone,false_missing,0330-4634580,,
+baseline,test_0021,address,ocr_text_error,"House 231, Street 5, Iqbal Town, Sialkot","House 234, Street 5, uquel Town, Sudtot",0.757
+baseline,test_0021,program_bsai,checkbox_wrong,,,
+baseline,test_0021,matric_year,false_missing,2024,,
+baseline,test_0021,matric_total,false_missing,1200,,
+baseline,test_0021,matric_obtained,false_missing,1072,,
+baseline,test_0021,matric_percentage,false_missing,89.3%,,
+baseline,test_0021,inter_year,false_missing,2026,,
+baseline,test_0021,inter_total,false_missing,1100,,
+baseline,test_0021,inter_obtained,false_missing,1100,,
+baseline,test_0021,inter_percentage,false_missing,100.00,,
+baseline,test_0021,declaration_name,ocr_text_error,Bilal Hamza Rana,* Ras ramao Rana,0.777
+baseline,test_0021,declaration_date,flagged_unreadable,28/10/2026,2/to/206,0.589
+full,test_0021,full_name,false_missing,Bilal Hamza Rana,,
+full,test_0021,father_name,false_missing,Umair Rana,,
+full,test_0021,cnic,false_missing,38279-0594046-3,,
+full,test_0021,date_of_birth,false_missing,13/06/2008,,
+full,test_0021,email,false_missing,bilalrana2008@hotmail.com,,
+full,test_0021,phone,false_missing,0330-4634580,,
+full,test_0021,address,false_missing,"House 231, Street 5, Iqbal Town, Sialkot",,
+full,test_0021,matric_year,false_missing,2024,,
+full,test_0021,matric_total,false_missing,1200,,
+full,test_0021,matric_obtained,false_missing,1072,,
+full,test_0021,matric_percentage,false_missing,89.3%,,
+full,test_0021,inter_year,false_missing,2026,,
+full,test_0021,inter_total,false_missing,1100,,
+full,test_0021,inter_obtained,false_missing,1100,,
+full,test_0021,inter_percentage,false_missing,100.00,,
+full,test_0021,declaration_name,false_missing,Bilal Hamza Rana,,
+full,test_0021,declaration_date,false_missing,28/10/2026,,
+baseline,test_0022,date_of_birth,ocr_text_error,02 Apr 2004,* 02 Apr 2004 DD/MM/YYYY,0.979
+baseline,test_0022,gender_male,checkbox_wrong,,,
+baseline,test_0022,phone,ocr_text_error,0343-43238,* 0343-43238 03XX-xXx00xxx,0.882
+baseline,test_0022,program_bsai,checkbox_wrong,,,
+baseline,test_0022,matric_year,false_missing,2021,,
+baseline,test_0022,matric_total,false_missing,1200,,
+baseline,test_0022,matric_obtained,false_missing,1200,,
+baseline,test_0022,matric_percentage,false_missing,100.00,,
+baseline,test_0022,inter_year,false_missing,2023,,
+baseline,test_0022,inter_total,false_missing,1100,,
+baseline,test_0022,inter_obtained,false_missing,836,,
+baseline,test_0022,inter_percentage,false_missing,80.85,,
+baseline,test_0022,signature,signature_missed,,,
+baseline,test_0023,full_name,false_missing,Hussain Cheema,,
+baseline,test_0023,father_name,ocr_text_error,Haris Cheema,Herran Chorma,0.708
+baseline,test_0023,cnic,ocr_text_error,39221-9090149-7,99221-9090949.1,0.943
+baseline,test_0023,date_of_birth,ocr_text_error,13/07/2004,18/01/2004,0.907
+baseline,test_0023,gender_male,checkbox_wrong,,,
+baseline,test_0023,email,false_missing,hussaincheema90@outlook.com,,
+baseline,test_0023,program_bsai,checkbox_wrong,,,
+baseline,test_0023,matric_year,false_missing,2020,,
+baseline,test_0023,matric_total,false_missing,1200,,
+baseline,test_0023,matric_obtained,false_missing,1007,,
+baseline,test_0023,matric_percentage,false_missing,83.92,,
+baseline,test_0023,inter_year,false_missing,2022,,
+baseline,test_0023,inter_total,false_missing,1100,,
+baseline,test_0023,inter_obtained,false_missing,936,,
+baseline,test_0023,inter_percentage,false_missing,85.09,,
+baseline,test_0023,declaration_name,ocr_text_error,Hussain Cheema,* Hascain Choma,0.859
+baseline,test_0023,declaration_date,ocr_text_error,27/10/2026,of Brth,0.945
+full,test_0023,full_name,false_missing,Hussain Cheema,,
+full,test_0023,father_name,false_missing,Haris Cheema,,
+full,test_0023,cnic,ocr_text_error,39221-9090149-7,1221-9090149.1,0.863
+full,test_0023,date_of_birth,false_missing,13/07/2004,,
+full,test_0023,email,false_missing,hussaincheema90@outlook.com,,
+full,test_0023,phone,false_missing,0330-0835972,,
+full,test_0023,matric_year,false_missing,2020,,
+full,test_0023,matric_total,false_missing,1200,,
+full,test_0023,matric_obtained,ocr_text_error,1007,1001,0.877
+full,test_0023,matric_percentage,ocr_text_error,83.92,81.92,0.905
+full,test_0023,inter_year,false_missing,2022,,
+full,test_0023,inter_total,false_missing,1100,,
+full,test_0023,inter_obtained,ocr_text_error,936,11,0.752
+full,test_0023,declaration_name,false_missing,Hussain Cheema,,
+full,test_0023,declaration_date,false_missing,27/10/2026,,
+full,test_0023,signature,signature_false_alarm,,,
+baseline,test_0024,gender_female,checkbox_wrong,,,
+baseline,test_0024,phone,ocr_text_error,0324-1394585,* 0324-1394S8S 03XX-XXXX0XX,0.949
+baseline,test_0024,program_bsai,checkbox_wrong,,,
+baseline,test_0024,matric_year,false_missing,2020,,
+baseline,test_0024,matric_total,false_missing,1200,,
+baseline,test_0024,matric_obtained,false_missing,903,,
+baseline,test_0024,matric_percentage,false_missing,75.2%,,
+baseline,test_0024,inter_year,false_missing,2022,,
+baseline,test_0024,inter_total,false_missing,1100,,
+baseline,test_0024,inter_obtained,false_missing,677,,
+baseline,test_0024,inter_percentage,false_missing,61.55,,
+full,test_0024,inter_percentage,ocr_text_error,61.55,61.SS,0.91
+baseline,test_0025,gender_male,checkbox_wrong,,,
+baseline,test_0025,address,ocr_text_error,"House 171, Model Town Link Rd, Johar Town, Islamabad","* House 171, Model Town Link Rd, Johar",0.993
+baseline,test_0025,program_bsai,checkbox_wrong,,,
+baseline,test_0025,matric_year,false_missing,2023,,
+baseline,test_0025,matric_total,false_missing,1200,,
+baseline,test_0025,matric_obtained,false_missing,850,,
+baseline,test_0025,inter_year,false_missing,2025,,
+baseline,test_0025,inter_total,false_missing,1100,,
+baseline,test_0025,inter_obtained,false_missing,763,,
+baseline,test_0025,inter_percentage,false_missing,69.36,,
+baseline,test_0026,date_of_birth,ocr_text_error,15 Jan 2007,* 15 Jan 2007 DD/MM/YYYY,0.998
+baseline,test_0026,gender_male,checkbox_wrong,,,
+baseline,test_0026,address,ocr_text_error,nil,* nil,0.99
+baseline,test_0026,program_bscs,checkbox_wrong,,,
+baseline,test_0026,matric_year,false_missing,2024,,
+baseline,test_0026,matric_total,false_missing,1200,,
+baseline,test_0026,matric_obtained,false_missing,1046,,
+baseline,test_0026,matric_percentage,false_missing,87.17,,
+baseline,test_0026,inter_year,false_missing,2026,,
+baseline,test_0026,inter_total,false_missing,1100,,
+baseline,test_0026,inter_obtained,false_missing,1100,,
+baseline,test_0026,inter_percentage,false_missing,100.00,,
+baseline,test_0026,signature,signature_missed,,,
+full,test_0026,address,false_missing,nil,,
+full,test_0026,matric_percentage,flagged_unreadable,87.17,xx,0.339
+full,test_0026,inter_obtained,ocr_text_error,1100,100,0.901
+baseline,test_0027,gender_male,checkbox_wrong,,,
+baseline,test_0027,address,ocr_text_error,"House 161, Main Boulevard, Wapda Town, Islamabad","* House 161, Main Boulevard, Wapda Town",0.988
+baseline,test_0027,program_bsai,checkbox_wrong,,,
+baseline,test_0027,matric_year,false_missing,2023,,
+baseline,test_0027,matric_total,false_missing,1200,,
+baseline,test_0027,matric_obtained,false_missing,1200,,
+baseline,test_0027,matric_percentage,false_missing,100.00,,
+baseline,test_0027,inter_year,false_missing,2025,,
+baseline,test_0027,inter_total,false_missing,1100,,
+baseline,test_0027,inter_obtained,false_missing,799,,
+baseline,test_0027,inter_percentage,false_missing,72.64,,
+baseline,test_0027,signature,signature_missed,,,
+full,test_0027,father_name,ocr_text_error,Shahzaib Fahad Raza,Shah3aib Fahad Ra3a,0.953
+full,test_0027,inter_year,ocr_text_error,2025,202S,0.961
+full,test_0027,inter_obtained,flagged_unreadable,799,to,0.531
+baseline,test_0028,gender_female,checkbox_wrong,,,
+baseline,test_0028,program_bscs,checkbox_wrong,,,
+baseline,test_0028,matric_year,false_missing,2021,,
+baseline,test_0028,matric_total,false_missing,1200,,
+baseline,test_0028,matric_obtained,false_missing,948,,
+baseline,test_0028,matric_percentage,false_missing,79.00,,
+baseline,test_0028,inter_year,false_missing,2023,,
+baseline,test_0028,inter_total,false_missing,1100,,
+baseline,test_0028,inter_obtained,false_missing,680,,
+baseline,test_0028,inter_percentage,false_missing,61.82,,
+full,test_0028,matric_year,ocr_text_error,2021,2027,0.891
+full,test_0028,inter_total,ocr_text_error,1100,1700,0.832
+full,test_0028,inter_percentage,ocr_text_error,61.82,67.82,0.955
+baseline,test_0029,gender_female,checkbox_wrong,,,
+baseline,test_0029,address,ocr_text_error,"House 103, Main Boulevard, Bahria Town, Gujranwala","* House 103, Main Boulevard, Bahria Town",0.993
+baseline,test_0029,program_bsse,checkbox_wrong,,,
+baseline,test_0029,matric_year,false_missing,2022,,
+baseline,test_0029,matric_total,false_missing,1200,,
+baseline,test_0029,matric_obtained,false_missing,942,,
+baseline,test_0029,matric_percentage,false_missing,78.50,,
+baseline,test_0029,inter_year,false_missing,2024,,
+baseline,test_0029,inter_total,false_missing,1100,,
+baseline,test_0029,inter_obtained,false_missing,735,,
+baseline,test_0029,inter_percentage,false_missing,66.82,,
+baseline,test_0030,full_name,false_missing,Hamza Niazi,,
+baseline,test_0030,father_name,false_missing,Imran Niazi,,
+baseline,test_0030,cnic,false_missing,22931-1719384-5,,
+baseline,test_0030,email,flagged_unreadable,hamza.niazi@hotmail.com,naj@hotmtl.com,0.597
+baseline,test_0030,phone,false_missing,0346-6130199,,
+baseline,test_0030,address,false_missing,"House 280, Lane 3, Bahria Town, Lahore",,
+baseline,test_0030,program_bsai,checkbox_wrong,,,
+baseline,test_0030,matric_year,false_missing,2023,,
+baseline,test_0030,matric_total,false_missing,1200,,
+baseline,test_0030,matric_obtained,false_missing,880,,
+baseline,test_0030,matric_percentage,false_missing,73.33,,
+baseline,test_0030,inter_year,false_missing,2025,,
+baseline,test_0030,inter_total,false_missing,1100,,
+baseline,test_0030,inter_obtained,false_missing,856,,
+baseline,test_0030,inter_percentage,false_missing,77.82,,
+baseline,test_0030,declaration_name,ocr_text_error,Hamza Niazi,Mamle Niay,0.643
+baseline,test_0030,declaration_date,ocr_text_error,07/10/2026,of Baren 2293h199304-5,0.769
+full,test_0030,full_name,flagged_unreadable,Hamza Niazi,Maoma N,0.454
+full,test_0030,father_name,flagged_unreadable,Imran Niazi,wen Ny,0.527
+full,test_0030,cnic,ocr_text_error,22931-1719384-5,2293199304.5,0.728
+full,test_0030,date_of_birth,ocr_text_error,13/10/2006,310/200%,0.688
+full,test_0030,email,flagged_unreadable,hamza.niazi@hotmail.com,uma.n@ot.com,0.598
+full,test_0030,phone,ocr_text_error,0346-6130199,0344-41309m,0.727
+full,test_0030,program_bsai,checkbox_wrong,,,
+full,test_0030,matric_total,ocr_text_error,1200,200,0.858
+full,test_0030,matric_percentage,ocr_text_error,73.33,3.33,0.99
+full,test_0030,inter_year,ocr_text_error,2025,2028,0.98
+full,test_0030,inter_total,ocr_text_error,1100,100,0.882
+full,test_0030,inter_obtained,ocr_text_error,856,ase,0.7
+full,test_0030,inter_percentage,ocr_text_error,77.82,.02,0.739
+full,test_0030,declaration_name,ocr_text_error,Hamza Niazi,Mamle Niay,0.714
+full,test_0030,declaration_date,ocr_text_error,07/10/2026,0/0/2024,0.773
+baseline,test_0031,gender_female,checkbox_wrong,,,
+baseline,test_0031,address,ocr_text_error,n/a,* Wa,0.993
+baseline,test_0031,program_bsse,checkbox_wrong,,,
+baseline,test_0031,matric_year,false_missing,2019,,
+baseline,test_0031,matric_total,false_missing,1200,,
+baseline,test_0031,matric_obtained,false_missing,752,,
+baseline,test_0031,matric_percentage,false_missing,62.67,,
+baseline,test_0031,inter_year,false_missing,2021,,
+baseline,test_0031,inter_total,false_missing,1100,,
+baseline,test_0031,inter_obtained,false_missing,789,,
+baseline,test_0031,inter_percentage,false_missing,71.73,,
+baseline,test_0031,declaration_date,ocr_text_error,04/11/2026,*,0.899
+full,test_0031,address,ocr_text_error,n/a,Wa,0.987
+full,test_0031,declaration_date,flagged_unreadable,04/11/2026,1.,0.354
+baseline,test_0032,full_name,false_missing,Salman Khan,,
+baseline,test_0032,father_name,false_missing,Bilal Zeeshan Khan,,
+baseline,test_0032,cnic,false_missing,21477-7484529-5,,
+baseline,test_0032,date_of_birth,false_missing,15/10/2016,,
+baseline,test_0032,gender_male,checkbox_wrong,,,
+baseline,test_0032,email,false_missing,salmankhan40@gmail.com,,
+baseline,test_0032,phone,false_missing,0325-3420402,,
+baseline,test_0032,address,false_missing,N/A,,
+baseline,test_0032,program_bsse,checkbox_wrong,,,
+baseline,test_0032,matric_year,false_missing,2020,,
+baseline,test_0032,matric_total,false_missing,1200,,
+baseline,test_0032,matric_obtained,false_missing,894,,
+baseline,test_0032,matric_percentage,false_missing,74.50,,
+baseline,test_0032,inter_year,false_missing,2022,,
+baseline,test_0032,inter_total,false_missing,1100,,
+baseline,test_0032,inter_obtained,false_missing,755,,
+baseline,test_0032,inter_percentage,false_missing,68.64,,
+baseline,test_0032,declaration_name,false_missing,Selman Khan,,
+baseline,test_0032,declaration_date,false_missing,29-10-2026,,
+baseline,test_0032,signature,signature_missed,,,
+full,test_0032,full_name,flagged_unreadable,Salman Khan,Swn L,0.468
+full,test_0032,father_name,ocr_text_error,Bilal Zeeshan Khan,Zoodhan chan,0.618
+full,test_0032,cnic,ocr_text_error,21477-7484529-5,477-74044294,0.909
+full,test_0032,date_of_birth,false_missing,15/10/2016,,
+full,test_0032,email,ocr_text_error,salmankhan40@gmail.com,unurttunti@apation,0.679
+full,test_0032,phone,false_missing,0325-3420402,,
+full,test_0032,address,false_missing,N/A,,
+full,test_0032,matric_year,false_missing,2020,,
+full,test_0032,matric_total,false_missing,1200,,
+full,test_0032,matric_obtained,false_missing,894,,
+full,test_0032,matric_percentage,false_missing,74.50,,
+full,test_0032,inter_year,false_missing,2022,,
+full,test_0032,inter_total,false_missing,1100,,
+full,test_0032,inter_obtained,false_missing,755,,
+full,test_0032,inter_percentage,ocr_text_error,68.64,ilt,0.67
+full,test_0032,declaration_name,false_missing,Selman Khan,,
+full,test_0032,declaration_date,false_missing,29-10-2026,,
+baseline,test_0033,father_name,ocr_text_error,Talha Gill,* Fatha oit Talha Gill,0.911
+baseline,test_0033,cnic,ocr_text_error,37431-6586699-5,* 37431-6586699-S ＃林林＃＃ ＃＃林＃林林＃-#,0.846
+baseline,test_0033,gender_male,checkbox_wrong,,,
+baseline,test_0033,phone,ocr_text_error,0310-5678634,* 0310-S678634 03XX-XXXxxxx,0.909
+baseline,test_0033,address,ocr_text_error,"House 321, Main Boulevard, Johar Town, Multan","* House 321, Main Boulevard, Johar Town",0.994
+baseline,test_0033,program_bscs,checkbox_wrong,,,
+baseline,test_0033,matric_year,false_missing,2024,,
+baseline,test_0033,matric_total,false_missing,1200,,
+baseline,test_0033,matric_obtained,false_missing,1287,,
+baseline,test_0033,matric_percentage,false_missing,107.25,,
+baseline,test_0033,inter_year,false_missing,2026,,
+baseline,test_0033,inter_total,false_missing,1100,,
+baseline,test_0033,inter_obtained,false_missing,903,,
+baseline,test_0033,inter_percentage,false_missing,82.09,,
+full,test_0033,father_name,ocr_text_error,Talha Gill,Fatha oilt Talha Gill,0.86
+full,test_0033,cnic,ocr_text_error,37431-6586699-5,37431-6S86699-S,0.95
+baseline,test_0034,cnic,ocr_text_error,1968-448760-7,* 1968-448760-7 ##＃＃＃-###＃###-#,0.884
+baseline,test_0034,gender_male,checkbox_wrong,,,
+baseline,test_0034,program_bsse,checkbox_wrong,,,
+baseline,test_0034,matric_year,false_missing,2024,,
+baseline,test_0034,matric_total,false_missing,1200,,
+baseline,test_0034,matric_obtained,false_missing,1002,,
+baseline,test_0034,matric_percentage,false_missing,83.50,,
+baseline,test_0034,inter_year,false_missing,2026,,
+baseline,test_0034,inter_total,false_missing,1100,,
+baseline,test_0034,inter_obtained,false_missing,684,,
+baseline,test_0034,inter_percentage,false_missing,62.18,,
+baseline,test_0035,full_name,false_missing,Sehrish Iqbal,,
+baseline,test_0035,father_name,false_missing,Saad Iqbal,,
+baseline,test_0035,cnic,false_missing,35895-1111051-2,,
+baseline,test_0035,gender_female,checkbox_wrong,,,
+baseline,test_0035,email,false_missing,sehrish.iqbal@gmail.com,,
+baseline,test_0035,phone,false_missing,0339-8682146,,
+baseline,test_0035,address,false_missing,"House 233, Model Town Link Rd, Wapda Town, Lahore",,
+baseline,test_0035,program_bsai,checkbox_wrong,,,
+baseline,test_0035,matric_year,false_missing,2021,,
+baseline,test_0035,matric_total,false_missing,1200,,
+baseline,test_0035,matric_obtained,false_missing,939,,
+baseline,test_0035,matric_percentage,false_missing,78.25,,
+baseline,test_0035,inter_year,false_missing,2023,,
+baseline,test_0035,inter_total,false_missing,1100,,
+baseline,test_0035,inter_obtained,false_missing,721,,
+baseline,test_0035,inter_percentage,false_missing,65.55,,
+baseline,test_0035,declaration_name,false_missing,Sehrish Iqbal,,
+baseline,test_0035,declaration_date,ocr_text_error,17/10/2026,1/0/2026,0.89
+full,test_0035,full_name,ocr_text_error,Sehrish Iqbal,Sahrosh iübal,0.629
+full,test_0035,father_name,ocr_text_error,Saad Iqbal,Sead igbal,0.706
+full,test_0035,cnic,ocr_text_error,35895-1111051-2,358S.m051-2,0.668
+full,test_0035,email,ocr_text_error,sehrish.iqbal@gmail.com,anthropologicalism .,0.71
+full,test_0035,phone,ocr_text_error,0339-8682146,common .,0.803
+full,test_0035,matric_obtained,flagged_unreadable,939,6,0.359
+full,test_0035,matric_percentage,ocr_text_error,78.25,18.25,0.787
+full,test_0035,inter_total,ocr_text_error,1100,100,0.672
+full,test_0035,inter_obtained,ocr_text_error,721,29,0.791
+full,test_0035,inter_percentage,ocr_text_error,65.55,as,0.604
+full,test_0035,declaration_name,false_missing,Sehrish Iqbal,,
+full,test_0035,declaration_date,ocr_text_error,17/10/2026,/0/200,0.88
+baseline,test_0036,father_name,ocr_text_error,Waqas Yousaf,* Wagas Yousaf,0.999
+baseline,test_0036,gender_female,checkbox_wrong,,,
+baseline,test_0036,program_bsai,checkbox_wrong,,,
+baseline,test_0036,matric_year,false_missing,2022,,
+baseline,test_0036,matric_total,false_missing,1200,,
+baseline,test_0036,matric_obtained,false_missing,1200,,
+baseline,test_0036,matric_percentage,false_missing,100.00,,
+baseline,test_0036,inter_year,false_missing,2024,,
+baseline,test_0036,inter_total,false_missing,1100,,
+baseline,test_0036,inter_obtained,false_missing,829,,
+baseline,test_0036,inter_percentage,false_missing,75.36,,
+baseline,test_0037,full_name,false_missing,Nimra Mehwish Cheema,,
+baseline,test_0037,cnic,ocr_text_error,36955-4602316-0,36905-4602916-0,0.873
+baseline,test_0037,date_of_birth,ocr_text_error,02-06-2006,01-06-1004,0.833
+baseline,test_0037,gender_female,checkbox_wrong,,,
+baseline,test_0037,email,ocr_text_error,nimra.cheema75@outlook.com,* nimracbeemareotok.com,0.844
+baseline,test_0037,phone,false_missing,0310-1286380,,
+baseline,test_0037,program_bsse,checkbox_wrong,,,
+baseline,test_0037,matric_year,false_missing,2023,,
+baseline,test_0037,matric_total,false_missing,1200,,
+baseline,test_0037,matric_obtained,false_missing,1053,,
+baseline,test_0037,matric_percentage,false_missing,87.75,,
+baseline,test_0037,inter_year,false_missing,2025,,
+baseline,test_0037,inter_total,false_missing,1100,,
+baseline,test_0037,inter_obtained,false_missing,841,,
+baseline,test_0037,inter_percentage,false_missing,76.45,,
+baseline,test_0037,declaration_name,ocr_text_error,Nimra Mehwish Cheema,* Nimre Meboigk Cheema,0.851
+full,test_0037,full_name,ocr_text_error,Nimra Mehwish Cheema,Kimra Mebdigh Checma,0.747
+full,test_0037,cnic,ocr_text_error,36955-4602316-0,36900-4602516-0,0.718
+full,test_0037,date_of_birth,ocr_text_error,02-06-2006,01-06-1006,0.861
+full,test_0037,email,ocr_text_error,nimra.cheema75@outlook.com,aimraeema.com,0.614
+full,test_0037,phone,flagged_unreadable,0310-1286380,OS10-1Z86S8O,0.537
+full,test_0037,matric_year,ocr_text_error,2023,1011,0.827
+full,test_0037,matric_obtained,ocr_text_error,1053,10,0.929
+full,test_0037,matric_percentage,ocr_text_error,87.75,17.1€,0.755
+full,test_0037,inter_year,ocr_text_error,2025,101€,0.888
+full,test_0037,inter_obtained,ocr_text_error,841,001,0.677
+full,test_0037,inter_percentage,ocr_text_error,76.45,96.4€,0.643
+full,test_0037,declaration_name,ocr_text_error,Nimra Mehwish Cheema,Nimra Mebaish Checma,0.854
+baseline,test_0038,full_name,ocr_text_error,Bilal Awan,* BilalAwan,0.999
+baseline,test_0038,gender_male,checkbox_wrong,,,
+baseline,test_0038,program_bsse,checkbox_wrong,,,
+baseline,test_0038,matric_year,false_missing,2019,,
+baseline,test_0038,matric_total,false_missing,1200,,
+baseline,test_0038,matric_obtained,false_missing,852,,
+baseline,test_0038,matric_percentage,false_missing,71.00,,
+baseline,test_0038,inter_year,false_missing,2021,,
+baseline,test_0038,inter_total,false_missing,1100,,
+baseline,test_0038,inter_obtained,false_missing,1029,,
+baseline,test_0038,inter_percentage,false_missing,93.55,,
+baseline,test_0038,declaration_name,ocr_text_error,Bilal Awan,* BilalAwan,0.999
+full,test_0038,matric_percentage,ocr_text_error,71.00,77.00,0.941
+full,test_0038,inter_total,ocr_text_error,1100,1700,0.886
+baseline,test_0039,full_name,ocr_text_error,Ayesha Farooq,* Ayesha Faroog,0.996
+baseline,test_0039,father_name,ocr_text_error,Rehan Farooq,* Rehan Faroog,0.998
+baseline,test_0039,gender_female,checkbox_wrong,,,
+baseline,test_0039,email,ocr_text_error,"ayeshafarooq80,nic.edu.pk","* ayeshafaroog8o,nic.edu.pk",0.94
+baseline,test_0039,program_bscs,checkbox_wrong,,,
+baseline,test_0039,matric_year,false_missing,2022,,
+baseline,test_0039,matric_total,false_missing,1200,,
+baseline,test_0039,matric_obtained,false_missing,745,,
+baseline,test_0039,matric_percentage,false_missing,62.08,,
+baseline,test_0039,inter_year,false_missing,2024,,
+baseline,test_0039,inter_total,false_missing,1100,,
+baseline,test_0039,inter_obtained,false_missing,845,,
+baseline,test_0039,inter_percentage,false_missing,76.82,,
+baseline,test_0039,declaration_name,ocr_text_error,Ayesha Farooq,* Ayesha Faroog,0.977
+full,test_0039,email,ocr_text_error,"ayeshafarooq80,nic.edu.pk","ayeshafarooag8o,nic.edupk",0.845
+baseline,test_0040,gender_female,checkbox_wrong,,,
+baseline,test_0040,email,ocr_text_error,hafsa.niazi2004@gmail.com,hafsa.niazizoo4@gmail.com,0.987
+baseline,test_0040,phone,ocr_text_error,0302-00972135,* 0302-00972135 03XX-XXxxXxx,0.898
+baseline,test_0040,address,ocr_text_error,"House 152, Street 12, Model Town, Sialkot","* House 152, Street 12, Model Town",0.996
+baseline,test_0040,program_bscs,checkbox_wrong,,,
+baseline,test_0040,program_bsse,checkbox_wrong,,,
+baseline,test_0040,matric_year,false_missing,2021,,
+baseline,test_0040,matric_total,false_missing,1200,,
+baseline,test_0040,matric_obtained,false_missing,1010,,
+baseline,test_0040,matric_percentage,false_missing,84.17,,
+baseline,test_0040,inter_year,false_missing,2023,,
+baseline,test_0040,inter_total,false_missing,1100,,
+baseline,test_0040,inter_obtained,false_missing,996,,
+baseline,test_0040,inter_percentage,false_missing,90.55,,
+full,test_0040,matric_obtained,flagged_unreadable,1010,Y,0.449
+baseline,test_0041,gender_female,checkbox_wrong,,,
+baseline,test_0041,program_bsse,checkbox_wrong,,,
+baseline,test_0041,matric_year,false_missing,2022,,
+baseline,test_0041,matric_total,false_missing,1200,,
+baseline,test_0041,matric_obtained,false_missing,1024,,
+baseline,test_0041,matric_percentage,false_missing,85.33,,
+baseline,test_0041,inter_year,false_missing,2024,,
+baseline,test_0041,inter_total,false_missing,1100,,
+baseline,test_0041,inter_obtained,false_missing,N/A?,,
+baseline,test_0041,inter_percentage,false_missing,93.91,,
+full,test_0041,inter_percentage,ocr_text_error,93.91,93.97,0.952
+baseline,test_0042,gender_female,checkbox_wrong,,,
+baseline,test_0042,program_bsse,checkbox_wrong,,,
+baseline,test_0042,matric_year,false_missing,2022,,
+baseline,test_0042,matric_total,false_missing,7OO,,
+baseline,test_0042,matric_obtained,false_missing,1100,,
+baseline,test_0042,matric_percentage,false_missing,91.67,,
+baseline,test_0042,inter_year,false_missing,2024,,
+baseline,test_0042,inter_total,false_missing,1100,,
+baseline,test_0042,inter_obtained,false_missing,972,,
+baseline,test_0042,inter_percentage,false_missing,95.69,,
+full,test_0042,matric_total,ocr_text_error,7OO,700,1.0
+baseline,test_0043,gender_male,checkbox_wrong,,,
+baseline,test_0043,address,ocr_text_error,"House 59, Model Town Link Rd, Wapda Town, Gujranwala","* House 59, Model Town Link Rd, Wapda Town",0.996
+baseline,test_0043,program_bsse,checkbox_wrong,,,
+baseline,test_0043,matric_year,false_missing,2027,,
+baseline,test_0043,matric_total,false_missing,1200,,
+baseline,test_0043,matric_obtained,false_missing,843,,
+baseline,test_0043,matric_percentage,false_missing,70.25,,
+baseline,test_0043,inter_year,false_missing,2026,,
+baseline,test_0043,inter_total,false_missing,1100,,
+baseline,test_0043,inter_obtained,false_missing,995,,
+baseline,test_0043,inter_percentage,false_missing,90.45,,
+baseline,test_0044,gender_male,checkbox_wrong,,,
+baseline,test_0044,program_bscs,checkbox_wrong,,,
+baseline,test_0044,matric_year,false_missing,2021,,
+baseline,test_0044,matric_total,false_missing,1200,,
+baseline,test_0044,matric_obtained,false_missing,1019,,
+baseline,test_0044,matric_percentage,false_missing,84.92,,
+baseline,test_0044,inter_year,false_missing,2023,,
+baseline,test_0044,inter_total,false_missing,1100,,
+baseline,test_0044,inter_obtained,false_missing,882,,
+baseline,test_0044,inter_percentage,false_missing,80.18,,
+baseline,test_0045,date_of_birth,ocr_text_error,06 Jun 2007,* 06 Jun 2007 DD/MM/YYYY,0.994
+baseline,test_0045,gender_female,checkbox_wrong,,,
+baseline,test_0045,program_bsse,checkbox_wrong,,,
+baseline,test_0045,matric_year,false_missing,2023,,
+baseline,test_0045,matric_total,false_missing,1200,,
+baseline,test_0045,matric_obtained,false_missing,850,,
+baseline,test_0045,matric_percentage,false_missing,70.83,,
+baseline,test_0045,inter_year,false_missing,2025,,
+baseline,test_0045,inter_total,false_missing,1100,,
+baseline,test_0045,inter_obtained,false_missing,1019,,
+baseline,test_0045,inter_percentage,false_missing,92.64,,
+baseline,test_0046,gender_female,checkbox_wrong,,,
+baseline,test_0046,program_bsai,checkbox_wrong,,,
+baseline,test_0046,matric_year,false_missing,2020,,
+baseline,test_0046,matric_total,false_missing,1200,,
+baseline,test_0046,matric_obtained,false_missing,1095,,
+baseline,test_0046,matric_percentage,false_missing,91.25,,
+baseline,test_0046,inter_year,false_missing,2022,,
+baseline,test_0046,inter_total,false_missing,1100,,
+baseline,test_0046,inter_obtained,false_missing,945,,
+baseline,test_0046,inter_percentage,false_missing,85.91,,
+baseline,test_0047,full_name,ocr_text_error,Taimoor Taimoor Siddiqui,*,0.993
+baseline,test_0047,cnic,ocr_text_error,38562-7941597-0,*,0.991
+baseline,test_0047,gender_male,checkbox_wrong,,,
+baseline,test_0047,phone,ocr_text_error,0317-3693222,*,0.988
+baseline,test_0047,program_bsai,checkbox_wrong,,,
+baseline,test_0047,matric_year,false_missing,2023,,
+baseline,test_0047,matric_total,false_missing,1200,,
+baseline,test_0047,matric_obtained,false_missing,1140,,
+baseline,test_0047,matric_percentage,false_missing,95.00,,
+baseline,test_0047,inter_year,false_missing,2025,,
+baseline,test_0047,inter_total,false_missing,1100,,
+baseline,test_0047,inter_obtained,false_missing,827,,
+baseline,test_0047,inter_percentage,false_missing,75.18,,
+baseline,test_0048,gender_male,checkbox_wrong,,,
+baseline,test_0048,email,ocr_text_error,zainzafar59@nic.edu.pk,* zainzafar59@nicedu·pk,0.983
+baseline,test_0048,program_bsse,checkbox_wrong,,,
+baseline,test_0048,matric_year,false_missing,2023,,
+baseline,test_0048,matric_total,false_missing,1200,,
+baseline,test_0048,matric_obtained,false_missing,1073,,
+baseline,test_0048,matric_percentage,false_missing,89.42,,
+baseline,test_0048,inter_year,false_missing,2025,,
+baseline,test_0048,inter_total,false_missing,1100,,
+baseline,test_0048,inter_obtained,false_missing,704,,
+baseline,test_0048,inter_percentage,false_missing,64.00,,
+baseline,test_0049,gender_male,checkbox_wrong,,,
+baseline,test_0049,gender_female,checkbox_wrong,,,
+baseline,test_0049,program_bscs,checkbox_wrong,,,
+baseline,test_0049,matric_year,false_missing,2021,,
+baseline,test_0049,matric_total,false_missing,1200,,
+baseline,test_0049,matric_obtained,false_missing,743,,
+baseline,test_0049,matric_percentage,false_missing,61.92,,
+baseline,test_0049,inter_year,false_missing,2023,,
+baseline,test_0049,inter_total,false_missing,1100,,
+baseline,test_0049,inter_obtained,false_missing,1198,,
+baseline,test_0049,inter_percentage,false_missing,108.91,,
+baseline,test_0050,full_name,false_missing,Hina Lodhi,,
+baseline,test_0050,father_name,false_missing,Saad Lodhi,,
+baseline,test_0050,cnic,false_missing,39730-5018309-4,,
+baseline,test_0050,date_of_birth,false_missing,07/01/2005,,
+baseline,test_0050,gender_female,checkbox_wrong,,,
+baseline,test_0050,email,false_missing,hina.lodhi2005@gmail.com,,
+baseline,test_0050,phone,false_missing,0346-3955930,,
+baseline,test_0050,address,false_missing,"House 367, Block C, Gulberg III, Lahore",,
+baseline,test_0050,program_bsai,checkbox_wrong,,,
+baseline,test_0050,matric_year,false_missing,2022,,
+baseline,test_0050,matric_total,false_missing,1200,,
+baseline,test_0050,matric_obtained,false_missing,926,,
+baseline,test_0050,matric_percentage,false_missing,77.17,,
+baseline,test_0050,inter_year,false_missing,2024,,
+baseline,test_0050,inter_total,false_missing,1100,,
+baseline,test_0050,inter_obtained,false_missing,911,,
+baseline,test_0050,inter_percentage,false_missing,82.82,,
+baseline,test_0050,declaration_name,false_missing,Hina Lodhi,,
+baseline,test_0050,declaration_date,false_missing,19 Oct 2026,,
+full,test_0050,full_name,false_missing,Hina Lodhi,,
+full,test_0050,father_name,false_missing,Saad Lodhi,,
+full,test_0050,cnic,false_missing,39730-5018309-4,,
+full,test_0050,date_of_birth,false_missing,07/01/2005,,
+full,test_0050,email,false_missing,hina.lodhi2005@gmail.com,,
+full,test_0050,phone,false_missing,0346-3955930,,
+full,test_0050,address,false_missing,"House 367, Block C, Gulberg III, Lahore",,
+full,test_0050,matric_year,ocr_text_error,2022,0,0.694
+full,test_0050,matric_total,ocr_text_error,1200,en,0.673
+full,test_0050,matric_obtained,flagged_unreadable,926,vi,0.448
+full,test_0050,matric_percentage,ocr_text_error,77.17,RS,0.724
+full,test_0050,inter_year,ocr_text_error,2024,20,0.912
+full,test_0050,inter_total,false_missing,1100,,
+full,test_0050,inter_obtained,false_missing,911,,
+full,test_0050,inter_percentage,flagged_unreadable,82.82,de,0.445
+full,test_0050,declaration_name,false_missing,Hina Lodhi,,
+full,test_0050,declaration_date,ocr_text_error,19 Oct 2026,002:26,0.772
+baseline,test_0051,full_name,ocr_text_error,Shahzaib Iqbal,* atgds taat,0.679
+baseline,test_0051,father_name,flagged_unreadable,Taimoor Iqbal,Taimaoty tahat,0.574
+baseline,test_0051,cnic,ocr_text_error,33968-4014617-7,33960-4014613-3,0.86
+baseline,test_0051,date_of_birth,ocr_text_error,01-09-2007,01-04-2003,0.864
+baseline,test_0051,gender_male,checkbox_wrong,,,
+baseline,test_0051,email,ocr_text_error,shahzaib.iqbal63@outlook.com,Buatgabigbatt@oubook.com,0.607
+baseline,test_0051,phone,false_missing,0325-1830872,,
+baseline,test_0051,address,false_missing,"House 100, Lane 3, Iqbal Town, Sialkot",,
+baseline,test_0051,program_bscs,checkbox_wrong,,,
+baseline,test_0051,matric_year,false_missing,2023,,
+baseline,test_0051,matric_total,false_missing,1200,,
+baseline,test_0051,matric_obtained,false_missing,910,,
+baseline,test_0051,matric_percentage,false_missing,75.8%,,
+baseline,test_0051,inter_year,false_missing,2025,,
+baseline,test_0051,inter_total,false_missing,1100,,
+baseline,test_0051,inter_obtained,false_missing,988,,
+baseline,test_0051,inter_percentage,false_missing,89.82,,
+baseline,test_0051,declaration_name,ocr_text_error,Shahzaib Iqbal,* Sut ab rqual,0.665
+full,test_0051,full_name,flagged_unreadable,Shahzaib Iqbal,newspapers .,0.517
+full,test_0051,father_name,ocr_text_error,Taimoor Iqbal,Taimony ighal,0.786
+full,test_0051,cnic,ocr_text_error,33968-4014617-7,33960-4014019-7,0.716
+full,test_0051,date_of_birth,ocr_text_error,01-09-2007,01-04-2003,0.766
+full,test_0051,gender_male,checkbox_wrong,,,
+full,test_0051,email,flagged_unreadable,shahzaib.iqbal63@outlook.com,Balgak iqbaal@outook.com,0.567
+full,test_0051,phone,flagged_unreadable,0325-1830872,0328-la2,0.479
+full,test_0051,address,ocr_text_error,"House 100, Lane 3, Iqbal Town, Sialkot","rouge t0o, Lane 3, sgbal Town, Sialgoł",0.83
+full,test_0051,program_bscs,checkbox_wrong,,,
+full,test_0051,matric_total,ocr_text_error,1200,200,0.894
+full,test_0051,matric_obtained,ocr_text_error,910,900,0.634
+full,test_0051,matric_percentage,flagged_unreadable,75.8%,98.0%,0.554
+full,test_0051,inter_year,ocr_text_error,2025,2028,0.935
+full,test_0051,inter_obtained,ocr_text_error,988,900,0.933
+full,test_0051,inter_percentage,flagged_unreadable,89.82,en82,0.409
+full,test_0051,declaration_name,flagged_unreadable,Shahzaib Iqbal,Süuttdab squal,0.413
+baseline,test_0052,gender_female,checkbox_wrong,,,
+baseline,test_0052,phone,ocr_text_error,042-35761234,* 042-35761234 03XX-XXXXXXX,0.913
+baseline,test_0052,program_bscs,checkbox_wrong,,,
+baseline,test_0052,matric_year,false_missing,2024,,
+baseline,test_0052,matric_total,false_missing,1200,,
+baseline,test_0052,matric_obtained,false_missing,765,,
+baseline,test_0052,matric_percentage,false_missing,63.75,,
+baseline,test_0052,inter_year,false_missing,2022,,
+baseline,test_0052,inter_total,false_missing,1100,,
+baseline,test_0052,inter_obtained,false_missing,723,,
+baseline,test_0052,inter_percentage,false_missing,65.73,,
+baseline,test_0053,gender_female,checkbox_wrong,,,
+baseline,test_0053,program_bscs,checkbox_wrong,,,
+baseline,test_0053,matric_year,false_missing,2023,,
+baseline,test_0053,matric_total,false_missing,1200,,
+baseline,test_0053,matric_obtained,false_missing,1229,,
+baseline,test_0053,matric_percentage,false_missing,102.42,,
+baseline,test_0053,inter_year,false_missing,2025,,
+baseline,test_0053,inter_total,false_missing,1100,,
+baseline,test_0053,inter_obtained,false_missing,841,,
+baseline,test_0053,inter_percentage,false_missing,76.45,,
+baseline,test_0054,full_name,false_missing,Nauman Fahad Kayani,,
+baseline,test_0054,father_name,false_missing,Ahmed Zain Kayani,,
+baseline,test_0054,cnic,ocr_text_error,15169-8887624-1,• Ahmed Zain Kayani,0.893
+baseline,test_0054,gender_male,checkbox_wrong,,,
+baseline,test_0054,email,false_missing,nauman.kayani2006@gmail.com,,
+baseline,test_0054,phone,ocr_text_error,0325-0951880,0325-0450880,0.848
+baseline,test_0054,address,false_missing,"House 302, Garden Avenue, Township, Multan",,
+baseline,test_0054,program_bscs,checkbox_wrong,,,
+baseline,test_0054,matric_year,false_missing,2023,,
+baseline,test_0054,matric_total,false_missing,1200,,
+baseline,test_0054,matric_obtained,false_missing,1028,,
+baseline,test_0054,matric_percentage,false_missing,85.67,,
+baseline,test_0054,inter_year,false_missing,2025,,
+baseline,test_0054,inter_total,false_missing,1100,,
+baseline,test_0054,inter_obtained,false_missing,791,,
+baseline,test_0054,inter_percentage,false_missing,71.91,,
+baseline,test_0054,declaration_name,false_missing,Nauman Fahad Kayani,,
+baseline,test_0054,declaration_date,ocr_text_error,28-10-2026,of Barth 15164-8887624-1,0.935
+full,test_0054,inter_obtained,ocr_text_error,791,39,0.685
+full,test_0054,inter_percentage,flagged_unreadable,71.91,mm,0.426
+baseline,test_0055,father_name,ocr_text_error,Faisal Mirza,* Falsal Mirza,0.981
+baseline,test_0055,gender_female,checkbox_wrong,,,
+baseline,test_0055,phone,ocr_text_error,0338-8549156,* 03XX-XXX000X,0.95
+baseline,test_0055,program_bsse,checkbox_wrong,,,
+baseline,test_0055,matric_year,false_missing,2022,,
+baseline,test_0055,matric_total,false_missing,1200,,
+baseline,test_0055,matric_obtained,false_missing,816,,
+baseline,test_0055,matric_percentage,false_missing,68.00,,
+baseline,test_0055,inter_year,false_missing,2024,,
+baseline,test_0055,inter_total,false_missing,1100,,
+baseline,test_0055,inter_obtained,false_missing,795,,
+baseline,test_0055,inter_percentage,false_missing,53.86,,
+full,test_0055,phone,flagged_unreadable,0338-8549156,worship,0.576
+baseline,test_0056,gender_male,checkbox_wrong,,,
+baseline,test_0056,program_bscs,checkbox_wrong,,,
+baseline,test_0056,matric_year,false_missing,2022,,
+baseline,test_0056,matric_total,false_missing,1200,,
+baseline,test_0056,matric_obtained,false_missing,853,,
+baseline,test_0056,matric_percentage,false_missing,71.08,,
+baseline,test_0056,inter_year,false_missing,2024,,
+baseline,test_0056,inter_total,false_missing,1100,,
+baseline,test_0056,inter_obtained,false_missing,809,,
+baseline,test_0056,inter_percentage,false_missing,73.55,,
+baseline,test_0057,full_name,ocr_text_error,Mahnoor Saleem,* Mainoor balgem,0.802
+baseline,test_0057,father_name,ocr_text_error,Fahad Saleem,* Vahd baleem,0.767
+baseline,test_0057,cnic,ocr_text_error,38155-3638706-6,38180 3630106-6,0.822
+baseline,test_0057,gender_female,checkbox_wrong,,,
+baseline,test_0057,email,ocr_text_error,mahnoorsaleem41@gmail.com,mahnoongdleem41@gmal com,0.768
+baseline,test_0057,phone,ocr_text_error,0316-9898981,0316-9818181,0.795
+baseline,test_0057,program_bsse,checkbox_wrong,,,
+baseline,test_0057,matric_year,false_missing,2022,,
+baseline,test_0057,matric_total,false_missing,1200,,
+baseline,test_0057,matric_obtained,false_missing,735,,
+baseline,test_0057,matric_percentage,false_missing,61.25,,
+baseline,test_0057,inter_year,false_missing,2024,,
+baseline,test_0057,inter_total,false_missing,1100,,
+baseline,test_0057,inter_obtained,false_missing,759,,
+baseline,test_0057,inter_percentage,false_missing,69.00,,
+baseline,test_0057,declaration_name,false_missing,Sidra Siddiqui,,
+full,test_0057,full_name,ocr_text_error,Mahnoor Saleem,Manoor baleem,0.675
+full,test_0057,father_name,ocr_text_error,Fahad Saleem,Vahtd haleem,0.673
+full,test_0057,cnic,ocr_text_error,38155-3638706-6,38100-3630106-6,0.674
+full,test_0057,email,ocr_text_error,mahnoorsaleem41@gmail.com,mahnoongleem4n@gmal com,0.775
+full,test_0057,phone,flagged_unreadable,0316-9898981,obnormal,0.294
+full,test_0057,matric_obtained,ocr_text_error,735,936,0.725
+full,test_0057,matric_percentage,ocr_text_error,61.25,61.28,0.918
+full,test_0057,inter_obtained,ocr_text_error,759,im,0.704
+full,test_0057,inter_percentage,ocr_text_error,69.00,5.00,0.85
+full,test_0057,declaration_name,ocr_text_error,Sidra Siddiqui,Sdra liddiqui,0.782
+baseline,test_0058,gender_male,checkbox_wrong,,,
+baseline,test_0058,address,ocr_text_error,"House 261, Garden Avenue, Gulberg III, Gujranwala","* House z61, Garden Avenue, Gulberg III",0.986
+baseline,test_0058,program_bsai,checkbox_wrong,,,
+baseline,test_0058,matric_year,false_missing,2022,,
+baseline,test_0058,matric_total,false_missing,1200,,
+baseline,test_0058,matric_obtained,false_missing,754,,
+baseline,test_0058,matric_percentage,false_missing,62.83,,
+baseline,test_0058,inter_year,false_missing,2024,,
+baseline,test_0058,inter_total,false_missing,1100,,
+baseline,test_0058,inter_obtained,false_missing,995,,
+baseline,test_0058,inter_percentage,false_missing,90.45,,
+baseline,test_0059,father_name,false_present,,*,0.999
+baseline,test_0059,gender_female,checkbox_wrong,,,
+baseline,test_0059,email,ocr_text_error,nimra.hashmi2006@outlook.com,nimra.hashmizoo6@outlook.com,0.989
+baseline,test_0059,program_bsse,checkbox_wrong,,,
+baseline,test_0059,matric_year,false_missing,2023,,
+baseline,test_0059,matric_total,false_missing,1200,,
+baseline,test_0059,matric_obtained,false_missing,990,,
+baseline,test_0059,matric_percentage,false_missing,82.5%,,
+baseline,test_0059,inter_year,false_missing,2025,,
+baseline,test_0059,inter_total,false_missing,1100,,
+baseline,test_0059,inter_obtained,false_missing,799,,
+baseline,test_0059,inter_percentage,false_missing,72.64,,

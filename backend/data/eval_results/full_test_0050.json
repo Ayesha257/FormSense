@@ -1,0 +1,347 @@
+[
+  {
+    "name": "full_name",
+    "bbox": [
+      381,
+      290,
+      780,
+      56
+    ],
+    "raw_text": "wre lods",
+    "value": null,
+    "ocr_confidence": 0.721,
+    "ink_ratio": 0.037,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "father_name",
+    "bbox": [
+      381,
+      360,
+      780,
+      56
+    ],
+    "raw_text": "Sand Lod",
+    "value": null,
+    "ocr_confidence": 0.774,
+    "ink_ratio": 0.0503,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "cnic",
+    "bbox": [
+      380,
+      430,
+      380,
+      56
+    ],
+    "raw_text": "mos.",
+    "value": null,
+    "ocr_confidence": 0.685,
+    "ink_ratio": 0.1297,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "date_of_birth",
+    "bbox": [
+      380,
+      500,
+      300,
+      56
+    ],
+    "raw_text": "chlooaS",
+    "value": null,
+    "ocr_confidence": 0.549,
+    "ink_ratio": 0.128,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "gender_male",
+    "bbox": [
+      380,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "gender_female",
+    "bbox": [
+      600,
+      576,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.6763,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "email",
+    "bbox": [
+      381,
+      640,
+      780,
+      56
+    ],
+    "raw_text": "tnatodhas@omalcom",
+    "value": null,
+    "ocr_confidence": 0.59,
+    "ink_ratio": 0.1193,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "phone",
+    "bbox": [
+      381,
+      710,
+      380,
+      56
+    ],
+    "raw_text": "dD\u20ac RSSBo",
+    "value": null,
+    "ocr_confidence": 0.494,
+    "ink_ratio": 0.1264,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "address",
+    "bbox": [
+      381,
+      780,
+      780,
+      110
+    ],
+    "raw_text": "House 36, Block C, Guberg ia, Lahore",
+    "value": null,
+    "ocr_confidence": 0.874,
+    "ink_ratio": 0.0986,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "program_bscs",
+    "bbox": [
+      80,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsse",
+    "bbox": [
+      641,
+      965,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "unchecked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.0,
+    "checked": false,
+    "status": "ok"
+  },
+  {
+    "name": "program_bsai",
+    "bbox": [
+      80,
+      1025,
+      44,
+      44
+    ],
+    "raw_text": "",
+    "value": "checked",
+    "ocr_confidence": null,
+    "ink_ratio": 0.6806,
+    "checked": true,
+    "status": "ok"
+  },
+  {
+    "name": "matric_year",
+    "bbox": [
+      380,
+      1205,
+      140,
+      56
+    ],
+    "raw_text": "20",
+    "value": null,
+    "ocr_confidence": 0.872,
+    "ink_ratio": 0.1322,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_total",
+    "bbox": [
+      540,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "en",
+    "value": null,
+    "ocr_confidence": 0.824,
+    "ink_ratio": 0.0842,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_obtained",
+    "bbox": [
+      731,
+      1205,
+      170,
+      56
+    ],
+    "raw_text": "a",
+    "value": null,
+    "ocr_confidence": 0.825,
+    "ink_ratio": 0.0778,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "matric_percentage",
+    "bbox": [
+      922,
+      1205,
+      180,
+      56
+    ],
+    "raw_text": "as",
+    "value": null,
+    "ocr_confidence": 0.94,
+    "ink_ratio": 0.0765,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_year",
+    "bbox": [
+      380,
+      1275,
+      140,
+      56
+    ],
+    "raw_text": "20%",
+    "value": null,
+    "ocr_confidence": 0.83,
+    "ink_ratio": 0.1169,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_total",
+    "bbox": [
+      541,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "8",
+    "value": null,
+    "ocr_confidence": 0.823,
+    "ink_ratio": 0.074,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "inter_obtained",
+    "bbox": [
+      731,
+      1275,
+      170,
+      56
+    ],
+    "raw_text": "1",
+    "value": null,
+    "ocr_confidence": 0.559,
+    "ink_ratio": 0.049,
+    "checked": null,
+    "status": "unreadable"
+  },
+  {
+    "name": "inter_percentage",
+    "bbox": [
+      922,
+      1276,
+      180,
+      56
+    ],
+    "raw_text": "0",
+    "value": null,
+    "ocr_confidence": 0.631,
+    "ink_ratio": 0.1002,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_name",
+    "bbox": [
+      381,
+      1496,
+      780,
+      56
+    ],
+    "raw_text": "Hna lodh",
+    "value": null,
+    "ocr_confidence": 0.732,
+    "ink_ratio": 0.0392,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "declaration_date",
+    "bbox": [
+      380,
+      1575,
+      270,
+      56
+    ],
+    "raw_text": "02:26",
+    "value": null,
+    "ocr_confidence": 0.85,
+    "ink_ratio": 0.1202,
+    "checked": null,
+    "status": "ok"
+  },
+  {
+    "name": "signature",
+    "bbox": [
+      701,
+      1556,
+      460,
+      110
+    ],
+    "raw_text": "",
+    "value": "signed",
+    "ocr_confidence": null,
+    "ink_ratio": 0.182,
+    "checked": null,
+    "status": "ok"
+  }
+]

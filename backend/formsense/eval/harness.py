@@ -128,6 +128,7 @@ def evaluate_dataset(
     system: SystemFn,
     use_ground_truth_as_input: bool = True,
     limit: Optional[int] = None,
+    input_fn: Optional[Callable[["LabelledForm"], Sequence[FieldResult]]] = None,
 ) -> DatasetResult:
     """Run ``system`` over every label in ``label_dir`` and aggregate the brief's metrics.
 
@@ -147,7 +148,12 @@ def evaluate_dataset(
     cm_counts: Dict = {}
 
     for form in forms:
-        sys_input = strip_ground_truth(form.fields) if use_ground_truth_as_input else form.fields
+        if input_fn is not None:
+            sys_input = input_fn(form)
+        elif use_ground_truth_as_input:
+            sys_input = strip_ground_truth(form.fields)
+        else:
+            sys_input = form.fields
         out = system(sys_input, form.reference_date) if _accepts_today(system) else system(sys_input)
 
         f_score = score_field_extraction(out.fields, form.fields)

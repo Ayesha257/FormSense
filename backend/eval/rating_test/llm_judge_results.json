@@ -1,0 +1,58 @@
+{
+  "note": "LLM-as-judge ratings, not human ratings",
+  "judges": {
+    "judge_A": "openai/gpt-oss-120b",
+    "judge_B": "openai/gpt-oss-20b"
+  },
+  "n_items": 4,
+  "means": {
+    "judge_A|llm_only": {
+      "faithfulness": 5.0,
+      "clarity": 5.0,
+      "usefulness": 5.0,
+      "overall": 5.0
+    },
+    "judge_A|llm_rag": {
+      "faithfulness": 5.0,
+      "clarity": 5.0,
+      "usefulness": 5.0,
+      "overall": 5.0
+    },
+    "judge_B|llm_only": {
+      "faithfulness": 5.0,
+      "clarity": 4.5,
+      "usefulness": 5.0,
+      "overall": 4.833333333333333
+    },
+    "judge_B|llm_rag": {
+      "faithfulness": 5.0,
+      "clarity": 5.0,
+      "usefulness": 5.0,
+      "overall": 5.0
+    },
+    "both|llm_only": {
+      "faithfulness": 5.0,
+      "clarity": 4.75,
+      "usefulness": 5.0,
+      "overall": 4.916666666666667
+    },
+    "both|llm_rag": {
+      "faithfulness": 5.0,
+      "clarity": 5.0,
+      "usefulness": 5.0,
+      "overall": 5.0
+    }
+  },
+  "rag_vs_alone_per_form": {
+    "rag_better": 1,
+    "tie": 1,
+    "rag_worse": 0
+  },
+  "judge_agreement": {
+    "n_pairs": 12,
+    "exact": 0.9166666666666666,
+    "within_one": 1.0,
+    "kappa": 0.0,
+    "kappa_quadratic": 0.0
+  }
+}
