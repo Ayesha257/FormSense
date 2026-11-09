@@ -27,7 +27,7 @@ import datetime as dt
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable, Dict, List, Mapping, Optional, Protocol, Sequence, Union
+from typing import Callable, Dict, Iterable, List, Mapping, Optional, Protocol, Sequence, Tuple, Union
 
 from formsense.eval.metrics import (
     ConfusionMatrix, FieldExtractionScore, PRF, score_field_extraction, score_issue_detection,
@@ -123,39 +123,22 @@ class DatasetResult:
 _ISSUE_TYPES = ("missing", "unreadable", "format", "inconsistency", "selection")
 
 
-def evaluate_dataset(
-    label_dir: Union[str, Path],
-    system: SystemFn,
-    use_ground_truth_as_input: bool = True,
-    limit: Optional[int] = None,
-    input_fn: Optional[Callable[["LabelledForm"], Sequence[FieldResult]]] = None,
-) -> DatasetResult:
-    """Run ``system`` over every label in ``label_dir`` and aggregate the brief's metrics.
+def aggregate_results(pairs: Iterable[Tuple[LabelledForm, SystemOutput]]) -> DatasetResult:
+    """Score (ground truth, system output) pairs with the brief's metrics.
 
-    use_ground_truth_as_input=True (the default) feeds the system raw_text/ink_ratio from
-    ground truth with value/status stripped (see strip_ground_truth) - use this to
-    evaluate the language side (nlp/ + rules/) in isolation, independent of real OCR
-    quality. Set it False to pass real vision-pipeline FieldResults in yourself by
-    pre-building ``forms`` with your own loader instead of this convenience path.
+    This is the scoring half of ``evaluate_dataset``, split out so output from ANY source (the
+    language side fed perfect text, the real vision pipeline on images, the baseline, a VLM) is
+    scored by exactly the same code.
     """
-    forms = load_labels(label_dir)
-    if limit:
-        forms = forms[:limit]
     fe = FieldExtractionScore()
     missing_prf = PRF()
     issue_prf = PRF()
     issue_prf_by_type: Dict[str, PRF] = {t: PRF() for t in _ISSUE_TYPES}
     cm_counts: Dict = {}
+    n_forms = 0
 
-    for form in forms:
-        if input_fn is not None:
-            sys_input = input_fn(form)
-        elif use_ground_truth_as_input:
-            sys_input = strip_ground_truth(form.fields)
-        else:
-            sys_input = form.fields
-        out = system(sys_input, form.reference_date) if _accepts_today(system) else system(sys_input)
-
+    for form, out in pairs:
+        n_forms += 1
         f_score = score_field_extraction(out.fields, form.fields)
         fe.n += f_score.n; fe.exact_matches += f_score.exact_matches; fe.total_cer += f_score.total_cer
         for name, per in f_score.per_field.items():
@@ -173,10 +156,46 @@ def evaluate_dataset(
 
     labels = ("missing", "unreadable", "other") if any(k[1] == "other" for k in cm_counts) else ("missing", "unreadable")
     return DatasetResult(
-        n_forms=len(forms), field_extraction=fe, missing_detection=missing_prf,
+        n_forms=n_forms, field_extraction=fe, missing_detection=missing_prf,
         issue_detection=issue_prf, issue_detection_by_type=issue_prf_by_type,
         missing_vs_unreadable=ConfusionMatrix(labels=labels, counts=cm_counts),
     )
+
+
+def evaluate_dataset(
+    label_dir: Union[str, Path],
+    system: SystemFn,
+    use_ground_truth_as_input: bool = True,
+    limit: Optional[int] = None,
+    input_fn: Optional[Callable[["LabelledForm"], Sequence[FieldResult]]] = None,
+) -> DatasetResult:
+    """Run ``system`` over every label in ``label_dir`` and aggregate the brief's metrics.
+
+    use_ground_truth_as_input=True (the default) feeds the system raw_text/ink_ratio from
+    ground truth with value/status stripped (see strip_ground_truth) - use this to
+    evaluate the language side (nlp/ + rules/) in isolation, independent of real OCR
+    quality. ``input_fn(form) -> fields`` replaces that input, e.g. with real vision-pipeline
+    readings of the form's image (see formsense/eval/run_comparison.py).
+
+    With the default input this number is a CEILING for the whole system, not its accuracy: the
+    text is perfect and carries no OCR confidence, so "unreadable" fields cannot be detected.
+    """
+    forms = load_labels(label_dir)
+    if limit:
+        forms = forms[:limit]
+
+    def pairs():
+        for form in forms:
+            if input_fn is not None:
+                sys_input = input_fn(form)
+            elif use_ground_truth_as_input:
+                sys_input = strip_ground_truth(form.fields)
+            else:
+                sys_input = form.fields
+            out = system(sys_input, form.reference_date) if _accepts_today(system) else system(sys_input)
+            yield form, out
+
+    return aggregate_results(pairs())
 
 
 def _accepts_today(system: SystemFn) -> bool:

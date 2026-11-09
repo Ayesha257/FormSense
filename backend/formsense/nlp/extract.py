@@ -38,6 +38,7 @@ from formsense.nlp.normalize import (
 )
 from formsense.nlp.template_info import FieldInfo, TemplateInfo
 from formsense.schema import FieldResult, FieldStatus
+from formsense.thresholds import OCR_UNREADABLE_BELOW
 
 log = logging.getLogger("formsense.nlp")
 
@@ -49,7 +50,7 @@ def _upd(fr: FieldResult, changes: Dict) -> FieldResult:
 
 @dataclass(frozen=True)
 class ExtractionConfig:
-    ocr_conf_min: float = 0.80          # below this, ink + text is UNREADABLE (brief: 0.80)
+    ocr_conf_min: float = OCR_UNREADABLE_BELOW   # below this, ink + text is UNREADABLE (formsense/thresholds.py)
     repair_below_conf: float = 0.90     # attempt OCR confusion repair only below this
     ink_empty_below: float = 0.00682      # text/date boxes: less ink than this = empty
     signature_ink_min: float = 0.00692     # signature boxes: at least this much ink = present

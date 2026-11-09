@@ -31,7 +31,7 @@ from formsense.ingest.loader import preprocess
 from formsense.schema import FieldResult, FieldSpec, FieldStatus, FieldType, FormTemplate
 from formsense.vision.ocr import OCRBox, PaddleReader
 
-UNREADABLE_BELOW = 0.60   # same threshold as the vision pipeline
+from formsense.thresholds import OCR_UNREADABLE_BELOW as UNREADABLE_BELOW  # noqa: E402  (shared with vision)
 TRIM = " :.-_|;,"
 
 
