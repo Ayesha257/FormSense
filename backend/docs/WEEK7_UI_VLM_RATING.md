@@ -17,16 +17,12 @@ python -m streamlit run app/streamlit_app.py
 | Compare | Baseline and/or VLM next to FormSense (sidebar checkboxes) |
 | Guidelines | Free-text search over the guidelines (RAG) |
 
-Downloads: JSON audit, annotated image (PNG), checklist (CSV). **PDF** and the
-**LLM explanation** button appear on their own when these exist:
+Downloads: JSON audit, annotated image (PNG), checklist (CSV) and PDF. The **explanation** button calls
+Easha's explainer (`formsense/llm`) through `formsense/explain.py`: the guideline passages found by RAG are
+passed to the model as context (sidebar checkbox "Use the guidelines in the explanation" switches that off,
+which is the "LLM alone" arm of the rating comparison). Without a `GROQ_API_KEY` the text is a plain template and
+the app says so. The PDF comes from `formsense/report`.
 
-| Hook | Where the app looks | Contract |
-| --- | --- | --- |
-| LLM explainer | `formsense.llm.explain` (also `formsense.llm.explainer.explain`) | `explain(report: AuditReport) -> str \| AuditReport`. `report.citations` filled = LLM + RAG |
-| PDF report | `formsense.report.build_pdf` | `build_pdf(report: AuditReport, annotated_bgr: np.ndarray \| None) -> bytes` |
-
-Easha: expose those two functions (or tell Ayesha the real names, the lookup is one
-line each in `formsense/summary.py`) and the buttons light up with no UI change.
 Multi-page PDFs get a page selector. Errors (bad file, alignment failure, VLM or
 LLM failure) show a message instead of a stack trace.
 
@@ -90,8 +86,8 @@ python scripts/rating_report.py eval/rating/ratings_ayesha.json eval/rating/rati
   (exact, within one point, Cohen's kappa, quadratic-weighted kappa with a Landis and Koch reading).
 - Try the flow first with `--offline` (templated text, a TEST SET banner shows, no key, no OCR models).
   Never use offline ratings for results.
-- Uses `formsense.llm.explain` when it exists; otherwise a small built-in Groq explainer.
-  CNIC, phone and email are masked before any text is sent.
+- Uses Easha's explainer (`formsense/llm`) through `formsense/explain.py`; CNIC, phone and email are masked
+  before any text is sent. It needs a real Groq key and refuses to rate template text as if an LLM wrote it.
 
 ## 4. Tests
 
@@ -109,9 +105,3 @@ python -m pytest -m slow                             # real OCR models
 | `model_not_found` / "does not exist or you do not have access" from Groq | Groq retired the model. Run `python scripts/groq_models.py`, pick a current vision model, set `GROQ_VLM_MODEL` in `.env`. The error message in the app now says this and lists what your key can use. |
 | Groq `429` / rate limit | Free-tier requests-per-minute cap. The VLM retries with backoff; raise `--delay` for long runs. Cached answers are never re-requested. |
 | Many "unreadable" warnings | OCR is switched off in the sidebar. Turn "Run OCR" on. |
-
-**For Easha:** `llama-3.3-70b-versatile`, the explainer model named in the project proposal, was also
-retired by Groq (2026-08-16). Use a current text model (`qwen/qwen3.8-27b` or `openai/gpt-oss-120b`), keep
-it configurable through `.env`, and use `formsense/groq_util.py` (`make_client()`, `chat()`): it handles
-retries, rate limits and the retired-model error. Note that `gpt-oss-*` models spend part of
-`max_completion_tokens` on reasoning, so leave generous headroom.

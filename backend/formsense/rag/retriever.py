@@ -113,6 +113,7 @@ class GuidelineRetriever:
         self.mode = mode
         self.expand = expand
         self._embeddings = embeddings
+        self._injected = embeddings is not None    # a custom model (tests); False = the default MiniLM
         self._store = None
         self._docs = None        # chunks in index order
         self._tfidf = None       # (vectorizer, matrix)
@@ -126,8 +127,14 @@ class GuidelineRetriever:
         return self._embeddings
 
     def embedding_id(self) -> str:
-        """Which embedding model built (or would build) the index, without loading the model."""
-        if self._embeddings is None:
+        """Which embedding model built (or would build) the index, without loading the model.
+
+        The answer must not depend on whether the default model has been loaded yet: is_fresh() asks
+        before loading, build() records after, and the two must agree or the index would look stale on
+        every start. So the default model is always "hf:<name>"; only a model passed in explicitly
+        (tests, experiments) is identified by its class.
+        """
+        if not self._injected:
             return f"hf:{EMBED_MODEL}"
         e = self._embeddings
         return f"{type(e).__module__}.{type(e).__name__}:{getattr(e, 'size', '')}"

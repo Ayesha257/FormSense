@@ -5,15 +5,14 @@ No Streamlit in here, so everything can be unit tested and reused by the report 
 from __future__ import annotations
 
 import csv
-import importlib
 import io
 from collections import Counter, OrderedDict
-from typing import Callable, Optional, Sequence
+from typing import Sequence
 
 import cv2
 import numpy as np
 
-from formsense.schema import (AuditReport, FieldResult, FieldSpec, FieldStatus, FieldType, FormTemplate,
+from formsense.schema import (FieldResult, FieldSpec, FieldStatus, FieldType, FormTemplate,
                               Issue, Severity)
 
 SEVERITY_ORDER = {Severity.ERROR: 0, Severity.WARNING: 1, Severity.INFO: 2}
@@ -152,36 +151,3 @@ def png_bytes(img: np.ndarray) -> bytes:
     if not ok:
         raise ValueError("Could not encode image as PNG")
     return buf.tobytes()
-
-
-# ---------------- optional modules owned by the language side ----------------
-
-def _find(candidates: Sequence[tuple[str, str]]) -> Optional[Callable]:
-    for module, attr in candidates:
-        try:
-            fn = getattr(importlib.import_module(module), attr, None)
-        except Exception:
-            continue
-        if callable(fn):
-            return fn
-    return None
-
-
-def find_llm_explainer() -> Optional[Callable[[AuditReport], object]]:
-    """The LLM explainer, once formsense/llm has one. Contract: explain(report) -> str | AuditReport."""
-    return _find([("formsense.llm", "explain"), ("formsense.llm.explainer", "explain"),
-                  ("formsense.llm.explain", "explain")])
-
-
-def find_pdf_builder() -> Optional[Callable[..., bytes]]:
-    """The PDF report generator. Contract: build_pdf(report, annotated_bgr=None) -> bytes."""
-    return _find([("formsense.report", "build_pdf"), ("formsense.report.pdf", "build_pdf")])
-
-
-def explanation_text(result) -> Optional[str]:
-    """Normalise whatever the explainer returned (text or an AuditReport) to text."""
-    if result is None:
-        return None
-    if isinstance(result, str):
-        return result
-    return getattr(result, "explanation", None)

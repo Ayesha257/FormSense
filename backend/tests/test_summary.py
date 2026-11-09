@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from formsense import summary as S  # noqa: E402
 from formsense.rag.retriever import field_labels  # noqa: E402
-from formsense.schema import AuditReport, FieldResult, FieldStatus, Issue, IssueType, Severity  # noqa: E402
+from formsense.schema import FieldResult, FieldStatus, Issue, IssueType, Severity  # noqa: E402
 from formsense.vision import load_template  # noqa: E402
 
 TEMPLATE, _ = load_template()
@@ -107,16 +107,3 @@ def test_highlight_changes_only_the_box_area_and_skips_empty_boxes():
 
 def test_png_bytes_is_a_png():
     assert S.png_bytes(np.zeros((5, 5, 3), np.uint8)).startswith(b"\x89PNG")
-
-
-def test_optional_modules_absent_by_default_and_found_when_present(monkeypatch, tmp_path):
-    assert S._find([("does_not_exist_anywhere", "x")]) is None
-    (tmp_path / "fake_llm_mod.py").write_text("def explain(report):\n    return 'hello'\n")
-    monkeypatch.syspath_prepend(str(tmp_path))
-    fn = S._find([("does_not_exist_anywhere", "x"), ("fake_llm_mod", "explain")])
-    assert fn(None) == "hello"
-
-
-def test_explanation_text_accepts_str_or_report():
-    assert S.explanation_text(None) is None and S.explanation_text("hi") == "hi"
-    assert S.explanation_text(AuditReport(form_id="f", fields=[], issues=[], explanation="from report")) == "from report"

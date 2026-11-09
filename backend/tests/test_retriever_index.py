@@ -91,3 +91,19 @@ def test_offline_rating_set_does_not_touch_the_real_guidelines_index(tmp_path):
                         "--offline", "--out", str(tmp_path / "rating")], cwd=BACKEND, capture_output=True, text=True)
     assert r.returncode == 0, r.stderr
     assert (real.read_bytes() if real.exists() else None) == before
+
+
+def test_default_model_index_is_fresh_before_the_model_loads(folder, monkeypatch):
+    """Regression: is_fresh() runs before the default model is loaded, build() records after.
+    The two ids must agree, or the real index looks stale on every start and is rebuilt each time."""
+    import types
+    monkeypatch.setitem(sys.modules, "langchain_huggingface", types.SimpleNamespace(
+        HuggingFaceEmbeddings=lambda **kw: DeterministicFakeEmbedding(size=48)))
+    GuidelineRetriever(folder).ensure()                        # default path: builds with the (fake) default model
+    assert manifest(folder)["embedding"].startswith("hf:") and manifest(folder)["dim"] == 48
+    again = GuidelineRetriever(folder)                         # a new process
+    assert again.is_fresh()                                    # ...is fresh...
+    assert again._embeddings is None                           # ...without having loaded the model
+    stamp = (folder / ".index" / "index.faiss").stat().st_mtime_ns
+    again.ensure()
+    assert (folder / ".index" / "index.faiss").stat().st_mtime_ns == stamp

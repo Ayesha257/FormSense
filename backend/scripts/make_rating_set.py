@@ -15,17 +15,16 @@ Writes to eval/rating/:
   rating_key.json   item id -> llm_only | llm_rag (do not share with the raters)
   images/           annotated form for each item
 
-Explainer: uses formsense.llm.explain(report) when the language side provides it
-(contract: explain(AuditReport) -> str | AuditReport; report.citations empty means
-"LLM alone"). Otherwise a small built-in Groq explainer is used. Personal data
-(CNIC, phone, email) is masked before any text reaches the LLM.
+Explainer: Easha's formsense.llm explainer through formsense/explain.py. "LLM alone" gets the
+issues only; "LLM + RAG" gets the same prompt plus the retrieved guideline passages, so the two
+arms differ in nothing else. A real Groq key is required (the script refuses to rate templated
+fallback text as if an LLM had written it). Personal data (CNIC, phone, email) is masked by the
+explainer before any text reaches the model. Use --explainer module:function to plug in another one.
 """
 import argparse
 import datetime as dt
 import json
-import os
 import random
-import re
 import sys
 import time
 from pathlib import Path
@@ -36,47 +35,17 @@ sys.path.insert(0, str(BACKEND))
 from formsense import rating as R  # noqa: E402
 from formsense.evaluation import find_forms  # noqa: E402
 from formsense.schema import AuditReport, GuidelineCitation, Issue  # noqa: E402
-from formsense.summary import explanation_text, find_llm_explainer, plain_summary, png_bytes  # noqa: E402
+from formsense.summary import png_bytes  # noqa: E402
 
-PII = [(re.compile(r"\b\d{5}-?\d{7}-?\d\b"), "[CNIC]"),
-       (re.compile(r"\b03\d{2}-?\d{7}\b"), "[PHONE]"),
-       (re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+"), "[EMAIL]")]
-
-
-def mask_pii(text: str) -> str:
-    for rx, token in PII:
-        text = rx.sub(token, text)
-    return text
-
-
-# ---------------- explainers ----------------
-
-def groq_explainer(report: AuditReport) -> str:
-    """Built-in fallback. Citations present = LLM + RAG, absent = LLM alone."""
-    from formsense import groq_util
+def llm_explainer(report: AuditReport) -> str:
+    """Easha's explainer. report.citations empty = "LLM alone", filled = "LLM + RAG"."""
+    from formsense.explain import LLMModelUnavailable, explain_report, explanation_text
     try:
-        client = groq_util.make_client()
-    except groq_util.GroqError as e:
-        raise SystemExit(f"{e}\nUse --offline to try the flow without a key.")
-    facts = "\n".join(f"- [{i.severity.value}] {mask_pii(i.message)}" for i in report.issues) or "- no problems found"
-    prompt = ("An applicant uploaded a filled university admission form. An automatic checker found these "
-              f"problems:\n{facts}\n\n")
-    if report.citations:
-        prompt += "Relevant passages from the university's form-filling guidelines:\n" + "\n".join(
-            f"- ({c.source}) {c.text}" for c in report.citations) + "\n\n"
-    prompt += ("Write a short, friendly explanation for the applicant in plain English: say what is wrong, "
-               "why it matters and exactly how to fix it. Use ONLY the facts above"
-               + (" and the guideline passages" if report.citations else "")
-               + ". Do not invent problems, values or rules. No headings; at most 150 words.")
-    try:
-        r = groq_util.chat(client, env_var="GROQ_TEXT_MODEL", default_model=groq_util.DEFAULT_TEXT_MODEL,
-                           reasoning_effort=os.getenv("GROQ_TEXT_REASONING", "none") or None,
-                           model=groq_util.text_model(), temperature=0.2, max_completion_tokens=1500,
-                           messages=[{"role": "user", "content": prompt}])
-    except groq_util.GroqError as e:
+        return explanation_text(explain_report(report, use_rag=True, offline=False))
+    except LLMModelUnavailable as e:
         raise SystemExit(str(e))
-    text = (r.choices[0].message.content or "").strip()
-    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+    except Exception as e:
+        raise SystemExit(f"The explainer failed: {e}")
 
 
 def offline_explainer(report: AuditReport) -> str:
@@ -92,7 +61,12 @@ def pick_explainer(spec: str, offline: bool):
     if offline:
         return offline_explainer
     if spec == "auto":
-        return find_llm_explainer() or groq_explainer
+        from formsense.explain import is_offline
+        if is_offline():
+            raise SystemExit("No GROQ_API_KEY in backend/.env. Real ratings need real LLM explanations "
+                             "(the offline template would be rated as if an LLM wrote it). "
+                             "Add the key, or use --offline just to try the tool.")
+        return llm_explainer
     module, _, attr = spec.partition(":")
     import importlib
     return getattr(importlib.import_module(module), attr)
@@ -185,7 +159,8 @@ def main():
                        "fields": i.fields, "message": i.message} for i in issues]
         for cond, use_cites in (("llm_only", []), ("llm_rag", cites)):
             report = AuditReport(form_id=form_id, fields=fields, issues=issues, citations=use_cites)
-            text = explanation_text(explain(report))
+            out_ = explain(report)
+            text = out_ if isinstance(out_, str) else getattr(out_, "explanation", None)
             if not text:
                 sys.exit(f"The explainer returned nothing for {form_id} ({cond}).")
             items.append({"id": "", "form_id": form_id, "explanation": text, "issues": issue_rows,

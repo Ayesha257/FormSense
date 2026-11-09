@@ -16,7 +16,7 @@ from formsense.vision import fields as F
 from formsense.vision.align import AlignResult, align_to_template
 from formsense.vision.ocr import FieldOCR
 
-UNREADABLE_BELOW = 0.60   # OCR confidence below this = UNREADABLE
+from formsense.thresholds import OCR_UNREADABLE_BELOW as UNREADABLE_BELOW  # noqa: E402  (one shared value)
 
 
 @dataclass
