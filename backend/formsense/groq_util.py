@@ -5,7 +5,7 @@ retired id answers with a 404 "model_not_found". Model ids therefore live in ONE
 can always be overridden from backend/.env, so the next retirement is a config change, not a code change:
 
     GROQ_VLM_MODEL=...    vision model for the VLM comparison
-    GROQ_TEXT_MODEL=...   text model for the rating-set explainer
+    GROQ_LLM_MODEL=...    text model for the explainer (GROQ_TEXT_MODEL is accepted as an alias)
     GROQ_VLM_REASONING=none|low|medium|high    thinking depth ('' = do not send the parameter)
 """
 from __future__ import annotations
@@ -44,8 +44,9 @@ def vision_model(explicit: str | None = None) -> str:
 
 
 def text_model(explicit: str | None = None) -> str:
+    """Explainer model: argument, then GROQ_LLM_MODEL (what llm/explainer.py reads), then GROQ_TEXT_MODEL."""
     load_env()
-    return explicit or os.getenv("GROQ_TEXT_MODEL") or DEFAULT_TEXT_MODEL
+    return explicit or os.getenv("GROQ_LLM_MODEL") or os.getenv("GROQ_TEXT_MODEL") or DEFAULT_TEXT_MODEL
 
 
 def make_client():
@@ -85,7 +86,9 @@ def retry_after(exc: Exception, default: float) -> float:
 
 
 def available_models(client) -> list[str]:
-    """Model ids this key can use (empty list if the lookup itself fails)."""
+    """Model ids this key can use (empty list if there is no client or the lookup fails)."""
+    if client is None:
+        return []
     try:
         return sorted(m.id for m in client.models.list().data)
     except Exception:

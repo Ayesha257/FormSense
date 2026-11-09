@@ -86,22 +86,66 @@ def test_field_inspector_selector_runs(main_app):
     assert not at.exception
 
 
-def test_llm_explanation_button_appears_with_an_explainer(monkeypatch, main_app):
-    monkeypatch.setattr("formsense.summary.find_llm_explainer", lambda: (lambda report: "Fix your signature, please."))
+def fake_explanation(summary="Fix your signature, please."):
+    from formsense.llm.explanation_schema import ExplanationOutput, IssueExplanation
+    return ExplanationOutput(summary=summary, issues=[IssueExplanation(issue_id="x", explanation="Sign in the box.")],
+                             overall_recommendation="Sign the form and upload it again.")
+
+
+def texts(at):
+    return " ".join(m.value for m in at.markdown) + " ".join(c.value for c in at.caption) + \
+        " ".join(i.value for i in at.info)
+
+
+def test_explanation_button_shows_structured_explanation(monkeypatch, main_app):
+    monkeypatch.setattr("formsense.explain.explain_report", lambda report, template=None, **kw: fake_explanation())
     at = open_sample(main_app)
-    btn = next(b for b in at.button if b.key == "explain")
-    btn.click().run()
+    next(b for b in at.button if b.key == "explain").click().run()
     assert not at.exception and not at.error
-    assert any("Fix your signature" in m.value for m in at.markdown) or any("Fix your signature" in t.value for t in at.text)
+    shown = texts(at)
+    assert "Fix your signature" in shown and "Sign in the box." in shown and "upload it again" in shown
+
+
+def test_explanation_gets_the_rag_setting_from_the_sidebar(monkeypatch, main_app):
+    seen = []
+
+    def fake(report, template=None, **kw):
+        seen.append(kw)
+        return fake_explanation()
+
+    monkeypatch.setattr("formsense.explain.explain_report", fake)
+    at = open_sample(main_app)
+    next(b for b in at.button if b.key == "explain").click().run()
+    next(c for c in at.sidebar.checkbox if "guidelines in the explanation" in c.label).uncheck().run()
+    next(b for b in at.button if b.key == "explain").click().run()
+    assert [k["use_rag"] for k in seen] == [True, False]
+
+
+def test_without_a_key_the_explanation_is_a_labelled_template(main_app):
+    at = open_sample(main_app)
+    next(b for b in at.button if b.key == "explain").click().run()
+    assert not at.exception and not at.error
+    assert "Template text" in texts(at)
 
 
 def test_failing_explainer_shows_an_error_not_a_crash(monkeypatch, main_app):
-    def boom(report):
+    def boom(report, template=None, **kw):
         raise RuntimeError("Groq is down")
-    monkeypatch.setattr("formsense.summary.find_llm_explainer", lambda: boom)
+    monkeypatch.setattr("formsense.explain.explain_report", boom)
     at = open_sample(main_app)
     next(b for b in at.button if b.key == "explain").click().run()
     assert not at.exception and any("Groq is down" in e.value for e in at.error)
+
+
+def test_retired_explainer_model_message_reaches_the_user(monkeypatch, main_app):
+    from formsense.explain import LLMModelUnavailable
+
+    def gone(report, template=None, **kw):
+        raise LLMModelUnavailable("Groq does not serve the model 'x' any more. Set GROQ_LLM_MODEL in backend/.env")
+    monkeypatch.setattr("formsense.explain.explain_report", gone)
+    at = open_sample(main_app)
+    next(b for b in at.button if b.key == "explain").click().run()
+    assert any("GROQ_LLM_MODEL" in e.value for e in at.error)
 
 
 def test_vlm_compare_is_disabled_without_a_key(main_app):

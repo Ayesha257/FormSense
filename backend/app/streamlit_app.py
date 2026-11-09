@@ -31,9 +31,10 @@ from formsense.rag import GuidelineRetriever  # noqa: E402
 from formsense.rag.retriever import field_labels  # noqa: E402
 from formsense.schema import FieldResult, FieldStatus  # noqa: E402
 from formsense.scoring import score_field, score_issues, truth_from_label  # noqa: E402
-from formsense.summary import (STATUS_ICON, checklist, checklist_csv, crop_field, explanation_text,  # noqa: E402
-                               field_counts, find_llm_explainer, find_pdf_builder, highlight,
-                               issue_counts, plain_summary, png_bytes, sort_issues)
+from formsense.explain import (LLMModelUnavailable, build_full_report, explain_report,  # noqa: E402
+                               has_llm_key, is_offline, pdf_bytes)
+from formsense.summary import (STATUS_ICON, checklist, checklist_csv, crop_field, field_counts,  # noqa: E402
+                               highlight, issue_counts, plain_summary, png_bytes, sort_issues)
 from formsense.vision import analyze_page, load_template  # noqa: E402
 from formsense.vision.draw import annotate  # noqa: E402
 from formsense.vision.ocr import FieldOCR  # noqa: E402
@@ -227,6 +228,9 @@ with st.sidebar:
                                    "Run `python scripts/groq_models.py` to list what your key can use.")
     if not has_key:
         st.caption("Add GROQ_API_KEY to backend/.env to enable the VLM comparison.")
+    use_rag_explain = st.checkbox("Use the guidelines in the explanation (RAG)", value=True,
+                                  help="The retrieved guideline passages are given to the LLM. "
+                                       "Off = the LLM sees only the issues.")
     today = st.date_input("Check dates against", value=dt.date.today(),
                           help="Used by date rules (age, future dates). Samples use their own reference date.")
 
@@ -344,27 +348,39 @@ if audit_on:
                 img = highlight(img, evidence_boxes(options[focus], {r.name: r for r in fields}))
             st.image(img[:, :, ::-1], width="stretch", caption=LEGEND)
         with col2:
-            skey = f"explanation::{name}::{page_idx}::{ref_date}"
-            explain = find_llm_explainer()
+            skey = f"explanation::{name}::{page_idx}::{ref_date}::{use_rag_explain}"
+            explanation = st.session_state.get(skey)
             st.subheader("What to fix")
-            if st.session_state.get(skey):
-                st.write(st.session_state[skey])
-                st.caption("Written by the LLM from the audit and the guidelines.")
+            if explanation is not None:
+                st.write(explanation.summary)
+                for e in explanation.issues:
+                    st.markdown(f"- {e.explanation}")
+                if explanation.overall_recommendation:
+                    st.info(explanation.overall_recommendation)
+                st.caption(("Template text (no GROQ_API_KEY set), not written by an LLM."
+                            if st.session_state.get(skey + "::offline") else
+                            "Written by the LLM from the audit"
+                            + (" and the guidelines." if use_rag_explain else " alone (no guidelines).")))
             else:
                 st.markdown(plain_summary(fields, issues, template, labels))
-            if explain is not None and issues:
-                if st.button("Write a plain-English explanation (LLM)", key="explain"):
+            if issues:
+                if st.button("Write a plain-English explanation" + ("" if has_llm_key() else " (offline)"),
+                             key="explain"):
                     with st.spinner("Writing the explanation..."):
                         try:
-                            st.session_state[skey] = explanation_text(explain(result.report()))
+                            st.session_state[skey + "::offline"] = is_offline()
+                            st.session_state[skey] = explain_report(result.report(), ADMISSION,
+                                                                    use_rag=use_rag_explain)
                             st.rerun()
+                        except LLMModelUnavailable as e:
+                            st.error(str(e))
                         except Exception as e:
                             st.error(f"The explanation could not be written: {e}")
-            elif explain is None:
-                st.caption("The LLM explanation appears here once the language side (formsense/llm) is merged.")
+            if not has_llm_key():
+                st.caption("No GROQ_API_KEY in backend/.env: explanations use a plain template.")
 
             st.subheader("Download")
-            report = result.report(explanation=st.session_state.get(skey))
+            report = build_full_report(result, explanation)
             rows = checklist(fields, template, labels)
             d1, d2, d3, d4 = st.columns(4)
             d1.download_button("JSON", data=report.model_dump_json(indent=2),
@@ -373,15 +389,11 @@ if audit_on:
                                mime="image/png", width="stretch")
             d3.download_button("Checklist", data=checklist_csv(rows), file_name=f"{Path(name).stem}_checklist.csv",
                                mime="text/csv", width="stretch")
-            build_pdf = find_pdf_builder()
-            if build_pdf is not None:
-                try:
-                    d4.download_button("PDF", data=build_pdf(report, annotated), file_name=f"{Path(name).stem}_audit.pdf",
-                                       mime="application/pdf", width="stretch")
-                except Exception as e:
-                    d4.caption(f"PDF failed: {e}")
-            else:
-                d4.button("PDF", disabled=True, width="stretch", help="Available once formsense/report is merged.")
+            try:
+                d4.download_button("PDF", data=pdf_bytes(report, ADMISSION), file_name=f"{Path(name).stem}_audit.pdf",
+                                   mime="application/pdf", width="stretch")
+            except Exception as e:
+                d4.button("PDF", disabled=True, width="stretch", help=f"The PDF could not be built: {e}")
 
 # ----- Issues -----
 if audit_on:
