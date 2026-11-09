@@ -28,3 +28,6 @@ outputs/
 # Demo form: rebuild with python scripts/make_demo.py
 data/templates/demo/
 
+
+# the guidelines search index rebuilds itself; committing it only causes merge conflicts
+data/guidelines/.index/
