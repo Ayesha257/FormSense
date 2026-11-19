@@ -31,3 +31,6 @@ data/templates/demo/
 
 # the guidelines search index rebuilds itself; committing it only causes merge conflicts
 data/guidelines/.index/
+
+# forms checked through the web app (uploads can contain real people's details)
+data/history/
