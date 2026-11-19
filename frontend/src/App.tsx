@@ -25,6 +25,11 @@ function SystemStatus() {
             <span className={`dot ${health.llm.available ? "ok" : "off"}`} />
             <span>{health.llm.available ? "AI explanations on" : "Explanations from the rules (no AI key)"}</span>
           </div>
+          {health.handwriting_reader?.available === false && (
+            <div className="status-row" title={health.handwriting_reader.error ?? ""}>
+              <span className="dot off" /><span>Handwriting model not downloaded (printed-text reader only)</span>
+            </div>
+          )}
           {health.queue > 0 && (
             <div className="status-row"><span className="dot wait" /><span>{health.queue} form{health.queue === 1 ? "" : "s"} in the queue</span></div>
           )}
