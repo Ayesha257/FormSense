@@ -145,6 +145,11 @@ def _dateparser_parse(s: str) -> Optional[dt.date]:
         return None
     if d is None or not (1900 <= d.year <= 2100):
         return None
+    # dateparser sometimes fills in today's date for text it only half understands
+    # (e.g. OCR's '2S/10/2026'); keep its answer only if the day and year were written.
+    numbers = {int(n) for n in re.findall(r"\d+", s)}
+    if d.day not in numbers or (d.year not in numbers and d.year % 100 not in numbers):
+        return None
     return d.date()
 
 

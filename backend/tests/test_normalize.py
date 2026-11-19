@@ -117,3 +117,11 @@ def test_pick_format():
     assert pick_format("matric_year", "text", "text") == "year"
     assert pick_format("father_name", "text", "text") == "name"
     assert pick_format("address", "text", "text") == "text"
+
+
+def test_dateparser_fallback_never_invents_todays_date():
+    # OCR misread of '25/10/2026': dateparser alone used to return today's date
+    from formsense.nlp.normalize import _dateparser_parse, normalize_date
+    assert _dateparser_parse("2S/10/2026") is None
+    assert normalize_date("2S/10/2026", repair=True).value == "2026-10-25"
+    assert normalize_date("5th March 2005").value == "2005-03-05"
