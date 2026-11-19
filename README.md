@@ -30,6 +30,11 @@ Run every command from the `backend` folder.
 python -m formsense.generator.generate --count 80 --split dev  --seed 1      --out data/synthetic/dev
 python -m formsense.generator.generate --count 40 --split test --seed 100000 --out data/synthetic/test
 
+# Web app (FastAPI + React): upload or pick a sample, see problems marked on the form,
+# correct answers and re-check, explanations, history, guidelines search. Opens http://localhost:8000
+# The built frontend (frontend/dist) is committed, so Node is not needed to run it.
+python -m api
+
 # Demo app: vision -> rules -> guideline for every issue (tabs: Overview, Issues, Checklist,
 # Fields, Compare, Guidelines; downloads: JSON, annotated image, checklist CSV, PDF when available)
 python -m streamlit run app/streamlit_app.py
@@ -83,7 +88,9 @@ report = result.report()                  # AuditReport for the LLM explainer / 
 ## Project structure
 
 ```
+frontend/               React web app (see frontend/README.md); dist/ is the built app the API serves
 backend/
+  api/                  web API (FastAPI) that serves the frontend: python -m api
   app/                  Streamlit demo (streamlit_app.py) and rating tool (rate_explanations.py)
   formsense/
     schema.py           shared data models

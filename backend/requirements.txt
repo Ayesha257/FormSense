@@ -26,6 +26,10 @@ langchain-text-splitters
 scikit-learn
 faiss-cpu
 python-dotenv
+# --- web app (python -m api) ---
+fastapi
+uvicorn
+python-multipart
 # --- report & UI ---
 reportlab
 streamlit

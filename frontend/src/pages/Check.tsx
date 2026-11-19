@@ -138,6 +138,14 @@ export default function Check() {
               </>
             )}
           </div>
+          {health?.handwriting_reader?.available === false && opts.use_trocr && (
+            <div style={{ marginTop: 14 }}>
+              <Notice kind="info" icon={<Info size={17} />}>
+                The handwriting model isn't downloaded on this computer, so forms are read with the main reader only.
+                To add it, restart the server once with internet and without <code>HF_HUB_OFFLINE</code>.
+              </Notice>
+            </div>
+          )}
           {health && health.models !== "ready" && (
             <div style={{ marginTop: 14 }}>
               <Notice kind="info" icon={health.models === "error" ? <Info size={17} /> : <Loader2 size={17} className="spin" />}>

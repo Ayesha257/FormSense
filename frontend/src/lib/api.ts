@@ -14,6 +14,7 @@ export interface Health {
   models_error: string | null;
   queue: number;
   llm: { available: boolean; model: string | null };
+  handwriting_reader?: { available: boolean; error: string | null };
   samples: number;
   max_upload_mb: number;
   allowed: string[];
