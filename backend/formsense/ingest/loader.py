@@ -9,8 +9,11 @@ import numpy as np
 
 try:
     import pymupdf as fitz  # PyMuPDF >= 1.24
-except ImportError:  # older PyMuPDF
-    import fitz
+except Exception:  # older PyMuPDF or DLL blocked by OS policy
+    try:
+        import fitz
+    except Exception:
+        fitz = None
 
 IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".webp"}
 
@@ -20,6 +23,8 @@ def load_pages(path: str | Path, dpi: int = 200) -> list[np.ndarray]:
     path = Path(path)
     ext = path.suffix.lower()
     if ext == ".pdf":
+        if fitz is None:
+            raise RuntimeError("PyMuPDF (fitz) is not available to read PDF files")
         pages = []
         with fitz.open(path) as doc:
             for page in doc:
@@ -42,6 +47,8 @@ def load_pages(path: str | Path, dpi: int = 200) -> list[np.ndarray]:
 def load_bytes(data: bytes, filename: str, dpi: int = 200) -> list[np.ndarray]:
     """Same as load_pages but for uploaded bytes (used by Streamlit)."""
     if filename.lower().endswith(".pdf"):
+        if fitz is None:
+            raise RuntimeError("PyMuPDF (fitz) is not available to read PDF files")
         pages = []
         with fitz.open(stream=data, filetype="pdf") as doc:
             for page in doc:

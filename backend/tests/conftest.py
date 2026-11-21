@@ -1,6 +1,11 @@
 """Shared fixtures for the Week 3 and 4 tests (nlp/ and rules/)."""
 from __future__ import annotations
 
+try:
+    import faiss
+except Exception:
+    pass
+
 import datetime as dt
 import importlib
 import json

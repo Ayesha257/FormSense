@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 import random
 
+import pytest
+
 from formsense.llm.explainer import explain_audit
 from formsense.llm.explanation_schema import ExplanationOutput, IssueExplanation
 from formsense.report.build import build_report, explanation_to_text
@@ -67,6 +69,7 @@ def test_write_json_report_creates_parent_dirs(tmp_path, mini_tpl):
 
 # ---------- PDF ----------
 def test_build_pdf_is_a_real_pdf(mini_tpl):
+    pytest.importorskip("reportlab")
     rng = random.Random(6)
     fields = corrupted_form(mini_tpl, rng, 2)
     res = audit(fields, mini_tpl, TODAY, extract=False)
@@ -78,18 +81,21 @@ def test_build_pdf_is_a_real_pdf(mini_tpl):
 
 
 def test_pdf_with_no_issues_does_not_crash(mini_tpl):
+    pytest.importorskip("reportlab")
     report = build_report("f6", [], [])
     pdf_bytes = build_pdf(report, template=mini_tpl)
     assert pdf_bytes[:4] == b"%PDF"
 
 
 def test_write_pdf_report_creates_file(tmp_path, mini_tpl):
+    pytest.importorskip("reportlab")
     report = build_report("f7", [], [])
     p = write_pdf_report(report, tmp_path / "out" / "f7.pdf", template=mini_tpl)
     assert p.exists() and p.read_bytes()[:4] == b"%PDF"
 
 
 def test_pdf_works_without_a_template(mini_tpl):
+    pytest.importorskip("reportlab")
     rng = random.Random(7)
     fields = corrupted_form(mini_tpl, rng, 1)
     res = audit(fields, mini_tpl, TODAY, extract=False)

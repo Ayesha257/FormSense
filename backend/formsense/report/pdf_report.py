@@ -20,19 +20,23 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Mapping, Optional, Union
 
-from reportlab.lib import colors
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import mm
-from reportlab.platypus import (
-    Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle,
-)
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
+    from reportlab.lib.units import mm
+    from reportlab.platypus import (
+        Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle,
+    )
+    from formsense.schema import Severity
+    _SEVERITY_COLOR = {Severity.ERROR: colors.HexColor("#b00020"), Severity.WARNING: colors.HexColor("#8a6d00"),
+                        Severity.INFO: colors.HexColor("#2e5aac")}
+except ImportError:
+    colors = None
+    _SEVERITY_COLOR = {}
 
 from formsense.nlp.template_info import TemplateInfo
 from formsense.schema import AuditReport, FieldStatus, Severity
-
-_SEVERITY_COLOR = {Severity.ERROR: colors.HexColor("#b00020"), Severity.WARNING: colors.HexColor("#8a6d00"),
-                    Severity.INFO: colors.HexColor("#2e5aac")}
 _STATUS_MARK = {FieldStatus.OK: "OK", FieldStatus.MISSING: "MISSING", FieldStatus.UNREADABLE: "UNREADABLE",
                 FieldStatus.INVALID: "INVALID"}
 
@@ -45,6 +49,8 @@ def _labels(template) -> Mapping[str, str]:
 
 
 def build_pdf(report: AuditReport, template=None) -> bytes:
+    if colors is None:
+        raise ImportError("reportlab is required to build PDF reports. Install it with: pip install reportlab")
     from io import BytesIO
     buf = BytesIO()
     labels = _labels(template)
